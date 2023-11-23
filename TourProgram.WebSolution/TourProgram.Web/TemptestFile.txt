@@ -1,0 +1,18 @@
+﻿divClaimRecived
+divPendingClarification
+
+divEmployeeDetails
+divClaimDetails
+divTransporation
+divAccomodation
+divDailyAllowance
+divLeaveDetails
+divSeekClarification
+divResponseClarification
+divClaimSummary
+divDocumentAttached
+
+
+
+
+1.Required Clarification Api to get Clarification on basis of tour Id for a Recipent Id

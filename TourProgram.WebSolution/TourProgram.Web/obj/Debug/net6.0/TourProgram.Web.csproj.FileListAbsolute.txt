@@ -1,0 +1,588 @@
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.json
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.staticwebassets.runtime.json
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.exe
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.deps.json
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.runtimeconfig.json
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfoInputs.cache
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfo.cs
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CoreCompileInputs.cache
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cache
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cs
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.TourProgram.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.TourProgram.Web.props
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TourProgram.Web.props
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TourProgram.Web.props
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\bundle\TourProgram.Web.styles.css
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\projectbundle\TourProgram.Web.bundle.scp.css
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\refint\TourProgram.Web.dll
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.genruntimeconfig.cache
+C:\Users\Shiv\Desktop\DFCCIL\2ndNov2023\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\ref\TourProgram.Web.dll
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.Development.json
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.json
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.staticwebassets.runtime.json
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.exe
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.deps.json
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.runtimeconfig.json
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.dll
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.pdb
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfoInputs.cache
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfo.cs
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CoreCompileInputs.cache
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cache
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cs
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.TourProgram.Web.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.TourProgram.Web.props
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TourProgram.Web.props
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TourProgram.Web.props
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.build.json
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.development.json
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\bundle\TourProgram.Web.styles.css
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\projectbundle\TourProgram.Web.bundle.scp.css
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.dll
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\refint\TourProgram.Web.dll
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.pdb
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.genruntimeconfig.cache
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\ref\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.staticwebassets.runtime.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.exe
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.deps.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.runtimeconfig.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.AssemblyReference.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfoInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CoreCompileInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.TourProgram.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\bundle\TourProgram.Web.styles.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\projectbundle\TourProgram.Web.bundle.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\refint\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.genruntimeconfig.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\3rdNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\ref\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.staticwebassets.runtime.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.exe
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.deps.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.runtimeconfig.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.AssemblyReference.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfoInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CoreCompileInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.TourProgram.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\bundle\TourProgram.Web.styles.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\projectbundle\TourProgram.Web.bundle.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\refint\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.genruntimeconfig.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\4thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\ref\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.staticwebassets.runtime.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.exe
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.deps.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.runtimeconfig.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.AssemblyReference.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfoInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CoreCompileInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.TourProgram.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\bundle\TourProgram.Web.styles.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\projectbundle\TourProgram.Web.bundle.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\refint\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.genruntimeconfig.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\5thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\ref\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.staticwebassets.runtime.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.exe
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.deps.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.runtimeconfig.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.AssemblyReference.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfoInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CoreCompileInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.TourProgram.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\bundle\TourProgram.Web.styles.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\projectbundle\TourProgram.Web.bundle.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\refint\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.genruntimeconfig.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\ref\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.staticwebassets.runtime.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.exe
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.deps.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.runtimeconfig.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.AssemblyReference.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfoInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CoreCompileInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.TourProgram.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\bundle\TourProgram.Web.styles.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\projectbundle\TourProgram.Web.bundle.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\refint\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.genruntimeconfig.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\8thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\ref\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.staticwebassets.runtime.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.exe
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.deps.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.runtimeconfig.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.AssemblyReference.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfoInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CoreCompileInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.TourProgram.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\bundle\TourProgram.Web.styles.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\projectbundle\TourProgram.Web.bundle.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\refint\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.genruntimeconfig.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\9thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\ref\TourProgram.Web.dll
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.AssemblyReference.cache
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfoInputs.cache
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfo.cs
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CoreCompileInputs.cache
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cache
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cs
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.dll
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\refint\TourProgram.Web.dll
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.pdb
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.Development.json
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.json
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.staticwebassets.runtime.json
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.exe
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.deps.json
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.runtimeconfig.json
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.dll
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.pdb
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.TourProgram.Web.Microsoft.AspNetCore.StaticWebAssets.props
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.TourProgram.Web.props
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TourProgram.Web.props
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TourProgram.Web.props
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.pack.json
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.build.json
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.development.json
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\bundle\TourProgram.Web.styles.css
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\projectbundle\TourProgram.Web.bundle.scp.css
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CopyComplete
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.genruntimeconfig.cache
+D:\11092023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\ref\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.staticwebassets.runtime.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.exe
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.deps.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.runtimeconfig.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.AssemblyReference.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfoInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CoreCompileInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.TourProgram.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\bundle\TourProgram.Web.styles.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\projectbundle\TourProgram.Web.bundle.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CopyComplete
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\refint\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.genruntimeconfig.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\10thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\ref\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.staticwebassets.runtime.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.exe
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.deps.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.runtimeconfig.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.AssemblyReference.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfoInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CoreCompileInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.TourProgram.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\bundle\TourProgram.Web.styles.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\projectbundle\TourProgram.Web.bundle.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CopyComplete
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\refint\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.genruntimeconfig.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\ref\TourProgram.Web.dll
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.Development.json
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.json
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.staticwebassets.runtime.json
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.exe
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.deps.json
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.runtimeconfig.json
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.dll
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.pdb
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.AssemblyReference.cache
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfoInputs.cache
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfo.cs
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CoreCompileInputs.cache
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cache
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cs
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.TourProgram.Web.Microsoft.AspNetCore.StaticWebAssets.props
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.TourProgram.Web.props
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TourProgram.Web.props
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TourProgram.Web.props
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.pack.json
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.build.json
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.development.json
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\bundle\TourProgram.Web.styles.css
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\projectbundle\TourProgram.Web.bundle.scp.css
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CopyComplete
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.dll
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\refint\TourProgram.Web.dll
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.pdb
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.genruntimeconfig.cache
+D:\11122023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\ref\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.staticwebassets.runtime.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.exe
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.deps.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.runtimeconfig.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.AssemblyReference.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfoInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CoreCompileInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.TourProgram.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\bundle\TourProgram.Web.styles.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\projectbundle\TourProgram.Web.bundle.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CopyComplete
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\refint\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.genruntimeconfig.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\15thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\ref\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.staticwebassets.runtime.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.exe
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.deps.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.runtimeconfig.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.AssemblyReference.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfoInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CoreCompileInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.TourProgram.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\bundle\TourProgram.Web.styles.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\projectbundle\TourProgram.Web.bundle.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CopyComplete
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\refint\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.genruntimeconfig.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\16thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\ref\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.staticwebassets.runtime.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.exe
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.deps.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.runtimeconfig.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.AssemblyReference.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfoInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CoreCompileInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.TourProgram.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\bundle\TourProgram.Web.styles.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\projectbundle\TourProgram.Web.bundle.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CopyComplete
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\refint\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.genruntimeconfig.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\17thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\ref\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.staticwebassets.runtime.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.exe
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.deps.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.runtimeconfig.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.AssemblyReference.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfoInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CoreCompileInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.TourProgram.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\bundle\TourProgram.Web.styles.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\projectbundle\TourProgram.Web.bundle.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CopyComplete
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\refint\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.genruntimeconfig.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\18thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\ref\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\appsettings.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.staticwebassets.runtime.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.exe
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.deps.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.runtimeconfig.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.AssemblyReference.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfoInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.AssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CoreCompileInputs.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.RazorAssemblyInfo.cs
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.TourProgram.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TourProgram.Web.props
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\bundle\TourProgram.Web.styles.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\scopedcss\projectbundle\TourProgram.Web.bundle.scp.css
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.csproj.CopyComplete
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\refint\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\TourProgram.Web.genruntimeconfig.cache
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Debug\net6.0\ref\TourProgram.Web.dll

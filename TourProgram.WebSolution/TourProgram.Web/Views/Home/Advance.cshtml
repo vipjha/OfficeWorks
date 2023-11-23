@@ -1,0 +1,1032 @@
+﻿<div class="col-12 grid-margin trh">
+    <div class="card trh">
+
+        <div class="card-body trh">
+            <div class="six">
+                <h1>
+                    Tour Request
+                    <span></span>
+                </h1>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div>
+<div class="col-lg-12 stretch-card new">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Applied Request</h4>
+            <div class="table-responsive">
+                <table class="table table-striped table-head">
+                    <thead>
+                        <tr>
+                            <th>
+                                Request Date
+                            </th>
+                            <th>
+                                Purpose of Tour
+                            </th>
+                            <th>
+                                Tour Start Date
+                            </th>
+                            <th>
+                                Destination
+                            </th>
+                            <th>
+                                Status
+                            </th>
+                            <th>
+                                Action
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                02/10/2023
+                            </td>
+                            <td>
+                                Office Meeting
+                            </td>
+                            <td>
+                                02/11/2023
+                            </td>
+                            <td>
+                                Jaipur
+                            </td>
+                            <td class="font-weight-medium"><div class="badge badge-success">Approved</div></td>
+
+                            <td><button type="submit" id="btnSubmit" class="btn btn-primary mb-2">Details</button></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                02/09/2023
+                            </td>
+                            <td>
+                                Office Meeting
+                            </td>
+                            <td>
+                                17/09/2023
+                            </td>
+                            <td>
+                                New Delhi
+                            </td>
+                            <td class="font-weight-medium"><div class="badge badge-warning">Pending Approval</div></td>
+
+                            <td><button type="submit" id="btnSubmit" class="btn btn-primary mb-2">Details</button></td>
+                        </tr>
+
+                        @* <tr>
+                            <td>
+                                01/07/2023
+                            </td>
+                            <td>
+                                Office Meeting
+                            </td>
+                            <td>
+                                18/07/2023
+                            </td>
+                            <td>
+                                Agra
+                            </td>
+                            <td class="font-weight-medium"><div class="badge badge-danger">Pending Clarification</div></td>
+
+                            <td><button type="submit" id="btnSubmit" class="btn btn-primary mb-2">Details</button></td>
+                        </tr> *@
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<button type="submit" id="btnSubmit" class="btn btn-info mb-2 advancenew"><i class="fa fa-plus" aria-hidden="true"></i> New Tour Request</button> &nbsp;&nbsp;<button type="submit" id="btnSubmit" class="btn btn-info mb-2 advancenew claims"><i class="fa fa-plus" aria-hidden="true"></i> View Past Claim</button>
+
+<div class="col-12 grid-margin mt-4">
+    <div class="card">
+
+        <div class="card-body">
+            <div class="six">
+                <h4 class="card-title">Tour Program Approval</h4>
+            </div>
+
+            <form class="form-sample advance">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div class="form-group row">
+                            <label class="col-lg-2 col-form-label">Purpose of Tour</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="inputPurposeOfTravel">
+                            </div>
+                        </div>
+                    </div>
+
+                    @* <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-lg-5 col-form-label">Type of Travel</label>
+                            <div class="col-lg-7">
+                                <select class="form-control" id="selectTypeOfTravel">
+                                    <option>Domestic</option>
+                                    <option>International</option>
+
+                                </select>
+                            </div>
+                        </div>
+                    </div> *@
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-lg-5 col-form-label">Source</label>
+                            <div class="col-lg-7">
+                                <input type="text" class="form-control" id="inputSource">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-lg-5 col-form-label">Destination</label>
+                            <div class="col-lg-7">
+                                <input type="text" class="form-control" id="inputDestination">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-lg-5 col-form-label">Tentative Date of Departure</label>
+                            <div class="col-lg-7">
+                                <input type="datetime-local" class="form-control" id="inputTentativeDateOfDeparture">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-lg-5 col-form-label">Number of Days</label>
+                            <div class="col-lg-7">
+                                <input type="number" class="form-control" min="1" max="50" id="inputNumberOfDays">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-lg-5 col-form-label">Mode of Travel</label>
+                            <div class="col-sm-2">
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" id="inputModeOfTravelAir">
+                                        Air
+                                    </label>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-2 rai">
+                                <div class="form-check">
+
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" id="inputModeOfTravelRail">
+                                        Rail
+                                    </label>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-3 rai">
+                                <div class="form-check">
+
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" id="inputModeOfTravelRoad">
+                                        Road
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    @* <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-lg-5 col-form-label">Class of City</label>
+                            <div class="col-lg-7">
+                                <select class="form-control" id="selectClassOfCity">
+                                    <option>X</option>
+                                    <option>Y</option>
+                                    <option>Z</option>
+
+                                </select>
+                            </div>
+                        </div>
+                    </div> *@
+                </div>
+
+            </form>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+<div class="col-lg-12 stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Tentative Tour Plan</h4>
+
+            <div class="table-responsive">
+                <table class="table table-striped table-head">
+                    <thead>
+                        <tr>
+                            <th>
+                                Date
+                            </th>
+                            <th>
+                                From
+                            </th>
+                            <th>
+                                To
+                            </th>
+                            <th>
+                                Mode
+                            </th>
+                            <th>
+                                Tour Details
+                            </th>
+                            <th>
+
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input type="date" class="form-control">
+                            </td>
+                            <td>
+                                <input type="text" class="form-control">
+                            </td>
+                            <td>
+                                <input type="text" class="form-control">
+                            </td>
+                            <td>
+                                <select class="form-control mode">
+                                    <option>Air</option>
+                                    <option>Rail</option>
+                                    <option>Road</option>
+
+                                </select>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control">
+                            </td>
+                            <td>
+                                <button type="submit" id="btnself" class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="date" class="form-control">
+                            </td>
+                            <td>
+                                <input type="text" class="form-control">
+                            </td>
+                            <td>
+                                <input type="text" class="form-control">
+                            </td>
+                            <td>
+                                <select class="form-control mode">
+                                    <option>Air</option>
+                                    <option>Rail</option>
+                                    <option>Road</option>
+
+                                </select>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control">
+                            </td>
+                            <td>
+                                <button type="submit" id="btnself" class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="col-12 grid-margin AdvanceRequired">
+    <div class="card">
+
+        <div class="card-body">
+
+            <div class="col-lg-6 col-md-8 require">
+                <div class="form-group row advance align-items-center">
+                    <label class="col-lg-5 col-form-label">Advance Required</label>
+                    <div class="col-lg-3 checks">
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2" checked>
+                                Yes
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 checks">
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2" checked>
+                                No
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="col-lg-12 stretch-card gradep">
+    <div class="card">
+        <div class="card-body">
+            @* <h4 class="card-title">Upper ceiling for loading charges (Exclisive of taxes and sucharge)</h4> *@
+
+            <h4 class="card-title">Grade Details</h4>
+
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered table-head">
+                    <thead>
+                        <tr>
+                            <th>
+
+                            </th>
+                            <th>
+
+                            </th>
+
+                            <th colspan="3" class="grade">
+                                Ceiling for Lodging Charges in Rs
+                            </th>
+                        </tr>
+                    </thead>
+                    <thead>
+                        <tr>
+                            <th class="grade">
+                                S.No.
+                            </th>
+                            <th class="grade">
+                                Lavel
+                            </th>
+
+                            <th class="grade">
+                                X
+                            </th>
+                            <th class="grade">
+                                Y
+                            </th>
+                            <th class="grade">
+                                Z
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                MD
+                            </td>
+                            <td>
+                                Ashoka Hotel Suite
+                            </td>
+                            <td>
+                                90% of the rate of Ashoka Hotel Suite
+                            </td>
+                            <td>
+                                80% of the rate of Ashoka Hotel Suite
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2
+                            </td>
+                            <td>
+                                Director
+                            </td>
+                            <td>
+                                Ashoka Hotel Suite
+                            </td>
+                            <td>
+                                90% of the rate of Ashoka Hotel Suite
+                            </td>
+                            <td>
+                                80% of the rate of Ashoka Hotel Suite
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                3
+                            </td>
+                            <td>
+                                ED
+                            </td>
+                            <td>
+                                10000
+                            </td>
+                            <td>
+                                9000
+                            </td>
+                            <td>
+                                7500
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                4
+                            </td>
+                            <td>
+                                GGM/GM
+                            </td>
+                            <td>
+                                10000
+                            </td>
+                            <td>
+                                9000
+                            </td>
+                            <td>
+                                7500
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                5
+                            </td>
+                            <td>
+                                AGM/JGM
+                            </td>
+                            <td>
+                                75000
+                            </td>
+                            <td>
+                                6000
+                            </td>
+                            <td>
+                                5000
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                               6
+                            </td>
+                            <td>
+                                DGM
+                            </td>
+                            <td>
+                                6000
+                            </td>
+                            <td>
+                                5000
+                            </td>
+                            <td>
+                                4000
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                7
+                            </td>
+                            <td>
+                                Jr. Mgr to Mgr
+                            </td>
+                            <td>
+                                3000
+                            </td>
+                            <td>
+                                2500
+                            </td>
+                            <td>
+                                2000
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                8
+                            </td>
+                            <td>
+                                Sr. Exe./Exe
+                            </td>
+                            <td>
+                                2200
+                            </td>
+                            <td>
+                                2000
+                            </td>
+                            <td>
+                                1000
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                9
+                            </td>
+                            <td>
+                                Skilled Staff(N5 to N7)
+                            </td>
+                            <td>
+                                1500
+                            </td>
+                            <td>
+                                1300
+                            </td>
+                            <td>
+                                800
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                10
+                            </td>
+                            <td>
+                                TADK(N1 to N4)
+                            </td>
+                            <td>
+                                1000
+                            </td>
+                            <td>
+                                800
+                            </td>
+                            <td>
+                                500
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-lg-12 stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Tour Estimate</h4>
+
+            <div class="table-responsive">
+                <table class="table table-striped table-head">
+                    <thead>
+                        <tr>
+                            <th>
+                                S.No.
+                            </th>
+                            <th>
+                                Type
+                            </th>
+                            <th>
+                                Estimated Amount
+                            </th>
+                            <th>
+                                Class Of City
+                            </th>
+                            <th>
+
+                            </th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                Travel
+                            </td>
+                            <td>
+                                <input type="text" class="form-control estimate" placeholder="&#8377;"></td>
+                                <td></td>
+
+                            <td>
+                                <button type="button" onclick="TrigerModalUploadFile('Admission Advice','AdmissionAdvice')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File<span id="spanAdmissionAdvice" class="file-status">0</span></button>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                2
+                            </td>
+                            <td>
+                                Accommodation
+                            </td>
+                            <td>
+                                <input type="text" class="form-control estimate" placeholder="&#8377;"></td>
+                            <td>
+
+
+
+
+                                <div class="dropdown" data-control="checkbox-dropdown">
+
+
+                                    <div class="dropdown-list">
+
+
+                                        <label class="dropdown-option">
+                                            <input type="checkbox" name="dropdown-group" value="Selection 1" />
+                                            <span class="cek">X</span>
+                                        </label>
+
+                                        <label class="dropdown-option">
+                                            <input type="checkbox" name="dropdown-group" value="Selection 2" />
+                                            <span class="cek">Y</span>
+                                        </label>
+
+                                        <label class="dropdown-option">
+                                            <input type="checkbox" name="dropdown-group" value="Selection 3" />
+                                            <span class="cek">Z</span>
+                                        </label>
+
+
+
+                                    </div>
+                                </div>
+                            </td>
+
+                            <td>
+                                <button type="button" onclick="TrigerModalUploadFile('Admission Advice','AdmissionAdvice')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File<span id="spanAdmissionAdvice" class="file-status">0</span></button>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                            </td>
+                            <td>
+                                <b>Total</b>
+                            </td>
+                            <td>
+                                <b>0</b></td>
+                            <td>
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            </td>
+                            <td>
+
+                        <label class="col-lg-5 col-form-label">Advance Required</label>
+                            </td>
+                            <td>
+                        <input type="text" class="form-control estimate" placeholder="&#8377;"></td>
+                            <td>
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+@* <div class="col-12 grid-margin mt-4">
+    <div class="card">
+
+        <div class="card-body">
+            <div class="six">
+
+            </div>
+
+            <form class="form-sample advance">
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-lg-5 col-form-label">Advance Required</label>
+                            <div class="col-lg-7">
+                                <input type="text" class="form-control estimate" placeholder="&#8377;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</div> *@
+
+<div class="col-lg-12 stretch-card mt-5">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Deceleration</h4>
+                <div class="col-sm-12">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input id="checkboxDeclaration" onclick="checkboxDeclaration_cick(this)" type="checkbox" class="form-check-input">
+                            I the undersigned hereby declare that the information given in this form is correct and complete to the best of my knowledge and belief.
+                            <i class="input-helper"></i>
+                        </label>
+                    </div>
+                </div>
+                <div style="float:right">
+                    <button type="submit" id="btnSubmit" class="btn btn-primary mb-2">Submit</button>
+                </div>
+
+        </div>
+    </div>
+
+</div>
+
+@* <div class="col-lg-12 grid-margin stretch-card summary">
+    <div class="card">
+        <div class="card-body">
+
+
+            <div class="table-responsive">
+                <table class="table table-striped">
+
+                    <tbody>
+
+                        <tr>
+
+                            <td><b>Requested Amount</b></td>
+
+                            <td id="tdPHB">
+                                <input type="text" class="form-control estimate">
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <hr/>
+                <div class="col-sm-12">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input id="checkboxDeclaration" onclick="checkboxDeclaration_cick(this)" type="checkbox" class="form-check-input">
+                            I the undersigned hereby declare that the information given in this form is correct and complete to the best of my knowledge and belief.
+                            <i class="input-helper"></i>
+                        </label>
+                    </div>
+                </div>
+                <div style="float:right">
+                    <button type="submit" id="btnSubmit" class="btn btn-primary mb-2">Submit</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div> *@
+<style>
+    .col-12.grid-margin.AdvanceRequired {
+        margin-top: 40px;
+    }
+
+    .table-head thead {
+        background: #343277;
+        color: white;
+    }
+
+    select.form-control.mode {
+        width: 80px;
+    }
+
+    select.form-control.type {
+        width: 260px;
+    }
+
+    input.form-control.estimate {
+        width: 130px;
+    }
+
+    .form-group.row.advance {
+        margin-bottom: -16px;
+    }
+
+    .col-lg-12.grid-margin.stretch-card.summary {
+        margin-top: 40px;
+    }
+
+    .col-lg-12.stretch-card.grade {
+        margin-top: 40px;
+    }
+
+    .col-lg-12.stretch-card.new {
+        margin-bottom: 40px;
+    }
+
+    .form-group {
+        margin-bottom: 0rem;
+    }
+
+    .col-form-label {
+        font-weight: 600;
+        font-size: 16px !important;
+        color: #343277;
+    }
+
+    button#btnself {
+        font-size: 0.3rem;
+        line-height: 1;
+        font-weight: 400;
+        border-radius: 4px;
+        height: 42px;
+    }
+
+    td {
+        padding: 10px !important;
+    }
+
+    .form-control {
+        height: 42px;
+    }
+
+
+    .badge {
+        width: 160px !important;
+    }
+
+    .col-lg-12.stretch-card.gradep {
+        margin-bottom: 40px;
+    }
+
+    th.grade {
+        text-align: center;
+    }
+
+    h4.trh {
+        text-align: center;
+        font-size: 24px;
+        color: #fff;
+    }
+
+    .advancenew {
+        margin-left: 16px;
+        margin-top: -28px;
+    }
+
+    input#inputPurposeOfTravel {
+        margin-left: 40px;
+        width: 760px;
+    }
+    .card-body.trh {
+        padding: 0px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    /* STYLE 6
+       ----------------------------- */
+    .six h1 {
+        text-align: center;
+        color: #222;
+        font-size: 24px !important;
+        font-weight: 600 !important;
+        text-transform: uppercase !important;
+        word-spacing: 1px !important;
+        letter-spacing: 2px !important;
+        color: #4B49AC !important;
+    }
+
+        .six h1 span {
+            line-height: 2em !important;
+            padding-bottom: 15px !important;
+            text-transform: none !important;
+            font-size: .7em !important;
+            font-weight: normal !important;
+            font-style: italic !important;
+            font-family: "Playfair Display","Bookman",serif !important;
+            color: #999 !important;
+            letter-spacing: -0.005em !important;
+            word-spacing: 1px !important;
+            letter-spacing: none !important;
+        }
+
+        .six h1:after, .six h1:before {
+            position: absolute !important;
+            left: 0 !important;
+            bottom: 0 !important;
+            width: 45px !important;
+            height: 4px !important;
+            content: "" !important;
+            right: 45px !important;
+            margin: auto !important;
+            background-color: #d78b8b !important;
+        }
+
+        .six h1:before {
+            background-color: #d78b8b !important;
+            left: 45px !important;
+            width: 90px !important;
+        }
+
+    h1 {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        font-family: "Raleway", sans-serif;
+        font-weight: 300;
+        font-size: 40px;
+        color: #080808;
+        -webkit-transition: all 0.4s ease 0s;
+        -o-transition: all 0.4s ease 0s;
+        transition: all 0.4s ease 0s;
+    }
+
+        h1 span {
+            display: block;
+            font-size: 0.5em;
+            line-height: 1.3;
+        }
+
+        h1 em {
+            font-style: normal;
+            font-weight: 600;
+        }
+
+
+    .grid-margin {
+        margin-bottom: 1rem;
+    }
+
+    input[type="checkbox"] {
+        content: "";
+        width: 18px;
+        height: 18px;
+        border-radius: 2px;
+        border: solid #4B49AC;
+        border-width: 2px;
+        -webkit-transition: all;
+        -moz-transition: all;
+        -ms-transition: all;
+        -o-transition: all;
+        transition: all;
+        transition-duration: 0s;
+        -webkit-transition-duration: 250ms;
+        transition-duration: 250ms;
+    }
+
+    label.dropdown-option {
+        padding-right: 10px;
+    }
+
+    .claims {
+        background: #0564cf;
+        border-color: #0564cf;
+    }
+    @@media(max-width:767px){
+        .content-wrapper {
+            padding: 1.5rem 0.2rem;
+        }
+
+        input#inputPurposeOfTravel {
+            margin-left: inherit;
+            width: inherit;
+        }
+
+        input.form-control.estimate {
+            width: inherit;
+        }
+
+        .advancenew {
+            margin-bottom: 44px !important;
+            width: 200px !important;
+        }
+    }
+    @@media (min-width: 1920px) and (max-width: 2560px)  {
+    input#inputPurposeOfTravel {
+        margin-left: 48px;
+        width: 894px;
+    }
+</style>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+
+

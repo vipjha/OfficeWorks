@@ -1,0 +1,1078 @@
+﻿<link href="~/css/custom/dfccil1011_02.css" rel="stylesheet" asp-append-version="true" />
+
+<div class="col-lg-12 grid-margin stretch-card">
+
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4 col-lg-4 col-sm-6  mb-2 mt-2">
+                    <div class="card-icon-strech">
+                        <div class="Member-icon">
+                            <i class="fa fa-users " aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <p class="mb-0 member-para">Total Notificaction</p>
+                            <span class="member">30</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-sm-6  mb-2 mt-2">
+                    <div class="card-icon-strech">
+                        <div class="Member-icon">
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <div>
+                            <p class="mb-0 member-para">Advance Pay</p>
+                            <span class="member">20</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4   mb-2 mt-2">
+                    <div class="card-icon-strech">
+                        <div class="Member-icon">
+                            <i class="fa fa-desktop"></i>
+                        </div>
+                        <div>
+                            <p class="mb-0 member-para">Other</p>
+                            <span class="member">10</span>
+                        </div>
+                    </div>
+                </div>
+
+                @*  <div class="col-md-6">
+                <a asp-action="AdvanceRequest" asp-controller="Home" class="btn btn-primary Request">New Request</a>
+                </div> *@
+            </div>
+
+        </div>
+    </div>
+
+</div>
+@*   table section *@
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-10">
+                    <h4 class="card-title">Advance List</h4>
+                </div>
+                <div class="col-md-2">
+                    <select class="form-control">
+                        <option>Pending</option>
+                        <option>Open</option>
+                        <option>Complete</option>
+                        <option>All</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table_mobile">
+                    <thead>
+                        <tr>
+                            <th>Sr No</th>
+                            <th>Employee Name</th>
+                            <th>Pateint Name</th>
+                            <th>Requested Date</th>
+                            <th>Amount(₹)</th>
+                            <th>View</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyBillPassingList">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id ="billPass_approved" style="display:none;">
+
+@*  patient details *@
+<div id="claim_details" style="display:inherit;">
+    <div class="col-lg-12 grid-margin stretch-card ">
+      <div class="card">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-center flex-wrap">
+            <h4 class="card-title mb-4">Patient and Advance Details</h4>
+            <div>
+              <div class="table-responsive">
+                <table style="display:none" class="table parent">
+                  <thead>
+                    <tr class="d-flex flex-wrap">
+                      <th>Total Limit <span class="table_span" id="spanClaimApprovedTotalLimit">₹10,00,000.00</span></th>
+                      <th>Used Limit <span class="table_span" id="spanClaimApprovedUsedLimit">₹2,50,000.00</span></th>
+                      <th>Balance Limit <span class="table_span" id="spanClaimApprovedBalanceLimit">₹7,50,000.00</span></th>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>
+                    Employee Name
+                  </th>
+                  <th>
+                    Patient Name
+                  </th>
+                  <th>
+                    Relation
+                  </th>
+                  <th>
+                    Date of Birth
+                  </th>
+                  <th>
+                    Gender
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <a id="headingBillPassApprovedEmployeeName" href="#">Sweta Singh</a>
+                  </td>
+                  <td id="headingBillPassApprovedPatientName">
+                    Balwant Singh
+                  </td>
+                  <td id="headingBillPassApprovedRelationName" style="color:#4B49AC">
+                    Father
+                  </td>
+                  <td id="headingBillPassApprovedDob">
+                    Jan 01, 1962
+                  </td>
+                  <td id="headingAdvancedApprovedFemale">
+                    Male
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 grid-margin">
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div id="divParentClaimLimt" class="ml-auto">
+              <div class="table-responsive mb-4 ">
+                <table class="table parent ">
+                  <thead>
+                    <tr class="d-flex flex-wrap">
+                      <th class="tab">Total Limit: <span id="spanTotalLimit" class="table_span">₹10,00,000.00</span></th>
+                      <th class="tab">Used Limit: <span id="spanUsedLimit" class="table_span">₹2,50,000.00</span></th>
+                      <th class="tab">Balance Limit: <span id="spanBalanceLimit" class="table_span">₹7,50,000.00</span></th>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-lg-4 col-form-label">Hospital Name</label>
+                <div class="col-lg-8">
+                  <input type="text" class="form-control" value="Applo" id="inputBillPassApprovedHospitalName">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-lg-4 col-form-label">Hospital Regd. No.</label>
+                <div class="col-lg-8">
+                  <input type="text" class="form-control" value="25375" id="inputAdavnceApprovedHospitalReg">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-lg-4 col-form-label">Date of Admission</label>
+                <div class="col-lg-8">
+                  <input type="text" class="form-control" value="25/2/2023" id="inputAdvancedApprovedLikelyDateOfAdmission">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-lg-4 col-form-label">Doctor's Name</label>
+                <div class="col-lg-8">
+                  <input type="text" class="form-control" value="Dr. Mathur" id="inputAdvanceApprovedDocterName">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-sm-4 col-form-label">Treatment Type</label>
+                <div class="col-sm-8">
+                  <select class="form-control">
+                    <option>Allopathic</option>
+                    <option>Ayurveda</option>
+                    <option>Homeopathy</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group row ">
+                <label class="col-lg-4 col-form-label">Diagnosis</label>
+                @*   
+                <div class="btn-view">
+                  <button onclick="TrigerModalViewFile('Diagnosis','Diagnosis')" type="button" class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File<span id="spanDiagnosis" class="file-status">0</span></button>
+                </div>
+                *@
+                <div class="col-lg-8">
+                  <input type="text" class="form-control" value="" id="inputBillPassApprovedDiagnosis">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group row addmission-flex1">
+                <label class="col-form-label">Admission's Advice</label>
+                <div class="btn-view">
+                  <button onclick="TrigerModalViewFile('Admission Advice','AdmissionAdviceUpload')" type="button" class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File<span id="spanAdmissionAdviceUpload" class="file-status">0</span></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-lg-4 col-form-label">Estimate Amount</label>
+                <div class="col-lg-4 mobile-width-input">
+                  <input type="text" class="form-control" value="" id="inputBillPassApprovedEstimateAmout">
+                </div>
+                <div class="btn-view">
+                  <button onclick="TrigerModalViewFile('Estimate Amount','EstimateAmount')" type="button" class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File<span id="spanEstimateAmount" class="file-status">0</span></button>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-lg-4 col-form-label">Approved Amount</label>
+                <div class="col-lg-8">
+                  <input type="text" class="form-control" value="" id="inputBillPassApprovedApprovedAmount">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-sm-4 col-form-label">Pay To</label>
+                <div class="col-sm-8">
+                  <select class="form-control">
+                    <option>Self</option>
+                    <option>Hospital</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div id="itrParent" class="col-md-6">
+              <div class="form-group row addmission-flex">
+                <label class="col-form-label">ITR/Income Proof</label>
+                <div class="btn-view advance">
+                  @*<button onclick="TrigerModalViewFile('ITR/Income Proof','ITRIncomeProof')" type="button" class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File<span id="spanAdmissionIrtUpload" class="file-status">0</span></button>*@
+                  <a id="anchorItr" href="#" target="_blank" class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File <span id="spanItr" class="file-status">1</span></a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 grid-margin">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title mb-4">Beneficiary Details</h4>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-lg-4 col-form-label">Hospital Name</label>
+                <div class="col-lg-8">
+                  <input type="text" class="form-control" value="Max HealthCare" id="inputApprovedAdvanceHospitalName" readonly>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-lg-4 col-form-label">GST No.</label>
+                <div class="col-lg-8">
+                  <input type="text" class="form-control" value="26773878778" id="inputApprovedAdvanceGstNo" readonly>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-lg-4 col-form-label">Bank Name</label>
+                <div class="col-lg-8">
+                  <input type="text" class="form-control" value="SBI" id="inputApprovedAdvanceBankName" readonly>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-lg-4 col-form-label">IFSC Code</label>
+                <div class="col-lg-8">
+                  <input type="text" class="form-control" value="CNF007867" id="inputApprovedAdvanceIfscCode" readonly>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-lg-4 col-form-label">Beneficiary Name</label>
+                <div class="col-lg-8">
+                  <input type="text" class="form-control" value="Kamal" id="inputApprovedAdvanceBeneficiaryName" readonly>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-lg-4 col-form-label">Account No.</label>
+                <div class="col-lg-8">
+                  <input type="text" class="form-control" value="1678900000" id="inputApprovedAdvanceAccNo" readonly>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-lg-4 col-form-label">SAP Reference No.</label>
+                <div class="col-lg-8">
+                  <input type="text" class="form-control" value="1678900000" id="inputApprovedAdvanceAccNo" readonly>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-lg-4 col-form-label">Amount</label>
+                <div class="col-lg-8">
+                  <input type="text" class="form-control" value="20000" id="inputApprovedAdvanceAccNo" readonly>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-lg-4 col-form-label">Transaction Date</label>
+                <div class="col-lg-8">
+                  <input type="text" class="form-control" value="1678900000" id="inputApprovedAdvanceAccNo" readonly>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-lg-4 col-form-label">UTR No.</label>
+                <div class="col-lg-8">
+                  <input type="text" class="form-control" value="1678900000" id="inputApprovedAdvanceAccNo" readonly>
+                </div>
+              </div>
+            </div>
+            <div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 grid-margin">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title mb-4">Additional Details</h4>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-lg-4 col-form-label">Date of Discharge</label>
+                <div class="col-lg-8">
+                  <input type="text" class="form-control" value="30/2/2023" id="inputClaimApprovedAddDetailsDateOfDischarge">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group row addmission-flex flex-gap">
+                <label class="col-form-label">Discharge Summary</label>
+                <div class="btn-view">
+                  <button onclick="TrigerModalViewFile('Admission Advice','AdmissionAdviceUpload')" type="button" class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File<span id="spanAdmissionAdviceUpload" class="file-status">0</span></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="col-lg-4 col-form-label">Total Hospital Bill</label>
+                <div class="col-lg-4 mobile-width-input">
+                  <input type="text" class="form-control" value="10,000.00" id="inputClaimApprovedAddDetailsHospitalBill">
+                </div>
+                <div class="btn-view">
+                  <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File<span id="spanAdmissionTotalHospitalBill" class="file-status">0</span></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group row addmission-flex">
+                <label class="col-form-label investigation-width">Investigation Reports</label>
+                <div class="btn-view">
+                  <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File<span id="spanAdmissionTotalInvestigationReport" class="file-status">0</span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 grid-margin">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title mb-4">Hospitalization Bill Details</h4>
+          <div class="table-responsive">
+            <table class="table  table_mobile">
+              <thead>
+                <tr>
+                  <th>
+                    S.No.
+                  </th>
+                  <th>
+                    Bill Type
+                  </th>
+                  <th>
+                    Billed  Amount
+                  </th>
+                  <th>
+                    Claimed Amount
+                  </th>
+                  <th>
+                  </th>
+                  <th>
+                  </th>
+                  <th>
+                    Approved Amount
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Medicine</td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="2000.00" readonly>
+                  </td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="00.00" readonly>
+                  </td>
+                  <td class="checkdirect">
+                    <input type="checkbox" class="form-check-input direct mt-0" Disabled checked> Included in Final Bill
+                  </td>
+                  <td>
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                  </td>
+                  <td>
+                    <input type="number" class="form-control form-control-mobile" value="00.00" readonly>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Medicine</td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="2000.00" readonly>
+                  </td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="0.00" readonly>
+                  </td>
+                  <td>
+                    <label class="col-form-label notinclude"> Not included in Final Bill</label>
+                  </td>
+                  <td>
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                  </td>
+                  <td>
+                    <input type="number" class="form-control form-control-mobile" value="00.00" readonly>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Consultation</td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="1000.00" readonly>
+                  </td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="0.00" readonly>
+                  </td>
+                  <td class="checkdirect">
+                    <input type="checkbox" class="form-check-input direct mt-0" Disabled checked> Included in Final Bill
+                  </td>
+                  <td>
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                  </td>
+                  <td>
+                    <input type="number" class="form-control form-control-mobile" value="1000.00" readonly>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Consultation</td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="1000.00" readonly>
+                  </td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="0.00" readonly>
+                  </td>
+                  <td>
+                    <label class="col-form-label notinclude"> Not included in Final Bill</label>
+                  </td>
+                  <td>
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                  </td>
+                  <td>
+                    <input type="number" class="form-control form-control-mobile" value="00.00" readonly>
+                  </td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Investigation</td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="3000.00" readonly>
+                  </td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="0.00" readonly>
+                  </td>
+                  <td class="checkdirect">
+                    <input type="checkbox" class="form-check-input direct mt-0" Disabled checked> Included in Final Bill
+                  </td>
+                  <td>
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                  </td>
+                  <td>
+                    <input type="number" class="form-control form-control-mobile" value="00.00" readonly>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Investigation</td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="3000.00" readonly>
+                  </td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="0.00" readonly>
+                  </td>
+                  <td>
+                    <label class="col-form-label notinclude"> Not included in Final Bill</label>
+                  </td>
+                  <td>
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                  </td>
+                  <td>
+                    <input type="number" class="form-control form-control-mobile" value="00.00" readonly>
+                  </td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Room Rent</td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="2000.00" readonly>
+                  </td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="0.00" readonly>
+                  </td>
+                  <td class="checkdirect">
+                    <input type="checkbox" class="form-check-input direct mt-0" Disabled checked> Included in Final Bill
+                  </td>
+                  <td>
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                  </td>
+                  <td>
+                    <input type="number" class="form-control form-control-mobile" value="00.00" readonly>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Room Rent</td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="2000.00" readonly>
+                  </td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="0.00" readonly>
+                  </td>
+                  <td>
+                    <label class="col-form-label notinclude"> Not included in Final Bill</label>
+                  </td>
+                  <td>
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                  </td>
+                  <td>
+                    <input type="number" class="form-control form-control-mobile" value="00.00" readonly> 
+                  </td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Procedure</td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="1000.00" readonly>
+                  </td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="0.00" readonly>
+                  </td>
+                  <td class="checkdirect">
+                    <input type="checkbox" class="form-check-input direct mt-0" Disabled checked> Included in Final Bill
+                  </td>
+                  <td>
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                  </td>
+                  <td>
+                    <input type="number" class="form-control form-control-mobile" value="00.00" readonly>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Procedure</td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="1000.00" readonly>
+                  </td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="0.00" readonly>
+                  </td>
+                  <td>
+                    <label class="col-form-label notinclude"> Not included in Final Bill</label>
+                  </td>
+                  <td>
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                  </td>
+                  <td>
+                    <input type="number" class="form-control form-control-mobile" value="00.00" readonly>
+                  </td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Other</td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="1000.00" readonly>
+                  </td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="0.00" readonly>
+                  </td>
+                  <td class="checkdirect">
+                    <input type="checkbox" class="form-check-input direct mt-0" Disabled checked> Included in Final Bill
+                  </td>
+                  <td>
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                  </td>
+                  <td>
+                    <input type="number" class="form-control form-control-mobile" value="00.00" readonly>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Other</td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="1000.00" readonly>
+                  </td>
+                  <td>
+                    <input type="text" class="form-control form-control-mobile" value="0.00" readonly>
+                  </td>
+                  <td>
+                    <label class="col-form-label notinclude"> Not included in Final Bill</label>
+                  </td>
+                  <td>
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                  </td>
+                  <td>
+                    <input type="number" class="form-control form-control-mobile" value="00.00" readonly>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr />
+          <div class="table-responsive">
+            <table class="table parent">
+              <thead>
+                <tr class="d-flex flex-wrap bor">
+                  <th class="tab">Sub Total: <span id="spanSubTotal"  class="table_span"></span></th>
+                  <th class="tab amountinclude">Amount Included in Main Bill: <span id="spanAmountIncludedMainBill" class="table_span"></span></th>
+                  <th class="tab">Amount not Included in Main Bill: <span id="spanAmountNotIncludedMainBill" class="table_span"></span></th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label for="exampleTextarea1">Clarification</label>
+                <textarea class="form-control" id="textAreaClaimApprovedClarification" rows="4" placeholder="Clarification"></textarea>
+              </div>
+            </div>
+            <div class="mt-5 send-to-btn mx-auto">
+              <button type="button" onclick="btnSendToDoctor_Click(this)" class="btn btn-success-details">Seek Clarification</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="divPreHospitlizationDetails" style="display:non" class="col-12 grid-margin">
+      <div class="card">
+        <div class="card-body">
+          <div class="form-check">
+            <label class="form-check-label">
+            Pre Hospitalization Expenses<input id="chkPreHospitlization" onclick="prehospitlization_click(this)" type="checkbox" class="form-check-input">
+            </label>
+          </div>
+          <hr />
+          <h4 style="display:non" id="pre1" class="card-title mb-4"></h4>
+          <div style="display:non" id="pre2" class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>
+                    S.No.
+                  </th>
+                  <th>
+                    Bill Type
+                  </th>
+                  <th>
+                    Billed Amount
+                  </th>
+                  <th>
+                    Claimed Amount
+                  </th>
+                  <th>
+                    View
+                  </th>
+                  @*
+                  <th>
+                    View
+                  </th>
+                  *@
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Medicine</td>
+                  <td>
+                    <input onfocusout="calculate_onchange(this,'Medicine')" id="inputMedicinePre" type="text" class="form-control" value="1000.0" readonly>
+                  </td>
+                  <td>
+                    <input onfocusout="calculate_onchange(this,'Medicine')" id="" type="text" class="form-control" value="1000.0" readonly>
+                  </td>
+                  <td>
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File<span id="spanAdmissionTotalInvestigationReport" class="file-status">0</span></button>
+                  </td>
+                  @*
+                  <td>
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                  </td>
+                  *@
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Consultation</td>
+                  <td>
+                    <input onfocusout="calculate_onchange(this,'Consultation')" id="inputConsultationPre" type="text" class="form-control" value="1000.0" readonly>
+                  </td>
+                  <td>
+                    <input onfocusout="calculate_onchange(this,'Medicine')" id="" type="text" class="form-control" value="1000.0" readonly>
+                  </td>
+                  <td>
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File<span id="spanAdmissionTotalInvestigationReport" class="file-status">0</span></button>
+                  </td>
+                  @*
+                  <td>
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                  </td>
+                  *@
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Investigation</td>
+                  <td>
+                    <input onfocusout="calculate_onchange(this,'Investigation')" id="inputInvestigationPre" type="text" class="form-control" value="1000.0" readonly>
+                  </td>
+                  <td>
+                    <input onfocusout="calculate_onchange(this,'Medicine')" id="" type="text" class="form-control" value="1000.0" readonly>
+                  </td>
+                  <td>
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File<span id="spanAdmissionTotalInvestigationReport" class="file-status">0</span></button>
+                  </td>
+                  @*
+                  <td>
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                  </td>
+                  *@
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Procedure</td>
+                  <td>
+                    <input onfocusout="calculate_onchange(this,'Other')" id="inputOtherPre" type="text" class="form-control" value="1000.0" readonly>
+                  </td>
+                  <td>
+                    <input onfocusout="calculate_onchange(this,'Medicine')" id="" type="text" class="form-control" value="1000.0" readonly>
+                  </td>
+                  <td>
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File<span id="spanAdmissionTotalInvestigationReport" class="file-status">0</span></button>
+                  </td>
+                  @*
+                  <td>
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                  </td>
+                  *@
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Other</td>
+                  <td>
+                    <input onfocusout="calculate_onchange(this,'Other')" id="inputOtherPre" type="text" class="form-control" value="1000.0" readonly>
+                  </td>
+                  <td>
+                    <input onfocusout="calculate_onchange(this,'Medicine')" id="" type="text" class="form-control" value="1000.0" readonly>
+                  </td>
+                  <td>
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File<span id="spanAdmissionTotalInvestigationReport" class="file-status">0</span></button>
+                  </td>
+                  @*
+                  <td>
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                  </td>
+                  *@
+                </tr>
+              </tbody>
+            </table>
+            <div class="table-responsive">
+              <table class="table table-striped">
+                <tbody>
+                  <tr>
+                    <td><b>Sub Total</b></td>
+                    <td id="tdPreHospitlizationTotal">
+                      <b>0</b>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="row mt-2">
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="exampleTextarea1">Clarification</label>
+                  <textarea class="form-control" id="textAreaClaimApprovedClarification" rows="4" placeholder="Clarification"></textarea>
+                </div>
+              </div>
+              <div class="mt-5 send-to-btn mx-auto">
+                <button type="button" onclick="btnSendToDoctor_Click(this)" class="btn btn-success-details">Seek Clarification</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            
+
+            <div class="col-md-8">
+  <div class="row">
+    <label class="col-sm-6 col-form-label tax">Pre Hospitalization Admissible</label>
+    <div class="col-sm-3">
+      <div class="form-check">
+        <label class="form-check-label">
+        <input id="radioPreHospitalizationYes" onclick="specialDisease_Click(this,'Yes')" name="PostHospitalization" type="radio" class="form-check-input" checked>
+        Yes
+        </label>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="form-check">
+        <label class="form-check-label">
+        <input id="radioPostHospitalizationNo" checked onclick="specialDisease_Click(this,'No')" name="PostHospitalization" type="radio" class="form-check-input">
+        No
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+    </div>
+</div>
+    <div id="divDeclaration" style="display:non" class="col-lg-12 grid-margin stretch-card">
+      <div class="card">
+        <div class="card-body">
+          <div class="col-md-12">
+            <div class="form-group row">
+              <div class="col-md-6">
+                <div class="row">
+                  <label class="col-sm-6 col-form-label tax">Post Hospitalization Applicable</label>
+                  <div class="col-sm-3">
+                    <div class="form-check">
+                      <label class="form-check-label">
+                      <input id="radioPostHospitalizationYes" onclick="specialDisease_Click(this,'Yes')" name="PostHospitalization" type="radio" class="form-check-input">
+                      Yes
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="form-check">
+                      <label class="form-check-label">
+                      <input id="radioPostHospitalizationNo" checked onclick="specialDisease_Click(this,'No')" name="PostHospitalization" type="radio" class="form-check-input">
+                      No
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group row">
+                  <label class="col-md-7 col-form-label">Upload Post Hospitalization Treatment Advice</label>
+                  <div class="col-md-5 advance">
+                    <button class="btn">
+                      <i class="fa fa-eye" aria-hidden="true"></i> View File<span id="spanAdmissionTotalInvestigationReport" class="file-status">0</span></button
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+ 
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            
+
+            <div class="col-md-6">
+  <div class="row">
+    <label class="col-sm-6 col-form-label tax">Special Disease</label>
+    <div class="col-sm-3">
+      <div class="form-check">
+        <label class="form-check-label">
+        <input id="radioPostHospitalizationYes" onclick="specialDisease_Click(this,'Yes')" name="PostHospitalization" type="radio" class="form-check-input" checked>
+        Yes
+        </label>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="form-check">
+        <label class="form-check-label">
+        <input id="radioPostHospitalizationNo" checked onclick="specialDisease_Click(this,'No')" name="PostHospitalization" type="radio" class="form-check-input">
+        No
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+    </div>
+</div>
+  
+
+@*   Finance Details *@
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Financial Details</h4>
+
+            <form>
+                <div class="table-responsive">
+                    <table class="table table_mobile">
+                        <thead>
+                            <tr>
+                                <th>Sr No</th>
+                                <th>Type</th>
+                                <th>Comments</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Reference Date</td>
+                                <td><input type="date" class="form-control"></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Amount To Be Paid</td>
+                                <td><textarea class="form-control" rows="2" cols="10"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>SAP Reference No.</td>
+                                <td><textarea class="form-control" rows="2" cols="10"></textarea></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="d-flex justify-content-end pr-4 mt-3">
+                            <input type="submit" class="btn btn-success-details">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- The View Modal Starts -->
+<div class="modal fade" id="viewModal">
+    <div class="modal-dialog">
+        <div class="modal-content viewModal-content">
+            <div class="modal-inner-border">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 id="modelTitle" class="modal-title viewModal-head">Admission Advice</h4>
+                    <button type="button" class="close viewModal-close" data-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body view-table-body">
+                    <div class="view-table-cnt">
+                        <div class="responsive-table">
+                            <table class="table view-table">
+                                <thead>
+                                    <tr bgcolor="">
+                                        <th>Sr No.</th>
+                                        <th>Category</th>
+                                        <th>Files</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tbodyViewDocuments">
+
+                                    @*<tr>
+                                    <td>2.</td>
+                                    <td>Admission Advice</td>
+                                    <td><a href="javascript:void(0)" class="file-link"><span class="ti-files"></span></a></td>
+                                    </tr>
+                                    <tr>
+                                    <td>3.</td>
+                                    <td>Admission Advice</td>
+                                    <td><a href="javascript:void(0)" class="file-link"><span class="ti-files"></span></a></td>
+                                    </tr>*@
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="~/customjs/finance/BillPassing.js" ></script>
+<script>
+    $(window).on('load', function () {
+        setTimeout(function () { // allowing 3 secs to fade out loader
+            $('.page-loader').fadeOut('slow');
+        }, 1500);
+    });
+</script>

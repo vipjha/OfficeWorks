@@ -1,0 +1,510 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.API\\HealthClaim.API.csproj": {}
+  },
+  "projects": {
+    "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.API\\HealthClaim.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.API\\HealthClaim.API.csproj",
+        "projectName": "HealthClaim.API",
+        "projectPath": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.API\\HealthClaim.API.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.BAL\\HealthClaim.BAL.csproj": {
+                "projectPath": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.BAL\\HealthClaim.BAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Roc.Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[5.1.6, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.BAL\\HealthClaim.BAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.BAL\\HealthClaim.BAL.csproj",
+        "projectName": "HealthClaim.BAL",
+        "projectPath": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.BAL\\HealthClaim.BAL.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.BAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.DAL\\HealthClaim.DAL.csproj": {
+                "projectPath": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.DAL\\HealthClaim.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Ionic.Zip": {
+              "target": "Package",
+              "version": "[1.9.1.8, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.6.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.DAL\\HealthClaim.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.DAL\\HealthClaim.DAL.csproj",
+        "projectName": "HealthClaim.DAL",
+        "projectPath": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.DAL\\HealthClaim.DAL.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.Logger\\HealthClaim.Logger.csproj": {
+                "projectPath": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.Logger\\HealthClaim.Logger.csproj"
+              },
+              "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.Model\\HealthClaim.Model.csproj": {
+                "projectPath": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.Model\\HealthClaim.Model.csproj"
+              },
+              "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.Utility\\HealthClaim.Utility.csproj": {
+                "projectPath": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.Utility\\HealthClaim.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.Logger\\HealthClaim.Logger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.Logger\\HealthClaim.Logger.csproj",
+        "projectName": "HealthClaim.Logger",
+        "projectPath": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.Logger\\HealthClaim.Logger.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.Logger\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.Model\\HealthClaim.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.Model\\HealthClaim.Model.csproj",
+        "projectName": "HealthClaim.Model",
+        "projectPath": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.Model\\HealthClaim.Model.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.Utility\\HealthClaim.Utility.csproj": {
+                "projectPath": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.Utility\\HealthClaim.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.Utility\\HealthClaim.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.Utility\\HealthClaim.Utility.csproj",
+        "projectName": "HealthClaim.Utility",
+        "projectPath": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.Utility\\HealthClaim.Utility.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_Projects\\DFCCIL_HealthClaim\\28Oct2023\\HealthClaim.ApiSolution\\HealthClaim.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Ionic.Zip": {
+              "target": "Package",
+              "version": "[1.9.1.8, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.6.2, )"
+            },
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TourProgram.Web
+build_property.RootNamespace = TourProgram.Web
+build_property.ProjectDir = C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\20thNov2023\TourProgram.WebSolution\TourProgram.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Account/VerifyOTP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxWZXJpZnlPVFAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Approval/TourApproval.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwcm92YWxcVG91ckFwcHJvdmFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Finance/AdvanceApproval.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmluYW5jZVxBZHZhbmNlQXBwcm92YWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Finance/AdvanceApprovalBankingBulkDownload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmluYW5jZVxBZHZhbmNlQXBwcm92YWxCYW5raW5nQnVsa0Rvd25sb2FkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Finance/AdvanceApprovalBulkDownload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmluYW5jZVxBZHZhbmNlQXBwcm92YWxCdWxrRG93bmxvYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Finance/ApproveClaim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmluYW5jZVxBcHByb3ZlQ2xhaW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Finance/ApproveClaimFinanceProcessing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmluYW5jZVxBcHByb3ZlQ2xhaW1GaW5hbmNlUHJvY2Vzc2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Home/Advance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZHZhbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Home/Approved.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBcHByb3ZlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Home/ApprovedTourAdvance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBcHByb3ZlZFRvdXJBZHZhbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Home/ApprovedTourAdvance_PaymentProcessing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBcHByb3ZlZFRvdXJBZHZhbmNlX1BheW1lbnRQcm9jZXNzaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Home/Claim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDbGFpbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Home/ClaimApprovalFinance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDbGFpbUFwcHJvdmFsRmluYW5jZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Home/TourApproval.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUb3VyQXBwcm92YWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Tour/TourClaim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxUb3VyQ2xhaW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Tour/TourRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxUb3VyUmVxdWVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anil Singh/OneDrive/Desktop/DFCCIL/TourAndTravel/20thNov2023/TourProgram.WebSolution/TourProgram.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-s1rjzh805j

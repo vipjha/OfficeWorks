@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TourProgram.Web.props" />
+</Project>

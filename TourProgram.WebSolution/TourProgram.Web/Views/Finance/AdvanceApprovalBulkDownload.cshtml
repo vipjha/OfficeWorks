@@ -1,0 +1,397 @@
+﻿<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    .gap50 {
+        gap: 20px;
+    }
+
+    /* file upload css */
+    .file-area {
+        width: 100%;
+        position: relative;
+    }
+
+    .up-file {
+        padding: 2px 0 0 0 !important;
+    }
+
+    .success {
+        color: white;
+        font-size: 14px;
+    }
+
+    .file-area input[type="file"] {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .file-area .file-dummy {
+        width: 100%;
+        padding: 8px 25px;
+        border-radius: 100px;
+        background: #4B49AC;
+        border: 1px solid #4B49AC;
+        text-align: center;
+        transition: background 0.3s ease-in-out;
+    }
+
+        .file-area .file-dummy .success {
+            display: none;
+        }
+
+    .file-area:hover .file-dummy {
+        background: #4B49AC;
+    }
+
+    .file-area input[type="file"]:focus + .file-dummy {
+        outline: 1px solid #4B49AC;
+        outline: -webkit-focus-ring-color auto 5px;
+    }
+
+    .file-area input[type="file"]:valid + .file-dummy {
+        border-color: #4B49AC;
+        background-color: #4B49AC;
+    }
+
+
+
+        .file-area input[type="file"]:valid + .file-dummy .success {
+            display: flex;
+            align-items: center;
+        }
+
+        .file-area input[type="file"]:valid + .file-dummy .default {
+            display: none;
+        }
+
+    .file-group-download {
+        max-width: auto;
+    }
+    /*  file upload css */
+
+    .import-btn button {
+        padding: 8px 25px;
+        border-radius: 100px;
+        border: 1px solid #4B49AC;
+        transition: 0.5s ease-in-out;
+    }
+
+        .import-btn button:hover {
+            color: #4B49AC;
+            background: #fff;
+        }
+
+    .table thead th {
+        white-space: inherit;
+        line-height: 1.3;
+        vertical-align: middle;
+        background: #4B49AC;
+        color: #fff;
+        padding: 0.6rem 0.9rem !important;
+    }
+
+    .table td {
+        padding: 0.4rem 0.9rem;
+    }
+
+    .select-all {
+        display: flex !important;
+    }
+
+    .import-btn button:hover .file-status {
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        box-shadow: 0 0 7px -1px #007547;
+        margin: 0 0 0 7px;
+        border-radius: 50%;
+        color: darkgreen;
+        font-weight: 900;
+        padding: 5px 0 0 0;
+    }
+
+    .file-status {
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        box-shadow: 0 0 7px -1px #ffffff;
+        margin: 0 0 0 7px;
+        border-radius: 50%;
+        color: white;
+        font-weight: 900;
+        padding: 5px 0 0 0;
+    }
+
+    .form-check .select-all input[type="checkbox"] + .input-helper:before {
+        content: "";
+        width: 18px;
+        height: 18px;
+        border-radius: 2px;
+        border: solid #ffffff;
+        border-width: 2px;
+        -webkit-transition: all;
+        -moz-transition: all;
+        -ms-transition: all;
+        -o-transition: all;
+        transition: all;
+        transition-duration: 0s;
+        -webkit-transition-duration: 250ms;
+        transition-duration: 250ms;
+    }
+
+    .form-check .select-all input[type="checkbox"] + .input-helper:after {
+        -webkit-transition: all;
+        -moz-transition: all;
+        -ms-transition: all;
+        -o-transition: all;
+        transition: all;
+        transition-duration: 0s;
+        -webkit-transition-duration: 250ms;
+        transition-duration: 250ms;
+        font-family: themify;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+        -o-transform: scale(0);
+        transform: scale(0);
+        content: '\2713' !important;
+        font-size: .9375rem;
+        font-weight: bold;
+        color: #ffffff;
+        background: #6f6cff !important;
+        border: 1px solid #fff !important;
+        border-radius: 3px !important;
+    }
+
+    td input {
+        max-width: 120px !important;
+        padding: 1px 4px !important;
+        font-size: 13px !important;
+        height: 35px !important;
+    }
+
+    .elipse-btn {
+        border-radius: 40px;
+        padding: 7px 20px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+        .elipse-btn i {
+            font-size: 15px;
+            padding-right: 1px;
+        }
+
+    @@media screen and (min-width: 1000px) {
+        .card-height {
+            height: 130px !important;
+        }
+    }
+
+    @@media screen and (min-width: 500px) .dsk-hide {
+        display: none !important;
+    }
+
+    }
+
+    @@media screen and (max-width: 500px) {
+        .gap50 {
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .content-wrapper {
+            padding: 0px !important;
+        }
+
+        .mb-hide {
+            display: none !important;
+        }
+    }
+</style>
+<body>
+    @*
+    <div id="divTourProgram" style="display: block;">
+    <div class="col-12 grid-margin mt-4">
+    <div class="card card-height">
+
+    <div class="card-body">
+    <h4 class="card-title">Select Date Range</h4>
+    <div class="row mt-3">
+    <div class="col-md-5 col-lg-5">
+    <div class="form-group row">
+    <label class="col-md-3 col-lg-3 col-form-label">Start Date</label>
+    <div class="col-md-9 col-lg-9">
+    <input type="date" class="form-control" id="inputfilterStartDate">
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-2"></div>
+    <div class="col-md-5 col-lg-5">
+    <div class="form-group row">
+    <label class="col-md-3 col-lg-3 col-form-label">End Date</label>
+    <div class="col-md-9 col-lg-9">
+    <input type="date" class="form-control" id="inputfilterEndDate">
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    *@
+
+    <div class="col-12 grid-margin">
+        <div class="card">
+            <div class="card-body">
+
+                <h4 class="card-title mb-4">Claim List</h4>
+
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead align="center">
+                            <tr class="second-tr">
+                                @*<th>
+                                    <div class="form-check">
+                                        <label class="form-check-label select-all">
+                                            <input id="checkboxSelect" type="checkbox" class="form-check-input"> All
+                                        </label>
+                                    </div>
+                                </th>*@
+                                <th>
+                                    S.No.
+                                </th>
+                                <th>
+                                    Employee Id
+                                </th>
+                                <th>
+                                    Empoyee Name
+                                </th>
+                                <th>
+                                    Approved By
+                                </th>
+                                <th>
+                                    Type of Payment
+                                </th>
+                                <th>
+                                    Amount Payable
+                                </th>
+                                <th>
+                                    Tour Program Approval
+                                </th>
+                                <th>
+                                    SAP Reference
+                                </th>
+                                <th>
+                                    SAP Date
+                                </th>
+                               @* <th>
+                                    Action
+                                </th>*@
+                            </tr>
+                        </thead>
+                        <tbody id="tbodyDownloadList" align="center">
+                            <tr id="trtbodyDownloadList_0">
+                                @*<td>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input id="checkboxSelect_0" type="checkbox" class="form-check-input">
+                                        </label>
+                                    </div>
+                                </td>*@
+                                <td>
+                                    1
+                                </td>
+                                <td id="tdEmpCode_0">
+                                    EMP-10082
+                                </td>
+                                <td id="tdEmpName_0">
+                                    Shekhar
+                                </td>
+                                <td id="tdApprovedBy_0">
+                                    Amit Singh
+                                    <br />
+                                    <span id="tdApprovedByDesignation_0" style="font-size:10px">(Accountant)</span>
+                                </td>
+                                <td id="tdTypeOfPayment_0">
+                                    Advance
+                                </td>
+                                <td id="tdAmountPayable_0">
+                                    35000.00
+                                </td>
+                                <td>
+                                    <a id="anchorViewFile_0" style="border:unset;width:auto;padding:0" href="#" class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</a>
+                                </td>
+                                <td>
+                                    <input id="inputSAPReference_0" type="text" class="form-control form-control-sm" />
+                                </td>
+                                <td>
+                                    <input id="inputSAPDate_0" type="date" class="form-control">
+                                </td>
+                                @*<td>
+                                    <button id="btnEdit_0" onclick="btnEdit_Click(this,0)" type="button" class="btn btn-primary elipse-btn"><i class="fa-solid fa-wand-magic-sparkles"></i> Edit</button>
+                                </td>*@
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr />
+                    <div class="d-flex flex-wrap mb-0 mt-2 gap50">
+                        <div class="import-btn">
+                            <button type="button" id="btnDownload" class="btn btn-primary mb-2"><i class="fa-solid fa-download"></i> Download Excel</button>
+                        </div>
+
+                        <div class="import-btn">
+                            <div class="file-area file-group-download">
+                                <input class="btn btn-primary" id="fileupload" type=file name="files[]" />
+                                <div class="file-dummy">
+                                    <div class="success"> <i class="fa-solid fa-cloud-arrow-up mr-1"></i> Uplaod File  </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                        <div class="import-btn">
+                            <button onclick="btnUpdate_All(this)" type="button" class="btn btn-primary"><i class="fa-regular fa-pen-to-square"></i> Update All</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <table style="display:none" id="tableFinanceBulkApprovalDownLoads">
+    </table>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.0/dist/xlsx.full.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#btnDownload").click(function () {
+                let table = $("#tableFinanceBulkApprovalDownLoads");
+                console.log(table);
+                debugger;
+
+                TableToExcel.convert(table[0], {
+                    name: 'PaymentApprovalSheet.xlsx',
+                    sheet: {
+                        name: 'PaymentApproval'
+                    }
+                });
+            });
+        });
+    </script>
+    
+    <script src="~/customjstour/finance/advanceapprovalbulkdownload.js" asp-append-version="true"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/linways/table-to-excel@v1.0.4/dist/tableToExcel.js"></script>
+
+</body>

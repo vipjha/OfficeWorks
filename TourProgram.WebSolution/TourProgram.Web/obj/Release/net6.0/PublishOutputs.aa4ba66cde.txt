@@ -1,0 +1,7 @@
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\TourProgram.Web.exe
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\TourProgram.Web.deps.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\TourProgram.Web.runtimeconfig.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\7thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\TourProgram.Web.pdb

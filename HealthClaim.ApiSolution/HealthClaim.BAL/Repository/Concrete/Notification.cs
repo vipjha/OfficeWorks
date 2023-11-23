@@ -1,0 +1,53 @@
+﻿using HealthClaim.BAL.Repository.Interface;
+using HealthClaim.Model.Dtos.Notification;
+using HealthClaim.Model.Dtos.Response;
+using MailKit.Net.Smtp;
+using MailKit.Security;
+using Microsoft.Extensions.Options;
+using MimeKit;
+using System.Net.Mail;
+
+namespace HealthClaim.BAL.Repository.Concrete
+{
+    public class Notification : INotification
+    {
+        private readonly MailSettingsModel _mailSettings;
+        public Notification(IOptions<MailSettingsModel> mailSettings)
+        {
+            _mailSettings = mailSettings.Value;
+        }
+        public async Task<ResponeModel> SendMail(MailRequestModel mailRequest)
+        {
+            ResponeModel responeModel = new ResponeModel();
+            var email = new MimeMessage();
+            email.Sender = MailboxAddress.Parse(_mailSettings.SenderName);
+            email.To.Add(MailboxAddress.Parse(mailRequest.EmailToId));
+            email.Subject = mailRequest.EmailSubject;
+            var builder = new BodyBuilder();
+            if (mailRequest.Attachments != null)
+            {
+                byte[] fileBytes;
+                foreach (var file in mailRequest.Attachments)
+                {
+                    if (file.Length > 0)
+                    {
+                        using (var ms = new MemoryStream())
+                        {
+                            file.CopyTo(ms);
+                            fileBytes = ms.ToArray();
+                        }
+                        builder.Attachments.Add(file.FileName, fileBytes, MimeKit.ContentType.Parse(file.ContentType));
+                    }
+                }
+            }
+            builder.HtmlBody = mailRequest.EmailBody;
+            email.Body = builder.ToMessageBody();
+            using var smtp = new MailKit.Net.Smtp.SmtpClient();
+            smtp.Connect(_mailSettings.Server, _mailSettings.Port, SecureSocketOptions.StartTls);
+            smtp.Authenticate(_mailSettings.SenderEmail, _mailSettings.Password);
+            await smtp.SendAsync(email);
+            smtp.Disconnect(true);
+            return responeModel;
+        }
+    }
+}

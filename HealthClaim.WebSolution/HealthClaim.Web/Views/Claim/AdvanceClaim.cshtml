@@ -1,0 +1,2199 @@
+﻿<link href="~/css/custom/dfccil1011_01.css" rel="stylesheet" />
+<div class="page-loader">
+    <div class="loader">
+        <div>
+            <img src="https://dfccil.com/images/logo.png">
+        </div>
+        <div class="loader-container">
+            <div class="dot-loader"></div>
+            <div class="dot-loader"></div>
+            <div class="dot-loader"></div>
+        </div>
+    </div>
+</div>
+<style>
+    .btn-pad {
+        padding: 13px 5px !important;
+    }
+
+    .lg-check {
+        width: 20px;
+        height: 20px;
+        margin: 1px 0 0px -27px;
+        border: 1px solid #4B49AC;
+    }
+
+    .btn-padd {
+        padding: 12px 0 !important;
+    }
+</style>
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="card-title mb-4 advanceClaimMember"><i class="fa fa-users Member" aria-hidden="true"></i> Members <span class="member">4</span></h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title mb-4">Approved Advance List</h4>
+
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th class="ap-list">
+                                S.No
+                            </th>
+                            <th class="ap-list">
+                                Employee Name
+                            </th>
+
+                            <th class="ap-list">
+                                Patient Name
+                            </th>
+                            <th class="ap-list">
+                                Relation
+                            </th>
+                            <th class="ap-list">
+                                Advance Amount
+                            </th>
+                            <th class="ap-list">
+                                Request Date
+                            </th>
+                            <th class="ap-list">
+                                Approved Amount
+                            </th>
+                            <th class="ap-list">
+                                Approved Date
+                            </th>
+                            <th class="ap-list">
+                                Action
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyAdvanceApprovedList">
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<div id="divPatientDetails" style="display:none" class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title mb-4">Patient and Advance Details</h4>
+
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                Patient Name
+                            </th>
+
+                            <th>
+                                Relation
+                            </th>
+                            <th>
+                                Date of Birth
+                            </th>
+                            <th>
+                                Gender
+                            </th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+
+                            <td id="tdPatientName">
+                                Anil Singh
+                            </td>
+                            <td id="tdPatientRelation">
+                                Self
+                            </td>
+                            <td id="tdDateOfBirth">
+                                Jan 01, 1980
+                            </td>
+                            <td id="tdGender">
+                                Male
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="divAdvanceTakenDetails" style="display:none" class="col-12 grid-margin">
+    <div class="card">
+        <div class="card-body">
+
+            <form class="form-sample">
+                <div class="row">
+                    <div id="divParentClaimLimt">
+
+                        <div class="table-responsive">
+                            <table class="table parent">
+                                <thead>
+                                    <tr class="d-flex flex-wrap">
+                                        <th class="tab">Total Limit: <span id="spanTotalLimit" class="table_span">₹10,00,000.00</span></th>
+                                        <th class="tab">Used Limit: <span id="spanUsedLimit" class="table_span">₹2,50,000.00</span></th>
+                                        <th class="tab">Balance Limit: <span id="spanBalanceLimit" class="table_span">₹7,50,000.00</span></th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Hospital Name</label>
+                            <div class="col-sm-8">
+                                <input id="inputHospitalName" type="text" class="form-control" value="Applo" readonly>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Hospital Regd. No.</label>
+                            <div class="col-sm-8">
+                                <input id="inputHospitalRegNo" type="text" class="form-control" value="25375" readonly>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row pt-0 pb-0">
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Actual Date of Admission</label>
+                            <div class="col-sm-8">
+                                <input id="inputActualDateOfAdmission" type="text" class="form-control" value="25/2/2023" readonly>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Doctor's Name</label>
+                            <div class="col-sm-8">
+                                <input id="inputDoctorName" type="text" class="form-control" value="Dr. Mathur" readonly>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pt-0 pb-0">
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Type of Treatment</label>
+                            <div class="col-sm-8">
+                                <select class="form-control" id="" disabled>
+                                    <option>Allopathic</option>
+                                    <option>Ayurvedic</option>
+                                    <option>Homeopathic</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Diagnosis</label>
+                            <div class="col-sm-8">
+                                <input id="inputDiagnosis" type="text" class="form-control" readonly>
+                                @* <button type="button" onclick="TrigerModalViewFile('Diagnosis','Diagnosis')" class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File<span id="spanDiagnosis" class="file-status">0</span></button> *@
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Admission Advice</label>
+                            <div class="col-sm-8">
+                                <button type="button" onclick="TrigerModalViewFile('Admission Advice','AdmissionAdviceUpload')" class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File<span id="spanAdmissionAdviceUpload" class="file-status">0</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+
+                    @* <div class="col-md-6">
+                    <div class="form-group row">
+                    <label class="col-sm-4 col-form-label">Other</label>
+                    <div class="col-sm-8">
+                    <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                    </div>
+                    </div>
+                    </div> *@
+
+
+
+                </div>
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label estimatemobile">Estimated Amount</label>
+                            <div class="col-sm-4 estimatemobile mb-2 es">
+                                <input id="inputEstimatedAmount" type="text" class="form-control" value=" &#8377; 10,000" readonly>
+                            </div>
+                            <div class="col-sm-4 estimatemobileupload es">
+                                <button onclick="TrigerModalViewFile('Estimate Amount','EstimateAmount')" type="button" class="btn btn-padd"><i class="fa fa-eye" aria-hidden="true"></i> View File<span id="spanEstimateAmount" class="file-status">0</span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Approved Amount</label>
+                            <div class="col-sm-8">
+                                <input id="inputApprovedAmount" type="text" class="form-control" value=" &#8377; 7,000" readonly>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Pay To</label>
+                            <div class="col-sm-8">
+                                <select class="form-control" id="" disabled>
+                                    <option>Self</option>
+                                    <option>Hospital</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="itrParent" class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-5 col-form-label">ITR/Income Proof</label>
+                            <div class="col-sm-7 advance">
+                                <button type="button" onclick="TrigerModalUploadFile()" class="btn mobile btn-upload"><i class="fa fa-upload up  " aria-hidden="true"></i> Upload File<span id="" class="file-status">0</span></button>
+                                <!--a id="anchorItr" href="#" target="_blank" class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File <span id="spanItr" class="file-status">1</span></a-->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="col-12 grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title mb-4">Beneficiary Details (Self)</h4>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label class="col-lg-4 col-form-label">Bank Name</label>
+                        <div class="col-lg-8">
+                            <input type="text" class="form-control" value="SBI" id="inputApprovedAdvanceBankName" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label class="col-lg-4 col-form-label">IFSC Code</label>
+                        <div class="col-lg-8">
+                            <input type="text" class="form-control" value="CNF007867" id="inputApprovedAdvanceIfscCode" readonly>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label class="col-lg-4 col-form-label">Beneficiary Name</label>
+                        <div class="col-lg-8">
+                            <input type="text" class="form-control" value="Kamal" id="inputApprovedAdvanceBeneficiaryName" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label class="col-lg-4 col-form-label">Account No.</label>
+                        <div class="col-lg-8">
+                            <input type="text" class="form-control" value="1678900000" id="inputApprovedAdvanceAccNo" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label class="col-lg-4 col-form-label">SAP Reference No.</label>
+                        <div class="col-lg-8">
+                            <input type="text" class="form-control" value="1678900000" id="inputApprovedAdvanceAccNo" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label class="col-lg-4 col-form-label">Transaction Date</label>
+                        <div class="col-lg-8">
+                            <input type="text" class="form-control" value="1678900000" id="inputApprovedAdvanceAccNo" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label class="col-lg-4 col-form-label">UTR No.</label>
+                        <div class="col-lg-8">
+                            <input type="text" class="form-control" value="1678900000" id="inputApprovedAdvanceAccNo" readonly>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-12 grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title mb-4">Beneficiary Details (Hospital)</h4>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label class="col-lg-4 col-form-label">Hospital Name</label>
+                        <div class="col-lg-8">
+                            <input type="text" class="form-control" value="Max HealthCare" id="inputApprovedAdvanceHospitalName" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label class="col-lg-4 col-form-label">GST No.</label>
+                        <div class="col-lg-8">
+                            <input type="text" class="form-control" value="26773878778" id="inputApprovedAdvanceGstNo" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label class="col-lg-4 col-form-label">Bank Name</label>
+                        <div class="col-lg-8">
+                            <input type="text" class="form-control" value="SBI" id="inputApprovedAdvanceBankName" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label class="col-lg-4 col-form-label">IFSC Code</label>
+                        <div class="col-lg-8">
+                            <input type="text" class="form-control" value="CNF007867" id="inputApprovedAdvanceIfscCode" readonly>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label class="col-lg-4 col-form-label">Beneficiary Name</label>
+                        <div class="col-lg-8">
+                            <input type="text" class="form-control" value="Kamal" id="inputApprovedAdvanceBeneficiaryName" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label class="col-lg-4 col-form-label">Account No.</label>
+                        <div class="col-lg-8">
+                            <input type="text" class="form-control" value="1678900000" id="inputApprovedAdvanceAccNo" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label class="col-lg-4 col-form-label">SAP Reference No.</label>
+                        <div class="col-lg-8">
+                            <input type="text" class="form-control" value="1678900000" id="inputApprovedAdvanceAccNo" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label class="col-lg-4 col-form-label">Transaction Date</label>
+                        <div class="col-lg-8">
+                            <input type="text" class="form-control" value="1678900000" id="inputApprovedAdvanceAccNo" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label class="col-lg-4 col-form-label">UTR No.</label>
+                        <div class="col-lg-8">
+                            <input type="text" class="form-control" value="1678900000" id="inputApprovedAdvanceAccNo" readonly>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@*topUp Data DynamicallyLoaded*@
+<div id="topUpDetails">
+</div>
+<div id="divTopUp" style="display:none" class="col-lg-12 grid-margin stretch-card">
+    <div id="divTopUpEstimate" class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">New Top Up Request</h4>
+                <div class="row">
+
+                    <div class="col-md-6 mt-4">
+                        <div class="form-group row">
+                            <label class="col-sm-5 col-form-label">Revise Estimate Amount</label>
+                            <div class="col-sm-3 estimatemobile">
+                                <input onfocusout="ReviseEstimateAmount_click(this)" id="inputReviseEstimateAmount" type="tel" class="form-control amt" placeholder="₹ 1,80,000.00">
+                            </div>
+                            <div class="col-sm-4 estimatemobileupload">
+                                <div class="form-group">
+                                    <button type="button" onclick="TrigerModalUploadFile('Revise Estimate Amount','ReviseEstimateAmount')" class="btn mobile btn-upload" style="padding: 12px 0 !important;"><i class="fa fa-upload up  " aria-hidden="true"></i> Upload File<span id="spanReviseEstimateAmount" class="file-status">0</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mt-4">
+                        <div class="form-group row">
+                            <label class="col-sm-5 col-form-label">Top Up Amount Required</label>
+                            <div class="col-sm-7">
+                                <input  onfocusout="ReviseTopUpAmountRequired_click(this)" id="inputTopUpAmountRequired" type="text" class="form-control amo" placeholder="₹ 80,000.00">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-12 ">
+                    <div class="form-group row">
+                        <label class="col-sm-12 col-form-label err">* For parent, the maximum advance limit is 80% of the Hospital's Estimate Amount.</label>
+
+                    </div>
+                </div>
+                <div class="row payto">
+                    <div class="col-md-4">
+                        <label class="form-check-label Pay">
+                            Pay To
+                        </label>
+                    </div>
+                    <div class="col-md-4 self">
+                        <label class="form-check-label">
+                            <input type="radio" onchange="rbt_self_onchange(this)" class="form-check-input" checked name="optionsRadios" id="radioPaytoSelf" value="self">
+                            Anil(Self)
+                        </label>
+                    </div>
+                    <div class="col-md-4 self">
+                        <label class="form-check-label">
+                            <input type="radio" onchange="rbt_self_onchange(this)" class="form-check-input" name="optionsRadios" id="radioPaytoHostel" value="hospital">
+                            Hospital
+                        </label>
+                    </div>
+
+                </div>
+                <div id="divhospitaldetails" style="display:none;" class="col-12 grid-margin">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="text-primary mb-5">
+                                Hospital Bank Detail
+                            </h4>
+
+                            <div class="form-sample">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group row">
+                                            <label class="col-sm-5 col-form-label">Hospital Empanelled</label>
+
+                                            <div class="col-sm-3">
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input id="radioSpecialDiseaseYes" onclick="specialDisease_Click(this,'Yes')" name="SpecialDisease" type="radio" class="form-check-input">
+                                                        Yes
+                                                    </label>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-sm-3">
+
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input id="radioSpecialDiseaseNo" checked onclick="specialDisease_Click(this,'No')" name="SpecialDisease" checked type="radio" class="form-check-input">
+                                                        No
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group row impanelled">
+                                            <label class="col-sm-5 col-form-label">Select Hospital</label>
+                                            <div class="col-sm-7">
+                                                <select class="form-control">
+                                                    <option>AIIMS</option>
+                                                    <option>LNJP</option>
+
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group row">
+                                            <label class="col-sm-5 col-form-label">IFSC Code</label>
+                                            <div class="col-sm-7 advance">
+                                                <input id="inputIFSC" onfocusout="inputIFSC_OnFocusOut()" type="text" class="form-control" placeholder="CNRB0002301">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group row">
+                                            <label class="col-sm-5 col-form-label">Bank Name</label>
+                                            <div class="col-sm-7 advance">
+                                                <input id="inputBankName" type="text" class="form-control" placeholder="Canara Bank">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group row">
+                                            <label class="col-sm-5 col-form-label">Branch Name</label>
+                                            <div class="col-sm-7 advance">
+                                                <input id="inputBranchName" type="text" class="form-control" placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group row">
+                                            <label class="col-sm-5 col-form-label">Beneficiary Name</label>
+                                            <div class="col-sm-7 advance">
+                                                <input id="inputBeneficiaryName" type="text" class="form-control" placeholder="Kamal">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group row">
+                                            <label class="col-sm-5 col-form-label">Beneficiary Account No.</label>
+                                            <div class="col-sm-7 advance">
+                                                <input id="inputAccountNo" type="text" class="form-control" placeholder="2706104046076">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group row">
+                                            <label class="col-sm-5 col-form-label">Confirm Account No.</label>
+                                            <div class="col-sm-7 advance">
+                                                <input id="inputConfirmAccountNo" type="text" class="form-control" placeholder="2706104046076">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group row">
+                                            <label class="col-sm-5 col-form-label">Hospital GST No.</label>
+                                            <div class="col-sm-7 advance">
+                                                <input id="inputAccountNo" type="text" class="form-control" placeholder="GSTIN0056I">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group row">
+                                            <label class="col-sm-5 col-form-label">Confirm GST No.</label>
+                                            <div class="col-sm-7 advance">
+                                                <input id="inputConfirmAccountNo" type="text" class="form-control" placeholder="GSTIN0056I">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                </div>
+                                <div style="float:right">
+                                    @* <button id="btnSubmitAfterBankDetails" onclick="btnSubmit_Click()" type="button" class="btn btn-primary mb-2">Submit</button>*@
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+                <div class="row totalad">
+
+
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            @*<label class="col-sm-6 col-form-label td"><b>Total Advance:</b><b id="spanTotalAdvance"> ₹ 7,000</b></label>*@
+                            <div class="col-sm-6">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group rowsub">
+                            <button onclick="topup_submit_click(this)" type="button" class="btn btn-primary mb-2 advclam">Submit</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="divTopUpEstimate" style="display:none" class="col-12 grid-margin">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="text-primary mb-5">
+                    Hospital Bank Detail
+                </h4>
+                <form class="form-sample">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group row">
+                                <label class="col-sm-5 col-form-label">Bank Name</label>
+                                <div class="col-sm-7 advance">
+                                    <input id="inputBankName" type="text" class="form-control" placeholder="Canara Bank">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group row">
+                                <label class="col-sm-5 col-form-label">IFSC Code</label>
+                                <div class="col-sm-7 advance">
+                                    <input id="inputIFSC" type="text" class="form-control" placeholder="CNRB0002301">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="form-group row">
+                                <label class="col-sm-5 col-form-label">Beneficiary Name</label>
+                                <div class="col-sm-7 advance">
+                                    <input id="inputBeneficiaryName" type="text" class="form-control" placeholder="Kamal">
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="row">
+
+
+                        <div class="col-md-6">
+                            <div class="form-group row">
+                                <label class="col-sm-5 col-form-label">Beneficiary Account No.</label>
+                                <div class="col-sm-7 advance">
+                                    <input id="inputAccountNo" type="text" class="form-control" placeholder="2706104046076">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group row">
+                                <label class="col-sm-5 col-form-label">Confirm Account No.</label>
+                                <div class="col-sm-7 advance">
+                                    <input id="inputConfirmAccountNo" type="text" class="form-control" placeholder="2706104046076">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                    </div>
+                    <div style="float:right">
+                        <button id="btnSubmitAfterBankDetails" type="button" class="btn btn-primary mb-2">Submit</button>
+                    </div>
+                </form>
+
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+</div>
+
+<div id="divClaimForm" style="display:none" class="col-12 grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title mb-4">Claim Form</h4>
+            <form class="form-sample">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Date of Discharge</label>
+                            <div class="col-sm-8">
+                                <input id="inputDateOfDischarge" type="text" class="form-control" placeholder="30/2/2023">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Discharge Summary</label>
+                            <div class="col-sm-8">
+                                <button type="button" onclick="TrigerModalUploadFile('Discharge Summary','DischargeSummary')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File<span id="spanDischargeSummary" class="file-status">0</span></button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Final Hospital Bill</label>
+                            <div class="col-sm-4 estimatemobile mb-2 es">
+                                <input id="inputFinalHospitalBill" onfocusout="calculate_onchange('NA')" type="text" class="form-control" placeholder="10000">
+                            </div>
+                            <div class="col-sm-4 estimatemobileupload es">
+                                <button type="button" onclick="TrigerModalUploadFile('Final Hospital Bill','FinalHospitalBill')" class="btn btn-padd"><i class="fa fa-upload" aria-hidden="true"></i> Upload File<span id="spanFinalHospitalBill" class="file-status">0</span></button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-4 col-form-label">Investigation Reports</label>
+                            <div class="col-sm-8">
+                                <button type="button" onclick="TrigerModalUploadFile('Investigation Reports','InvestigationReports')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File<span id="spanInvestigationReports" class="file-status">0</span></button>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    @* <div id="itr" class="col-md-6">
+                    <div class="form-group row">
+                    <label class="col-sm-4 col-form-label">ITR/Income Proof</label>
+                    <div class="col-sm-8">
+                    <button type="button" onclick="TrigerModalUploadFile('ITR / IncomeProof','ITRIncomeProof')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File<span id="spanITRIncomeProof" class="file-status">0</span></button>
+                    </div>
+                    </div>
+                    </div>*@
+                    @* <div class="col-md-6">
+                    <div class="form-group row">
+                    <label class="col-sm-4 col-form-label">Investigation</label>
+                    <div class="col-sm-8">
+                    <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File</button>
+                    </div>
+                    </div>
+                    </div> *@
+
+                </div>
+                <div class="row">
+                </div>
+
+            </form>
+
+
+        </div>
+
+
+    </div>
+
+</div>
+
+<div id="divBillDetails" style="display:none" class="col-12 grid-margin">
+    <div class="card">
+        <div class="card-body">
+
+            <h4 class="card-title mb-4">Hospitalization Bill Details</h4>
+
+            <div class="table-responsive">
+                <table id="billdetails" class="table table-striped">
+                    <thead id="tableAll">
+                        <tr>
+                            <th>
+                                S.No.
+                            </th>
+
+                            <th>
+                                Bill Type
+                            </th>
+                            <th>
+                                Billed Amount
+                            </th>
+                            <th>
+                                Claimed Amount
+                            </th>
+                            @* <th>
+                            Included in Final Bill
+                            </th>
+                            <th>
+                            Upload
+                            </th>
+                            <th>
+                            View
+                            </th>
+                            <th>
+                            Add
+                            </th> *@
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Medicine</td>
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Medicine')" id="inputMedicine" type="text" class="form-control" value="0.00">
+                            </td>
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Medicine')" id="" type="text" class="form-control" value="0.00">
+                            </td>
+                            <td class="checkdirect">
+                                <input type="checkbox" class="form-check-input direct" Disabled checked> Included in Final Bill
+                            </td>
+                            <td>
+                                Not Applicable
+                                @*<button type="button" onclick="TrigerModalUploadFile('Medicine',''Medicine'')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File</button>*@
+                            </td>
+
+                            @*<td>
+                            <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                            </td>*@
+                            <td>
+                                <button onclick=" NotInBill_cilck(this,'Medicine','Medicine')" type="button" class="btn"><i class="fa fa-plus-circle" aria-hidden="true"></i>Add Bill</button>
+                            </td>
+
+                        </tr>
+                    </tbody>
+                    <tbody id="tbodyMedicine"></tbody>
+                    <tbody>
+
+                        <tr>
+                            <td>2</td>
+                            <td>Consultation</td>
+
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Consultation')" id="inputConsultation" type="text" class="form-control" value="0.00">
+                            </td>
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Medicine')" id="" type="text" class="form-control" value="0.00">
+                            </td>
+                            <td class="checkdirect">
+                                <input type="checkbox" class="form-check-input direct" Disabled checked> Included in Final Bill
+                            </td>
+                            <td>
+                                Not Applicable
+                                @*<button type="button" onclick="TrigerModalUploadFile('Consultation')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File</button>*@
+                            </td>
+                            @*<td>
+                            <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                            </td>*@
+                            <td>
+                                <button onclick=" NotInBill_cilck(this,'Consultation','Consultation')" type="button" class="btn"><i class="fa fa-plus-circle" aria-hidden="true"></i>Add Bill</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tbody id="tbodyConsultation"></tbody>
+                    <tbody>
+                        <tr>
+                            <td>3</td>
+                            <td>Investigation</td>
+
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Investigation')" id="inputInvestigation" type="text" class="form-control" value="0.00">
+
+                            </td>
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Medicine')" id="" type="text" class="form-control" value="0.00">
+                            </td>
+                            <td class="checkdirect">
+                                <input type="checkbox" class="form-check-input direct" Disabled checked> Included in Final Bill
+                            </td>
+                            <td>
+                                Not Applicable
+                                @* <button type="button" onclick="TrigerModalUploadFile('Investigation')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File</button>*@
+                            </td>
+                            @*<td>
+                            <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                            </td>*@
+                            <td>
+                                <button onclick=" NotInBill_cilck(this,'Investigation','Investigation')" type="button" class="btn"><i class="fa fa-plus-circle" aria-hidden="true"></i>Add Bill</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tbody id="tbodyInvestigation"></tbody>
+                    <tbody>
+                        <tr>
+                            <td>4</td>
+                            <td>Room Rent</td>
+
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'RoomRent')" id="inputRoomRentBill" type="text" class="form-control" value="0.00">
+                            </td>
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Medicine')" id="" type="text" class="form-control" value="0.00">
+                            </td>
+                            <td class="checkdirect">
+                                <input type="checkbox" class="form-check-input direct" Disabled checked> Included in Final Bill
+                            </td>
+                            <td>
+                                Not Applicable
+                                @*<button type="button" onclick="TrigerModalUploadFile('Room Rent')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File</button>*@
+                            </td>
+                            @* <td>
+                            <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                            </td>*@
+                            <td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Procedure</td>
+
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Other')" id="inputOther" type="text" class="form-control" value="">
+                            </td>
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Medicine')" id="" type="text" class="form-control" value="0.00">
+                            </td>
+                            <td class="checkdirect">
+                                <input type="checkbox" class="form-check-input direct" Disabled checked> Included in Final Bill
+                            </td>
+                            <td>
+                                Not Applicable
+                                @*<button type="button" onclick="TrigerModalUploadFile('Other')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File</button>*@
+                            </td>
+                            @*<td>
+                            <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                            </td>*@
+                            <td>
+                                <button onclick="NotInBill_cilck(this,'procedure','procedure')" type="button" class="btn"><i class="fa fa-plus-circle" aria-hidden="true"></i>Add Bill</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>6</td>
+                            <td>Other</td>
+
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Other')" id="inputOther" type="text" class="form-control" value="">
+                            </td>
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Medicine')" id="" type="text" class="form-control" value="0.00">
+                            </td>
+                            <td class="checkdirect">
+                                <input type="checkbox" class="form-check-input direct" Disabled checked> Included in Final Bill
+                            </td>
+                            <td>
+                                Not Applicable
+                                @*<button type="button" onclick="TrigerModalUploadFile('Other')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File</button>*@
+                            </td>
+                            @*<td>
+                            <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                            </td>*@
+                            <td>
+                                <button onclick="NotInBill_cilck(this,'Other','Other')" type="button" class="btn"><i class="fa fa-plus-circle" aria-hidden="true"></i>Add Bill</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tbody id="tbodyOther"></tbody>
+
+
+                </table>
+                <div class="d-flex justify-content-between align-center flex-wrap grand">
+
+                    <div>
+
+                        <div class="table-responsive">
+                            <table class="table parent">
+                                <thead>
+                                    <tr class="d-flex flex-wrap bor">
+                                        <th class="tab">Sub Total: <span id="spanSubTotal" " class="table_span"></span></th>
+                                        <th class="tab amountinclude">Amount Included in Main Bill: <span id="spanAmountIncludedMainBill" class="table_span"></span></th>
+                                        <th class="tab">Amount not Included in Main Bill: <span id="spanAmountNotIncludedMainBill" class="table_span"></span></th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div id="divPreHospitlizationDetails" style="display:none" class="col-12 grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <div class="form-check">
+                <label class="form-check-label">
+                    Pre Hospitalization Expenses<input id="chkPreHospitlization" onclick="prehospitlization_click(this)" type="checkbox" class="form-check-input">
+                </label>
+            </div>
+            <hr />
+            <h4 style="display:none" id="pre1" class="card-title mb-4"></h4>
+
+            <div style="display:none" id="pre2" class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                S.No.
+                            </th>
+
+                            <th>
+                                Bill Type
+                            </th>
+                            <th>
+                                Billed Amount
+                            </th>
+                            <th>
+                                Claimed Amount
+                            </th>
+
+                            <th>
+                                Upload
+                            </th>
+                            @*<th>
+                            View
+                            </th>*@
+
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td>1</td>
+                            <td>Medicine</td>
+
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Medicine')" id="inputMedicinePre" type="text" class="form-control" value="0.0">
+                            </td>
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Medicine')" id="" type="text" class="form-control" value="0.0">
+                            </td>
+                            <td>
+                                <button type="button" onclick="TrigerModalUploadFilePreHospitlization('Medicine','Medicine')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File<span id="spanPreMedicine" class="file-status">0</span></button>
+
+                            </td>
+                            @*<td>
+                            <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                            </td>*@
+
+
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Consultation</td>
+
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Consultation')" id="inputConsultationPre" type="text" class="form-control" value="0.0">
+                            </td>
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Medicine')" id="" type="text" class="form-control" value="0.0">
+                            </td>
+                            <td>
+                                <button type="button" onclick="TrigerModalUploadFilePreHospitlization('Consultation','Consultation')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File<span id="spanConsultation" class="file-status">0</span></button>
+
+                            </td>
+                            @*<td>
+                            <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                            </td>*@
+
+
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Investigation</td>
+
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Investigation')" id="inputInvestigationPre" type="text" class="form-control" value="0.0">
+                            </td>
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Medicine')" id="" type="text" class="form-control" value="0.0">
+                            </td>
+                            <td>
+                                <button type="button" onclick="TrigerModalUploadFilePreHospitlization('Investigation','Investigation')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File<span id="spanInvestigation" class="file-status">0</span></button>
+
+
+                            </td>
+                            @*<td>
+                            <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                            </td>*@
+
+
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Procedure</td>
+
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Other')" id="inputOtherPre" type="text" class="form-control" value="0.0">
+                            </td>
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Medicine')" id="" type="text" class="form-control" value="0.0">
+                            </td>
+                            <td>
+                                <button type="button" onclick="TrigerModalUploadFilePreHospitlization('Other','Other')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File<span id="spanOther" class="file-status">0</span></button>
+
+
+                            </td>
+                            @*<td>
+                            <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                            </td>*@
+
+
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Other</td>
+
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Other')" id="inputOtherPre" type="text" class="form-control" value="0.0">
+                            </td>
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Medicine')" id="" type="text" class="form-control" value="0.0">
+                            </td>
+                            <td>
+                                <button type="button" onclick="TrigerModalUploadFilePreHospitlization('Other','Other')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File<span id="spanOther" class="file-status">0</span></button>
+
+
+                            </td>
+                            @*<td>
+                            <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                            </td>*@
+
+
+                        </tr>
+
+
+                    </tbody>
+                </table>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+
+                        <tbody>
+
+                            <tr>
+
+                                <td>Sub Total</td>
+
+                                <td id="tdPreHospitlizationTotal">
+                                    0
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+</div>
+
+<div id="divDeclaration" style="display:none" class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group row">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <label class="col-sm-4 col-form-label tax">Post Hospitalization Applicable</label>
+                                <div class="col-sm-4">
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input id="radioPostHospitalizationYes" onclick="specialDisease_Click(this,'Yes')" name="PostHospitalization" type="radio" class="form-check-input">
+                                            Yes
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input id="radioPostHospitalizationNo" checked onclick="specialDisease_Click(this,'No')" name="PostHospitalization" type="radio" class="form-check-input">
+                                            No
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group row">
+                                <label class="col-md-7 col-form-label">Upload Post Hospitalization Treatment Advice</label>
+                                <div class="col-md-5 advance">
+                                    <button type="button" onclick="TrigerModalUploadFile()" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File<span id="spanPostHospitalization" class="file-status">0</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                                            @*<div id="divPreHospitlizationDetails" style="display:none" class="col-12 grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <div class="form-check">
+                <label class="form-check-label">
+                    Do you want to add Pre Hospitalization Expenses<input id="chkPreHospitlization" onclick="prehospitlization_click(this)" type="checkbox" class="form-check-input">
+                </label>
+            </div>
+            <hr />
+            <h4 style="display:none" id="pre1" class="card-title mb-4">Pre Hospitalization Expenses</h4>
+
+            <div style="display:none" id="pre2" class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                S.No.
+                            </th>
+
+                            <th>
+                                Bill Type
+                            </th>
+                            <th>
+                                Amount
+                            </th>
+
+                            <th>
+                                Upload
+                            </th>
+                            <th>
+                                View
+                            </th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td>1</td>
+                            <td>Medicine</td>
+
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Medicine')" id="inputMedicinePre" type="text" class="form-control" value="0.0">
+                            </td>
+                            <td>
+                                <button type="button" onclick="TrigerModalUploadFilePreHospitlization('Medicine','Medicine')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File</button>
+                            </td>
+                            <td>
+                                <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                            </td>
+
+
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Consultation</td>
+
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Consultation')" id="inputConsultationPre" type="text" class="form-control" value="0.0">
+                            </td>
+                            <td>
+                                <button type="button" onclick="TrigerModalUploadFilePreHospitlization('Consultation','Consultation')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File</button>
+                            </td>
+                            <td>
+                                <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                            </td>
+
+
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Investigation</td>
+
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Investigation')" id="inputInvestigationPre" type="text" class="form-control" value="0.0">
+                            </td>
+                            <td>
+                                <button type="button" onclick="TrigerModalUploadFilePreHospitlization('Investigation','Investigation')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File</button>
+                            </td>
+                            <td>
+                                <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                            </td>
+
+
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Other</td>
+
+                            <td>
+                                <input onfocusout="calculate_onchange(this,'Other')" id="inputOtherPre" type="text" class="form-control" value="0.0">
+                            </td>
+                            <td>
+                                <button type="button" onclick="TrigerModalUploadFilePreHospitlization('Other','Other')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File</button>
+                            </td>
+                            <td>
+                                <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                            </td>
+
+
+                        </tr>
+
+
+                    </tbody>
+                </table>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+
+                        <tbody>
+
+                            <tr>
+
+                                <td>Total Amount</td>
+
+                                <td id="tdPreHospitlizationTotal">
+                                    &#8377; 10,000
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+</div>*@
+
+<div id="divPaymentSummary" style="display:none" class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title mb-4">Summary</h4>
+
+            <div class="table-responsive">
+                <table class="table table-striped">
+
+                    <tbody>
+
+                        @*<tr id="trFHB">
+
+                        <td>Pre Hospitalization Bill</td>
+
+                        <td id="tdFHB">
+                        0
+                        </td>
+                        </tr>
+                        <tr id="trAA">
+
+                        <td>Additional Amount (Not included in Hospital Bills)</td>
+
+                        <td id="tdAA">
+                        0
+                        </td>
+                        </tr> *@
+                        <tr id="trPHEA">
+
+                            <td>Pre Hospitalization Expense Amount</td>
+
+                            <td id="tdPHEA">
+                                0
+                            </td>
+                        </tr>
+                        <tr id="trHEA">
+
+                            <td>Hospitalization Expense Amount</td>
+
+                            <td id="tdHEA">
+                                0
+                            </td>
+                        </tr>
+                        <tr id="trTB" class="bills">
+
+                            <td><b>Total Bill</b></td>
+
+                            <td>
+                                <b id="tdTB">0</b>
+                            </td>
+                        </tr>
+                        <tr id="trDP">
+
+                            <td>Deductions on final amount (20% for Parent's)</td>
+
+                            <td id="tdDP">
+                                0
+                            </td>
+                        </tr>
+                        <tr id="trNT" class="bills">
+
+                            <td><b>Net Total</b></td>
+
+                            <td id="tdNT">
+                                0
+                            </td>
+                        </tr>
+                        <tr id="trAT">
+
+                            <td>Advance Taken</td>
+
+                            <td id="tdAT">
+                                0
+                            </td>
+                        </tr>
+
+                        <tr id="trBC" class="bills">
+
+                            <td><b>Balance Claim</b></td>
+
+                            <td>
+                                <b id="tdBC">0</b> &nbsp; &nbsp; <button id="btnNegativePayment" style="display:none" type="button" onclick="connectWithPaymentGateway()" class="btn make btn-primary"> Make Payment</button>
+                            </td>
+                        </tr>
+
+                        <tr style="display:none" id="trAmountReturn">
+
+                            <td>Amount Returned</td>
+
+                            <td id="tdAmountReturn">
+                                8000
+                            </td>
+                        </tr>
+                        <tr id="trNCA" class="bills">
+
+                            <td><b>New Claim Amount</b></td>
+
+                            <td>
+                                <b id="tdNCA">0</b>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="divDeclaration" style="display:none" class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title mb-4">Declaration</h4>
+
+            <div class="row diseasecheck">
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-form-label tax">Special Disease</label>
+                        <div class="col-sm-4">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input id="radioSpecialDiseaseYes" onclick="specialDisease_Click(this,'Yes')" name="SpecialDisease" type="radio" class="form-check-input">
+                                    Yes
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input id="radioSpecialDiseaseNo" checked onclick="specialDisease_Click(this,'No')" name="SpecialDisease" checked type="radio" class="form-check-input">
+                                    No
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <div class="form-group row">
+                            <div class="col-md-1"></div>
+                            <label class="col-sm-5 col-form-label">Special Disease Name</label>
+                            <div class="col-sm-6 advance">
+                                <input id="inputSpecialDiseaseName" type="text" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="divtaxable" class="col-md-6">
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-form-label tax">Taxable</label>
+                        <div class="col-sm-4">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input id="radioTaxableYes" onclick="radio_taxable_click(this)" checked name="Taxable" type="radio" class="form-check-input">
+                                    Yes
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input id="radioTaxableNo" onclick="radio_taxable_click(this,)" name="Taxable" type="radio" class="form-check-input">
+                                    No
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr / class="exp">
+            <div id="taxUploadDoc" style="display:none">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-5 col-form-label">Upload Regd. Certificate</label>
+                            <div class="col-sm-7 advance">
+                                <button type="button" onclick="TrigerModalUploadFile('Regd. Certificate','RegdCertificate')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File<span id="spanRegdCertificate" class="file-status">0</span></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-sm-5 col-form-label">Hospital Income Tax Exemption Letter</label>
+                            <div class="col-sm-7 advance">
+                                <button type="button" onclick="TrigerModalUploadFile('Exemption Letter','ExemptionLetter')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File<span id="spanExemptionLetter" class="file-status">0</span></button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <hr / class="exp">
+
+            <div class="row" mb-4>
+                <div class="col-sm-12">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input id="checkboxDeclaration" onclick="checkboxDeclaration_cick(this)" type="checkbox" class="form-check-input">
+                            I the undersigned hereby declare that the information given in this form is correct and complete to the best of my knowledge and belief.
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4 self">
+                </div>
+                <div class="col-md-4 self">
+                    <button onclick="btnAdvanceClaimSubmit_Click(this)" id="btnInpatientSubmit" disabled class="btn btn-primary inpatient">Submit</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+                                            @*<div id="divDeclaration" style="display:none" class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title mb-4">Declaration</h4>
+
+            <div class="row diseasecheck">
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-form-label tax">Special Disease</label>
+                        <div class="col-sm-4">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input id="radioSpecialDiseaseYes" name="SpecialDisease" type="radio" class="form-check-input">
+                                    Yes
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input id="radioSpecialDiseaseNo" name="SpecialDisease" checked type="radio" class="form-check-input">
+                                    No
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group row">
+
+                        <div class="col-sm-4">
+                        </div>
+                        <div class="col-sm-4">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-form-label tax">Taxable</label>
+                        <div class="col-sm-4">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input id="radioTaxableYes" onclick="radio_taxable_click(this)" checked name="Taxable" type="radio" class="form-check-input">
+                                    Yes
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input id="radioTaxableNo" onclick="radio_taxable_click(this)" name="Taxable" type="radio" class="form-check-input">
+                                    No
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr / class="exp">
+            <div id="taxUploadDoc" style="display:none" class="row">
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label class="col-sm-5 col-form-label">Upload Regd. No.</label>
+                        <div class="col-sm-7 advance">
+                            <button type="button" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group row">
+                        <label class="col-sm-5 col-form-label">Hospital Income Tax Exemption Letter</label>
+                        <div class="col-sm-7 advance">
+                            <button type="button" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <hr / class="exp">
+
+            <div class="row" mb-4>
+                <div class="col-sm-12">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input id="checkboxDeclaration" onclick="checkboxDeclaration_cick(this)" type="checkbox" class="form-check-input">
+                            I the undersigned hereby declare that the information given in this form is correct and complete to the best of my knowledge and belief.
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4 self">
+                </div>
+                <div class="col-md-4 self">
+                    <button onclick="btnInpatientSubmit_Click(this)" id="btnInpatientSubmit" disabled class="btn btn-primary inpatient">Submit</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>*@
+
+
+<div class="bs-example">
+    <div id="myModal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalTitle">Modal Title</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="post" id="form-upload">
+                        <div class="form-group mt-5">
+                            <label for="">Choose Images</label>
+                            <input type="file" class="form-control" name="images[]" multiple id="upload-img" />
+                            <br />
+                            <label for=""><span id="spnComment"></span> Comment</label>
+                            <textarea id="textareaComment" class="form-control" id="exampleTextarea1" rows="4"></textarea>
+                        </div>
+                        <div class="img-thumbs img-thumbs-hidden" id="img-preview"></div>
+                        @*<button type="button" class="btn btn-primary mb-2">Upload</button>*@
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            S.NO
+                                        </th>
+                                        <th>
+                                            Category
+                                        </th>
+                                        <th>
+                                            Comment
+                                        </th>
+                                        <th>
+                                            File
+                                        </th>
+                                        <th>
+                                            Action
+                                        </th>
+
+                                    </tr>
+                                </thead>
+                                <tbody id="trBodyUploadDoc">
+                                </tbody>
+                            </table>
+                        </div>
+
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
+                    @*<button type="submit" class="btn btn-primary mb-2" id="btnUploadSubmit">Submit</button>*@
+
+                </div>
+            </div>
+        </div>
+    </div>
+    @* <div id="Hospitalmodel" class="modal fade" tabindex="-1">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+    <h5 class="modal-title" id="myModalTitle">Hospital Bank Details</h5>
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    <div class="modal-body">
+    <form class="form-sample">
+
+    <div class="row">
+
+
+    <div class="col-md-6">
+    <div class="form-group row">
+    <label class="col-sm-4 col-form-label">Bank Name</label>
+    <div class="col-sm-8">
+    <input type="text" class="form-control">
+    </div>
+    </div>
+    </div>
+
+    <div class="col-md-6">
+    <div class="form-group row">
+    <label class="col-sm-4 col-form-label">Beneficiary Name</label>
+    <div class="col-sm-8">
+    <input type="text" class="form-control">
+    </div>
+    </div>
+    </div>
+
+    </div>
+
+    <div class="row">
+    <div class="col-md-6">
+    <div class="form-group row">
+    <label class="col-sm-4 col-form-label">Beneficiary Account No.</label>
+    <div class="col-sm-8">
+    <input type="text" class="form-control">
+    </div>
+    </div>
+    </div>
+    <div class="col-md-6">
+    <div class="form-group row">
+    <label class="col-sm-4 col-form-label">Confirm Account No.</label>
+    <div class="col-sm-8">
+    <input type="text" class="form-control">
+    </div>
+    </div>
+    </div>
+    <div class="col-md-6">
+    <div class="form-group row">
+    <label class="col-sm-4 col-form-label">IFSC Code</label>
+    <div class="col-sm-8">
+    <input type="text" class="form-control">
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+
+    </form>
+    </div>
+    <div class="modal-footer">
+
+    <button type="submit" class="btn btn-primary mb-2" id="btnUploadSubmit">Submit</button>
+
+    </div>
+    </div>
+    </div>
+    </div>*@
+</div>
+
+
+
+
+<!-- div class="col-12 grid-margin">
+    <div class="card">
+        <div class="card-body">
+
+            <h4 class="card-title mb-4">Bill Details New</h4>
+
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                S.No.
+                            </th>
+
+                            <th>
+                                Bill Type
+                            </th>
+                            <th>
+                                Amount
+                            </th>
+                            <th>
+                                Included in Final Bill
+                            </th>
+                            <th>
+                                Upload
+                            </th>
+                            <th>
+                                View
+                            </th>
+                            <th>
+
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td>1</td>
+                            <td>Medicine</td>
+
+                            <td>
+                                <input type="text" class="form-control" value=" &#8377; 2,000">
+                            </td>
+                            <td>
+                                <input type="checkbox" class="form-check-input">
+                            </td>
+                            <td>
+                                <button type="button" onclick="TrigerModalUploadFile('Medicine')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File</button>
+                            </td>
+
+                            <td>
+                                <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                            </td>
+                            <td>
+                                <button type="button" onclick="TrigerModalUploadFile('Medicine')" class="btn"><i class="fa fa-plus-circle" aria-hidden="true"></i> Add More</button>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Consultation</td>
+
+                            <td>
+                                <input type="text" class="form-control" value=" &#8377; 1,000">
+                            </td>
+                            <td>
+                                <input type="checkbox" class="form-check-input">
+                            </td>
+                            <td>
+                                <button type="button" onclick="TrigerModalUploadFile('Consultation')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File</button>
+                            </td>
+                            <td>
+                                <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                            </td>
+                            <td>
+                                <button type="button" onclick="TrigerModalUploadFile('Medicine')" class="btn"><i class="fa fa-plus-circle" aria-hidden="true"></i> Add More</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Investigation</td>
+
+                            <td>
+                                <input type="text" class="form-control includedfinalbill" value=" &#8377; 3,000">
+                            </td>
+                            <td>
+                                <input type="checkbox" class="form-check-input">
+                            </td>
+                            <td>
+                                <button type="button" onclick="TrigerModalUploadFile('Investigation')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File</button>
+                            </td>
+                            <td>
+                                <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                            </td>
+                            <td>
+                                <button type="button" onclick="TrigerModalUploadFile('Medicine')" class="btn"><i class="fa fa-plus-circle" aria-hidden="true"></i> Add More</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Room Rent</td>
+
+                            <td>
+                                <input type="text" class="form-control" value=" &#8377; 2,000">
+                            </td>
+                            <td>
+                                <input type="checkbox" class="form-check-input">
+                            </td>
+                            <td>
+                                <button type="button" onclick="TrigerModalUploadFile('Room Rent')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File</button>
+                            </td>
+                            <td>
+                                <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Other</td>
+
+                            <td>
+                                <input type="text" class="form-control" value=" &#8377; 2,000">
+                            </td>
+                            <td>
+                                <input type="checkbox" class="form-check-input">
+                            </td>
+                            <td>
+                                <button type="button" onclick="TrigerModalUploadFile('Other')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File</button>
+                            </td>
+                            <td>
+                                <button class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File</button>
+                            </td>
+                            <td>
+                                <button type="button" onclick="TrigerModalUploadFile('Medicine')" class="btn"><i class="fa fa-plus-circle" aria-hidden="true"></i> Add More</button>
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td></td>
+
+                            <td><b>Total Amount</b></td>
+                            <td><b>&#8377; 10,000</b></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</-->
+<!-- The View Modal Starts -->
+<div class="modal fade" id="myModalview">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h3 class="modal-title">Beneficiary Details</h3>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-baseline">
+                            <h4 class="pr-3">Name : </h4>
+                            <h6 id="headingBenificieryName">Sivanshu</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-baseline">
+                            <h4 class="pr-2">Account No. : </h4>
+                            <h6 id="headingAccountNo">CNB0111742</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-baseline">
+                            <h4 class="pr-3">Bank Name : </h4>
+                            <h6 id="headingBankName">Central Bank of India</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-baseline">
+                            <h4 class="pr-3">SAP Reference No. :</h4>
+                            <h6 id="headingUTRNo">XXXXRCYYYYMMDD</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-baseline">
+                            <h4 class="pr-3">UTR No. :</h4>
+                            <h6 id="headingUTRNo">XXXXRCYYYYMMDD</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-baseline">
+                            <h4 class="pr-3">Date : </h4>
+                            <h6 id="headingBankName"></h6>
+                        </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- The View Modal Ends -->
+<!-- The View Modal Starts -->
+<div class="modal fade" id="viewModal">
+    <div class="modal-dialog">
+        <div class="modal-content viewModal-content">
+            <div class="modal-inner-border">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 id="modelTitle" class="modal-title viewModal-head">Admission Advice</h4>
+                    <button type="button" class="close viewModal-close" data-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body view-table-body">
+                    <div class="view-table-cnt">
+                        <div class="responsive-table">
+                            <table class="table view-table">
+                                <thead>
+                                    <tr bgcolor="">
+                                        <th>Sr No.</th>
+                                        <th>Category</th>
+                                        <th>Files</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tbodyViewDocuments">
+
+                                    @*<tr>
+                                    <td>2.</td>
+                                    <td>Admission Advice</td>
+                                    <td><a href="javascript:void(0)" class="file-link"><span class="ti-files"></span></a></td>
+                                    </tr>
+                                    <tr>
+                                    <td>3.</td>
+                                    <td>Admission Advice</td>
+                                    <td><a href="javascript:void(0)" class="file-link"><span class="ti-files"></span></a></td>
+                                    </tr>*@
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- The View Modal Ends -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="~/customjs/claim/AdvanceClaim.js"></script>
+<script>
+    function relation_click(e) {
+        var itr = document.getElementById('itr');
+
+        if (e.value == 'Ravindra(Father)') {
+            itr.style.display = 'block';
+        }
+        else {
+            itr.style.display = 'none';
+
+        }
+
+    }
+</script>
+
+                                                @*<script>
+    $(document).ready(function () {
+
+    });
+    function SelectHospitalFile(type) {
+
+        $("#Hospitalmodel").modal('show');
+        $('#myModalTitle').html(type);
+        $('#spnComment').html(type);
+        return false;
+
+    }
+
+</script>
+*@
+<script>
+    $(window).on('load', function () {
+        setTimeout(function () { // allowing 3 secs to fade out loader
+            $('.page-loader').fadeOut('slow');
+        }, 1500);
+    });
+</script>
+

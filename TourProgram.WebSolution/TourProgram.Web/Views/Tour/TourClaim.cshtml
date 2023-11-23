@@ -1,0 +1,1574 @@
+﻿
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    .form-radio-label {
+        margin-bottom: 0;
+        position: relative;
+    }
+
+    .form-radio-label-sm {
+        margin-bottom: 0;
+        position: relative;
+        width: 60px;
+    }
+
+    .inf-icon {
+        margin-left: 0.325rem;
+        font-size: 9px;
+        padding: 3px 7px;
+        background: #fff;
+        border-radius: 50%;
+        color: #4b49ac;
+    }
+
+    th {
+        background: #343277;
+        color: #fff;
+        padding: 0.7rem 0.5rem !important;
+        white-space: inherit !important;
+        line-height: 1.3 !important;
+        vertical-align: middle !important;
+    }
+
+    .table-responsive {
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+
+    .grid-margin {
+        margin-bottom: 1.5rem !important;
+    }
+
+    .table td {
+        padding: 0.5rem 0.7rem;
+    }
+
+    td .form-control {
+        padding: 0.875rem 0.5rem;
+        min-width: 75px;
+        height: 35px;
+    }
+
+    td button {
+        padding: 0px !important;
+    }
+
+    td .btn-primary {
+        padding: 7px 14px !important;
+        border-radius: 4px;
+    }
+
+    .td-btn button {
+        padding: 10px 20px !important;
+        border-radius: 7px;
+    }
+
+    .form-group div input[type="date"].form-control {
+        width: 100% !important;
+    }
+
+    .form-group {
+        margin-bottom: 5px !important;
+    }
+
+    input[type="date"].form-control {
+        width: 105px;
+        padding: 4px;
+        font-size: 13px !important;
+    }
+
+    input[type="time"].form-control {
+        width: 75px !important;
+        padding: 4px;
+        font-size: 13px !important;
+    }
+
+    select.form-control {
+        padding: 0.4375rem 0.4rem;
+    }
+
+    .form-check {
+        padding-left: 0;
+        display: flex;
+        gap: 25px;
+    }
+
+    @@media screen and (max-width: 600px) {
+        .content-wrapper {
+            padding: 1.5rem 0rem;
+        }
+    }
+</style>
+<style>
+    .form-radio-label {
+        margin-bottom: 0;
+        position: relative;
+    }
+
+    .form-radio-label-sm {
+        margin-bottom: 0;
+        position: relative;
+        width: 60px;
+    }
+
+    .inf-icon {
+        margin-left: 0.325rem;
+        font-size: 9px;
+        padding: 3px 7px;
+        background: #fff;
+        border-radius: 50%;
+        color: #4b49ac;
+    }
+
+    th {
+        background: #343277;
+        color: #fff;
+        padding: 0.7rem 0.5rem !important;
+        white-space: inherit !important;
+        line-height: 1.3 !important;
+        vertical-align: middle !important;
+    }
+
+    .table-responsive {
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+
+    .grid-margin {
+        margin-bottom: 1.5rem !important;
+    }
+
+    .table td {
+        padding: 0.5rem 0.7rem;
+    }
+
+    .singnature-text {
+        font-size: 13px;
+    }
+
+    td .form-control {
+        padding: 0.875rem 0.5rem;
+        min-width: 75px;
+        height: 35px;
+    }
+
+    td button {
+        padding: 0px !important;
+    }
+
+    td .btn-primary {
+        padding: 7px 14px !important;
+        border-radius: 4px;
+    }
+
+    .td-btn button {
+        padding: 10px 20px !important;
+        border-radius: 7px;
+    }
+
+    input[type="date"].form-control {
+        width: 105px;
+        padding: 4px;
+        font-size: 13px !important;
+    }
+
+    input[type="time"].form-control {
+        width: 75px !important;
+        padding: 4px;
+        font-size: 13px !important;
+    }
+
+    select.form-control {
+        padding: 0.4375rem 0.4rem;
+    }
+
+    .fw-bold {
+        font-weight: bold !important;
+    }
+
+    .form-check {
+        padding-left: 0;
+        display: flex;
+        gap: 25px;
+    }
+
+    @@media screen and (max-width: 600px) {
+        .content-wrapper {
+            padding: 1.5rem 0rem;
+        }
+    }
+</style>
+
+
+
+<div id="divTourRequestedList" class="col-lg-12 stretch-card new grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Tour List</h4>
+            <div class="table-responsive">
+                <table class="table table-striped table-head">
+                    <thead>
+                        <tr>
+                            <th>
+                                Sr No.
+                            </th>
+                            <th>
+                                Request Date
+                            </th>
+                            <th>
+                                Purpose of Tour
+                            </th>
+                            <th>
+                                Tour Start Date
+                            </th>
+                            <th>
+                                Source
+                            </th>
+                            <th>
+                                Destination
+                            </th>
+                            <th>
+                                Total Days
+                            </th>
+
+                            <th>
+                                Status
+                            </th>
+                            <th>
+                                Action
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyTourRequested">
+                        <tr>
+                            <td>
+                                02/10/2023
+                            </td>
+                            <td>
+                                Office Meeting
+                            </td>
+                            <td>
+                                02/10/2023
+                            </td>
+                            <td>
+                                New Delhi
+                            </td>
+                            <td>
+                                Jaipur
+                            </td>
+                            <td>
+                                6
+                            </td>
+
+
+
+                            <td class="font-weight-medium"><div class="badge badge-success">Approved</div></td>
+
+                            <td><button type="submit" id="btnSubmit" class="btn btn-primary mb-2">Raise Claim</button></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                02/09/2023
+                            </td>
+                            <td>
+                                Office Meeting
+                            </td>
+                            <td>
+                                17/09/2023
+                            </td>
+                            <td>
+                                New Delhi
+                            </td>
+                            <td>
+                                Mumbai
+                            </td>
+                            <td>
+                                4
+                            </td>
+
+                            <td class="font-weight-medium"><div class="badge badge-warning">Pending Clarification</div></td>
+
+                            <td><button type="submit" id="btnSubmit" class="btn btn-primary mb-2">Clarification</button></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>
+@* approver details *@
+<div id="divApproverDetails" style="display:none" class="col-12 stretch-card grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-title mb-3">Approver Details</p>
+            <hr style="background:#343277" class="mb-1" />
+            <div class="row align-items-baseline">
+                <div class="col-lg-4 col-md-6">
+
+
+                    <div class="d-flex justify-content-around align-items-center flex-wrap mb-1 mt-1">
+                        <label for="spanAdvanceApprovedDate" class="text-inform mb-0 fw-bold">Approval Date:.</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvanceApprovedDate">25/09/2023 11:45 AM</span>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-5 col-md-6">
+
+
+                    <div class="d-flex justify-content-around align-items-baseline flex-wrap mb-1 mt-1">
+                        <label for="spanAdvanceApprovedBy" class="text-inform mb-4 fw-bold">Approved By:.</label>
+                        <div class="mt-0 mb-0">
+                            <span class="mb-0 text-start span-text" id="spanAdvanceApprovedBy">Mark Ruffallow</span><br />
+                            <span class="mb-0 text-end span-text singnature-text" id="spanAdvanceDesignation">(Designation)</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-6 mb-1 mt-1 text-right">
+
+                    <a id="anchorDownloadTourApproval" href="#" target="_blank" class="btn btn-primary mb-2">Download Tour Approval</a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="divTourProgram" style="display:none" class="col-12 grid-margin mt-4">
+    <div class="card">
+
+        <div class="card-body">
+            <div class="six">
+                <h4 class="card-title">Tour Program Approval</h4>
+            </div>
+
+            <form class="form-sample advance">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div class="form-group row">
+                            <label class="col-lg-2 col-form-label">Purpose of Tour</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="inputPurposeOfTravel">
+                            </div>
+                        </div>
+                    </div>
+
+                    @* <div class="col-md-6">
+                    <div class="form-group row">
+                    <label class="col-lg-5 col-form-label">Type of Travel</label>
+                    <div class="col-lg-7">
+                    <select class="form-control" id="selectTypeOfTravel">
+                    <option>Domestic</option>
+                    <option>International</option>
+
+                    </select>
+                    </div>
+                    </div>
+                    </div> *@
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-lg-4 col-form-label">Source</label>
+                            <div class="col-lg-8">
+                                <input type="text" class="form-control" id="inputSource">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-lg-4 col-form-label">Destination</label>
+                            <div class="col-lg-8">
+                                <input type="text" class="form-control" id="inputDestination">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-lg-4 col-form-label">Tentative Date of Departure</label>
+                            <div class="col-lg-8">
+                                <input onfocusout="tentativeDateFocusOut(this)" type="date" class="form-control" id="inputTentativeDateOfDeparture">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <label class="col-lg-4 col-form-label">Number of Days</label>
+                            <div class="col-lg-8">
+                                <input type="number" class="form-control" min="1" max="50" id="inputNumberOfDays">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                @*  <div class="row">
+                <div class="col-md-6">
+                <div class="form-group row">
+                <label class="col-lg-5 col-form-label">Mode of Travel</label>
+                <div class="col-sm-2">
+                <div class="form-check">
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" id="inputModeOfTravelAir">
+                Air
+                </label>
+
+                </div>
+                </div>
+                <div class="col-sm-2 rai">
+                <div class="form-check">
+
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" id="inputModeOfTravelRail">
+                Rail
+                </label>
+
+                </div>
+                </div>
+                <div class="col-sm-3 rai">
+                <div class="form-check">
+
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" id="inputModeOfTravelRoad">
+                Road
+                </label>
+                </div>
+                </div>
+                </div>
+                </div>
+
+                </div>*@
+
+            </form>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div id="divTransportation" style="display:none" class="col-12 grid-margin">
+    <div class="card">
+        <div class="card-body">
+
+            <h4 class="card-title mb-4">Transportation</h4>
+
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered">
+                    <thead>
+                        <tr align="center">
+                            <th></th>
+
+                            <th class="th-border-btm" colspan="3">
+                                Departure
+                            </th>
+                            <th>
+
+                            </th>
+                            <th class="th-border-btm" colspan="3">
+                                Arrival
+                            </th>
+                            <th colspan="3">Amount Details</th>
+                            <th> </th>
+                            <th> </th>
+                        </tr>
+                    </thead>
+                    <thead align="center">
+                        <tr class="second-tr">
+                            <th>
+                                S.No.
+                            </th>
+
+                            <th>
+                                Date
+                            </th>
+                            <th>
+                                Time
+                            </th>
+                            <th>
+                                Source/Station
+                            </th>
+                            <th>
+                                Mode of Travel
+                            </th>
+                            <th>
+                                Date
+                            </th>
+                            <th>
+                                Time
+                            </th>
+                            <th>
+                                Desination
+                            </th>
+                            <th>
+                                Billed Amount
+                            </th>
+                            <th>
+                                Claimed Amount
+                            </th>
+                            <th>
+                                Upload Bill
+                            </th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyActualTransportationPlan">
+
+                        <tr id="trActualTransportationPlan_0">
+                            <td>1</td>
+                            <td>
+                                <input onfocusout="updateDAOnFocusOut(this,0)" id="inputStartDate_0" type="date" class="form-control">
+                            </td>
+                            <td>
+                                <input onfocusout="updateDAOnFocusOut(this,0)" id="inputStartTime_0" type="time" class="form-control">
+                            </td>
+                            <td>
+                                <input id="inputSource_0" type="text" class="form-control">
+                            </td>
+                            <td>
+                                <select id="selectTravelMode_0" class="form-control">
+                                    <option>Select One</option>
+                                    <option>Rail</option>
+                                    <option>Air</option>
+                                    <option>Road</option>
+                                </select>
+                            </td>
+                            <td>
+                                <input onfocusout="updateDAOnFocusOut(this,0)" id="inputEndDate_0" type="date" class="form-control">
+                            </td>
+                            <td>
+                                <input onfocusout="updateDAOnFocusOut(this,0)" id="inputEndTime_0" type="time" class="form-control">
+                            </td>
+                            <td>
+                                <input id="inputDestination_0" type="text" class="form-control">
+                            </td>
+                            <td>
+                                <input onfocusout="billedAmount_FocusOut(this,0)" id="inputBilledAmount_0" type="text" class="form-control" value="₹000.00">
+                            </td>
+                            <td>
+                                <input onfocusout="claimedAmount_FocusOut(this,0)" id="inputClaimAmount_0" type="text" class="form-control" value="₹000.00">
+                            </td>
+                            <td>
+                                <button type="button" onclick="TrigerModalUploadFile('Bill Upload','BillUploadTransportation_0')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload Bill<span id="spanBillUploadTransportation_0" class="file-status">0</span></button>
+                            </td>
+                            <td>
+                                <button onclick="addNewTransportation_Click(this,0)" type="button" class="btn"><i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                            </td>
+                            <td>
+                                <button onclick="removeTransportation_Click(this,0)" type="button" class="btn"><i class="fa fa-minus-circle" aria-hidden="true"></i></button>
+                            </td>
+
+                        </tr>
+
+
+                    </tbody>
+                </table>
+
+                <div class="d-flex justify-content-between align-center flex-wrap grand">
+
+                    <div>
+
+                        <div class="table-responsive">
+                            <table class="table parent">
+                                <thead>
+                                    <tr class="d-flex flex-wrap bor mt-3 mb-2">
+                                        <th class="tab">SUB TOTAL (A): <span id="spanSubTotalTransportation" class="table_span">0</span></th>
+                                        @* <th class="tab amountinclude">Amount Included in Main Bill: <span class="table_span">₹10,000.00</span></th>
+                                        <th class="tab">Amount not Included in Main Bill: <span class="table_span">₹5,000.00</span></th> *@
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+@* /////////////////////////// *@
+
+<div id="divAccommodationDetails" style="display:none" class="col-12 grid-margin">
+    <div class="card">
+        <div class="card-body">
+
+            <h4 class="card-title mb-4">Accommodation</h4>
+
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered">
+                    <thead align="center">
+                        <tr class="second-tr">
+                            <th colspan="6">
+                                Accommodation Details
+                            </th>
+                            <th colspan="2">
+                                Check In
+                            </th>
+                            <th colspan="2">
+                                Check Out
+                            </th>
+                            <th colspan="5">
+                                Amount Details
+                            </th>
+                        </tr>
+                    </thead>
+                    <thead align="center">
+                        <tr class="second-tr">
+                            <th>
+                                S.No.
+                            </th>
+                            <th>
+                                Location
+                            </th>
+                            <th>
+                                Class of City
+                            </th>
+                            <th>
+                                Own Arrangement
+                            </th>
+                            <th>
+                                Free Accommodation Provided by Company
+                            </th>
+
+                            <th>
+                                Hotel Name
+                            </th>
+                            <th>
+                                Date
+                            </th>
+                            <th>
+                                Time
+                            </th>
+                            <th>
+                                Date
+                            </th>
+                            <th>
+                                Time
+                            </th>
+                            <th>
+                                Billed Amount
+                            </th>
+                            <th>
+                                Claimed Amount
+                            </th>
+                            <th>
+                                Upload Bill
+                            </th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyActualAccomodationPlan" align="center">
+
+                        <tr id="trActualAccomodationPlan_0">
+                            <td id="tdSNo_0">1</td>
+                            <td>
+                                <input id="inputLocationName_0" type="text" class="form-control">
+                            </td>
+                            <td>
+                                <select id="selectHotelClassOfCity_0" class="form-control">
+                                    <option>Select One</option>
+                                    <option>X</option>
+                                    <option>Y</option>
+                                    <option>Z</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select onchange="OwnArrangement_change(this)" id="selectOwnArrangement_0" class="form-control">
+                                    <option value="Select One">Select One</option>
+                                    <option value="Yes">Yes</option>
+                                    <option selected value="No">No</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select onchange="FreeAccomodation_change(this)" id="selectFreeAccomodation_0" class="form-control">
+                                    <option value="Select One">Select One</option>
+                                    <option value="Yes">Yes</option>
+                                    <option selected value="No">No</option>
+                                </select>
+                            </td>
+
+                            <td>
+                                <input id="inputHotelName_0" type="text" class="form-control">
+                            </td>
+                            <td>
+                                <input id="inputCheckInDate_0" type="date" class="form-control">
+                            </td>
+                            <td>
+                                <input id="inputCheckInTime_0" type="time" class="form-control">
+                            </td>
+                            <td>
+                                <input id="inputCheckOutDate_0" type="date" class="form-control">
+                            </td>
+                            <td>
+                                <input id="inputCheckOutTime_0" type="time" class="form-control">
+                            </td>
+                            <td>
+                                <input onfocusout="inputBilledAmountAccomodation_FocusOut(this,0)" id="inputBilledAccomodationAmount_0" type="text" class="form-control" value="0">
+                            </td>
+                            <td>
+                                <input onfocusout="inputClaimedAmountAccomodation_FocusOut(this,0)" id="inputClaimAccomodationAmount_0" type="text" class="form-control" value="0">
+                            </td>
+                            <td>
+                                <button type="button" onclick="TrigerModalUploadFile('Bill Details','BillUploadAccomodation_0')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload Bill<span id="spanBillUploadAccomodation_0" class="file-status">0</span></button>
+                            </td>
+                            <td>
+                                <button onclick="addNewAccomodation_Click(this,0)" type="button" class="btn"><i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                            </td>
+                            <td>
+                                <button onclick="removeAccomodation_Click(this,0)" type="button" class="btn"><i class="fa fa-minus-circle" aria-hidden="true"></i></button>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <div class="d-flex justify-content-between align-center flex-wrap grand">
+
+                    <div>
+
+                        <div class="table-responsive">
+                            <table class="table parent">
+                                <thead>
+                                    <tr class="d-flex flex-wrap bor mt-3 mb-2">
+                                        <th class="tab">SUB TOTAL (B): <span id="spanSubTotalAccomodation" class="table_span">0</span></th>
+                                        @* <th class="tab amountinclude">Amount Included in Main Bill: <span class="table_span">₹10,000.00</span></th>
+                                        <th class="tab">Amount not Included in Main Bill: <span class="table_span">₹5,000.00</span></th> *@
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+@* /////////////////////////// *@
+
+<div id="divDailyAllowance" style="display:none" class="col-12 grid-margin">
+    <div class="card">
+        <div class="card-body">
+
+            <h4 class="card-title mb-4">Daily Allowance</h4>
+
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead align="center">
+                        <tr class="second-tr">
+                            <th>
+                                S.No.
+                            </th>
+                            <th>
+                                Date
+                            </th>
+                            <th>
+                                Source Time
+                            </th>
+                            <th>
+                                End Time
+                            </th>
+                            <th>
+                                DA Slab
+                                <br />
+                                <span class="btn-span" data-toggle="modal" data-target="#daRateModal">(Check DA Rates <i class="fa-solid fa-info inf-icon"></i> )</span>
+                            </th>
+                            <th>Total(Hours:Minutes)</th>
+                            <th>
+                                Percentage Admissible
+                            </th>
+                            <th>
+                                Amount
+                                <br />
+                                <span>(This is auto calculate)</span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyDA">
+                        <tr id="trodyDA_0">
+                            <td id="tdDASn_0">1</td>
+                            <td>
+                                <input id="inputDAStartDate_0" type="date" class="form-control">
+                            </td>
+                            <td>
+                                <input id="inputDAStartTime_0" type="time" class="form-control">
+                            </td>
+                            <td>
+                                <input id="inputDAEndTime_0" type="time" class="form-control">
+                            </td>
+                            <td>
+                                <input id="inputDARate_0" type="text" class="form-control">
+                            </td>
+                            <td id="tdDAPercentage">
+                                30%
+                            </td>
+                            <td>
+                                <input input id="inputDAAmount_0" type="text" class="form-control" value="₹000.00">
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>
+                                <input type="date" class="form-control">
+                            </td>
+                            <td>
+                                <input type="time" class="form-control">
+                            </td>
+                            <td>
+                                <input type="time" class="form-control">
+                            </td>
+                            <td>
+                                <input type="text" class="form-control">
+                            </td>
+
+                            <td>
+                                100%
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" value="₹000.00">
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <div class="d-flex justify-content-between align-center flex-wrap grand">
+
+                    <div>
+
+                        <div class="table-responsive">
+                            <table class="table parent">
+                                <thead>
+                                    <tr class="d-flex flex-wrap bor mt-3 mb-2">
+                                        <th class="tab">SUB TOTAL (C): <span id="spanTotalDA" class="table_span">0</span></th>
+                                        @* <th class="tab amountinclude">Amount Included in Main Bill: <span class="table_span">₹10,000.00</span></th>
+                                        <th class="tab">Amount not Included in Main Bill: <span class="table_span">₹5,000.00</span></th> *@
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+@* ////////////////////// *@
+
+<div id="divLeaveAvailed" style="display:none" class="col-12 grid-margin mb-5">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4 class="mb-4">Leave availed with/between tour</h4>
+                </div>
+                <div class="col-sm-8 text-left">
+                    <div class="d-flex" style="margin: -10px 0 0 -20px;">
+                        <div class="form-check">
+                            <label class="form-check-label form-radio-label">
+                                <input id="radioleaveYes" onclick="radioleave_click(this,'Yes')" type="radio" class="form-check-input" name="radioleave">
+                                <i class="input-helper"></i>
+                            </label>
+                            <span>Yes</span>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label form-radio-label">
+                                <input id="radioleaveNo" checked onclick="radioleave_click(this,'No')" type="radio" class="form-check-input" name="radioleave">
+                                <i class="input-helper"></i>
+                            </label>
+                            <span>No</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="divLeaveTable" style="display:none" class="table-responsive">
+                <table class="table table-striped table-bordered">
+                    <thead align="center">
+                        <tr class="second-tr">
+                            <th>
+                                S.No.
+                            </th>
+
+                            <th>
+                                Leave Start Date
+                            </th>
+                            <th>
+                                Leave End Date
+                            </th>
+                            <th>
+                                DA Deductable
+                            </th>
+                            <th>
+                                Amount
+                                <br />
+                                <span>(This is auto calculate)</span>
+                            </th>
+                            <th>
+
+                            </th>
+                            <th>
+
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyLeave" align="center">
+
+                        <tr id="trLeave_0">
+                            <td id="tdSNo_0">1</td>
+                            <td>
+                                <input onfocusout="calculateLeaveAmount_FocousOut(this)" id="inputStartDateLeave_0" type="date" class="form-control">
+                            </td>
+                            <td>
+                                <input onfocusout="calculateLeaveAmount_FocousOut(this)" id="inputEndDateLeave_0" type="date" class="form-control">
+                            </td>
+                            <td>
+                                <select id="selectDADeduct_0" class="form-control">
+                                    <option>Yes</option>
+                                    <option>No</option>
+                                </select>
+                            </td>
+                            <td>
+                                <input id="inputDeductAmount_0" type="text" class="form-control">
+                            </td>
+                            <td>
+                                <button onclick="addNewLeave_Click(this,0)" type="button" class="btn"><i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                            </td>
+                            <td>
+                                <button onclick="removeLeave_Click(this,0)" type="button" class="btn"><i class="fa fa-minus-circle" aria-hidden="true"></i></button>
+                            </td>
+                        </tr>
+
+
+
+                    </tbody>
+                </table>
+
+                <div class="d-flex justify-content-between align-center flex-wrap grand">
+
+                    <div>
+
+                        <div class="table-responsive">
+                            <table class="table parent">
+                                <thead>
+                                    <tr class="d-flex flex-wrap bor mt-3 mb-2">
+                                        <th class="tab">SUB TOTAL (D): <span id="spanleaveTotalAmount" class="table_span">0</span></th>
+                                        @* <th class="tab amountinclude">Amount Included in Main Bill: <span class="table_span">₹10,000.00</span></th>
+                                        <th class="tab">Amount not Included in Main Bill: <span class="table_span">₹5,000.00</span></th> *@
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div id="divSummary" style="display:none" class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title mb-4">Claim Summary</h4>
+
+            <div class="table-responsive">
+                <table class="table table-striped">
+
+                    <tbody>
+                        <tr>
+                            <td>Transportion(A)</td>
+                            <td id="tdTranspotation" colspan="6">0</td>
+                        </tr>
+                        <tr>
+                            <td>Accommodation(B)</td>
+                            <td id="tdAccomodation" colspan="6">0</td>
+                        </tr>
+                        <tr>
+                            <td>Daily Allowence(C)</td>
+                            <td id="tdDA" colspan="6">0</td>
+                        </tr>
+                        <tr style="color: red">
+                            <td>Leave DA Deductable(D)</td>
+                            <td id="tdLeave" colspan="6">0</td>
+                        </tr>
+                        <tr>
+                            <td>Total</td>
+                            <td id="tdTotal" colspan="6">0</td>
+                        </tr>
+                        <tr style="color: red">
+                            <td>
+                                Advance Claimed:
+                            </td>
+                            <td id="tdAdvanceTaken" colspan="2">
+                                0
+                            </td>
+                            <td id="tdAdvancePaymentDate" colspan="2">
+                                Payment Date: <span id="spanAdvancePaymentDate" class="table-input"></span>
+                            </td>
+                            <td id="tdAdvanceApprovedBy2" colspan="2">
+                                Approved By: <span id="spanAdvanceApprovedBy2" class="table-input"></span>
+                            </td>
+                            @* <td>
+                            <strong>UTR Date:</strong> <span class="table-input">31-11-2023</span>
+                            </td> *@
+                        </tr>
+                        <tr id="">
+                            <td><b>Balance Claim</b></td>
+
+                            <td colspan="6">
+                                <b id="tdBalance">0</b>
+                            </td>
+                        </tr>
+
+                        <tr id="trNegativeMessage" style="display:none">
+
+                            <td><b>Net Claim Amount is Negative You have to Pay It Before Claim submission</b></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td id="">
+                                <button id="" type="button" class="btn make btn-primary"> Make Payment</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="divDocuments" style="display:none" class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title mb-4">Documents Attached</h4>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-check ml-3">
+                                <label class="form-check-label">
+                                    <input id="checkboxApprovedTourProgramme" type="checkbox" class="form-check-input">
+                                    Approved tour programme
+                                    <i class="input-helper"></i>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-check ml-3">
+                                <label class="form-check-label">
+                                    <input id="checkboxTicketsBills" type="checkbox" class="form-check-input">
+                                    Tickets, Boarding Pass, Bills
+                                    <i class="input-helper"></i>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-check ml-3">
+                                <label class="form-check-label">
+                                    <input id="checkboxHotelBills" type="checkbox" class="form-check-input">
+                                    Hotel Bills
+                                    <i class="input-helper"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="divRespnseToClarification" style="display:none" class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body clif">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <h4 class="col-sm-12 card-title">
+                            Response to Clarification
+                        </h4>
+                    </div>
+                    <hr style="background:#343277" class="hr mt-0">
+                </div>
+                <style>
+                    .readonly-input {
+                        padding: 0.875rem 0.5rem;
+                        border: 1px solid #ced4da;
+                        white-space: initial;
+                        border-radius: 4px;
+                        font-size: 0.875rem;
+                        background: #f7f7f7;
+                    }
+
+                    .response-textarea {
+                        height: auto !important;
+                    }
+
+                    .table-divider {
+                        position: relative;
+                    }
+
+                        .table-divider::after {
+                            content: "";
+                            border-bottom: 1px solid #e2edff;
+                            width: 40%;
+                            position: absolute;
+                            bottom: -15px;
+                            left: 50%;
+                            transform: translate(-50%,0%);
+                        }
+                </style>
+                <div class="table-responsive" style="display:non">
+                    <table class="table table-borderless table-data wrap-table">
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    Transportation
+                                </td>
+                                <td>
+                                    Response
+                                </td>
+                            </tr>
+                            <tr class="table-divider">
+                                <td>
+                                    &nbsp;
+                                </td>
+                                <td width="50%">
+                                    <div>Comments</div>
+                                    <div class="readonly-input">
+                                        <span id="spanRecivedCommentTranportation" class="input">
+                                            I got very interested in learning three.js after seeing some portfolio websites. I know how to use Blender and know some extremely basic HTML and CSS.
+                                        </span>
+                                    </div>
+                                </td>
+
+                                <td width="50%">
+                                    <textarea class="form-control response-textarea" id="textAreaSendCommentTranportation" rows="4"></textarea>
+                                </td>
+                            </tr>
+
+                            <tr style="height: 20px;"></tr>
+
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    Accommodation
+                                </td>
+                                <td>
+                                    Response
+                                </td>
+                            </tr>
+                            <tr class="table-divider">
+                                <td>
+                                    &nbsp;
+                                </td>
+                                <td width="50%">
+                                    <div>Comments</div>
+                                    <div class="readonly-input">
+                                        <span id="spanRecivedCommentAccomodation" class="input">
+                                            I got very interested in learning three.js after seeing some portfolio websites. I know how to use Blender and know some extremely basic HTML and CSS.
+                                        </span>
+                                    </div>
+                                </td>
+
+                                <td width="50%">
+                                    <textarea class="form-control response-textarea" id="textAreaSendCommentAccomodation" rows="4"></textarea>
+                                </td>
+                            </tr>
+
+                            <tr style="height: 20px;"></tr>
+
+                            <tr>
+                                <td>3</td>
+                                <td>
+                                    Daily Allowance
+                                </td>
+                                <td>
+                                    Response
+                                </td>
+                            </tr>
+                            <tr class="table-divider">
+                                <td>
+                                    &nbsp;
+                                </td>
+                                <td width="50%">
+                                    <div>Comments</div>
+                                    <div class="readonly-input">
+                                        <span id="spanRecivedCommentDA" class="input">
+                                            I got very interested in learning three.js after seeing some portfolio websites. I know how to use Blender and know some extremely basic HTML and CSS.
+                                        </span>
+                                    </div>
+                                </td>
+
+                                <td width="50%">
+                                    <textarea class="form-control response-textarea" id="textAreaSentCommentDA" rows="4"></textarea>
+                                </td>
+                            </tr>
+
+                            <tr style="height: 20px;"></tr>
+
+                            <tr>
+                                <td>4</td>
+                                <td>
+                                    Leave
+                                </td>
+                                <td>
+                                    Response
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    &nbsp;
+                                </td>
+                                <td width="50%">
+                                    <div>Comments</div>
+                                    <div class="readonly-input">
+                                        <span id="spanRecivedCommentLeave" class="input">
+                                            I got very interested in learning three.js after seeing some portfolio websites. I know how to use Blender and know some extremely basic HTML and CSS.
+                                        </span>
+                                    </div>
+                                </td>
+
+                                <td width="50%">
+                                    <textarea class="form-control response-textarea" id="textAreaSentCommentLeave" rows="4"></textarea>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <div class="d-flex justify-content-end"><button onclick="btnSubmitClarification_Click(this)" type="button" id="btnSubmitClarification" class="btn btn-primary mb-2">Submit Response</button></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="divDiclaration" style="display:none" class="mt-5">
+    <hr class="exp">
+    <div class="row ml-1" mb-4="">
+        <div class="col-sm-12">
+            <h4>
+                Declaration:
+            </h4>
+            <div class="form-check ml-3">
+                <label class="form-check-label">
+                    <input id="checkboxDeclaration" onclick="checkboxDeclaration_cick(this)" type="checkbox" class="form-check-input">
+                    I the undersigned agree:
+                    <i class="input-helper"></i>
+                </label>
+            </div>
+        </div>
+        <div class="col-sm-12 ml-3">
+            <ol>
+                <li> The amount claimed has not been claimed before and will not be claimed after</li>
+                <li>
+                    Timing on trains has been shown as per Railway Time Table & actual arrival of train
+                </li>
+                <li>
+                    T.A. Has been claimed for the journey performed more than 60 KM
+                </li>
+                <li>
+                    The information given in this form is correct and complete to the best of my knowledge and belief
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+<div id="divSubmit" style="display:none" class="mt-5 ml-1">
+
+    <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4 self">
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3 self">
+            <button disabled onclick="btnClaimSubmit_Click(this)" id="btnClaimSubmit" class="btn btn-primary inpatient">Submit</button>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="daRateModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Daily Allowence On Tour:</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Category
+                                </th>
+                                <th>
+                                    Rate Per Day
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    CMD/MD
+                                </td>
+                                <td>
+                                    2800/- or actual supported by bill
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Directors
+                                </td>
+                                <td>
+                                    2300/- or actual supported by bill
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    ED
+                                </td>
+                                <td>
+                                    1500/-
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    GGM/GM
+                                </td>
+                                <td>
+                                    1350/-
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    AGM/JGM/DGM
+                                </td>
+                                <td>
+                                    1200/-
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Mgr.
+                                </td>
+                                <td>
+                                    1050/-
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    AM/Jr Manager/Sr. Exe.
+                                </td>
+                                <td>
+                                    900/-
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Executive
+                                </td>
+                                <td>
+                                    800/-
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Non-Executives(N5-N7)
+                                </td>
+                                <td>
+                                    500/-
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Skilled Staff
+                                </td>
+                                <td>
+                                    500/-
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Upload Modal HTML -->
+<div id="divUploadModel" class="bs-example">
+    <div id="myModal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalTitle">Modal Title</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div enctype="multipart/form-data" id="form-upload">
+                        <div class="form-group mt-5">
+                            <label for="">Choose Images</label>
+                            <input type="file" class="form-control" name="images[]" id="upload-img" />
+                            <br />
+                            <label for=""><span id="spnComment"></span> Comment</label>
+                            <textarea class="form-control" id="textareaComment" rows="4"></textarea>
+                        </div>
+                        <div class="img-thumbs img-thumbs-hidden" id="img-preview"></div>
+                        @*<button type="button" class="btn btn-primary mb-2">Upload</button>*@
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            S.NO
+                                        </th>
+                                        <th>
+                                            Category
+                                        </th>
+                                        <th>
+                                            Remarks
+                                        </th>
+                                        <th>
+                                            File
+                                        </th>
+                                        <th>
+                                            Action
+                                        </th>
+
+                                    </tr>
+                                </thead>
+                                <tbody id="trBodyUploadDoc">
+                                    <tr>
+                                        <td class="py-1">
+                                            1
+                                        </td>
+                                        <td>
+                                            Diagnosis
+                                        </td>
+                                        <td>
+                                            ...........
+                                        </td>
+                                        <td>
+                                            <i class="fa fa-file-pdf-o filepdfFontAwesome" aria-hidden="true"></i>
+                                        </td>
+
+                                        <td>
+                                            <i onclick="delete_file(1)" class="fa fa-trash trashFontAwesome" aria-hidden="true"></i>
+                                        </td>
+
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
+                    @*<button type="submit" class="btn btn-primary mb-2" id="btnUploadSubmit">Submit</button>*@
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- The View Modal Starts -->
+<div class="modal fade" id="viewModal">
+    <div class="modal-dialog">
+        <div class="modal-content viewModal-content">
+            <div class="modal-inner-border">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 id="modelTitle" class="modal-title viewModal-head">Admission Advice</h4>
+                    <button type="button" class="close viewModal-close" data-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body view-table-body">
+                    <div class="view-table-cnt">
+                        <div class="responsive-table">
+                            <table class="table view-table">
+                                <thead>
+                                    <tr bgcolor="">
+                                        <th>Sr No.</th>
+                                        <th>Category</th>
+                                        <th>Files</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tbodyViewDocuments">
+
+                                    @*<tr>
+                                    <td>2.</td>
+                                    <td>Admission Advice</td>
+                                    <td><a href="javascript:void(0)" class="file-link"><span class="ti-files"></span></a></td>
+                                    </tr>
+                                    <tr>
+                                    <td>3.</td>
+                                    <td>Admission Advice</td>
+                                    <td><a href="javascript:void(0)" class="file-link"><span class="ti-files"></span></a></td>
+                                    </tr>*@
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- The View Modal Ends -->
+
+
+<script src="~/customjstour/tour/tourclaim.js" asp-append-version="true"></script>
+
+@* ////////////////////// *@

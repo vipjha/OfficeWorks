@@ -1,0 +1,283 @@
+﻿<link href="~/css/custom/dfccil1011_01.css" rel="stylesheet" asp-append-version="true" />
+@* list table *@
+
+<div id="divTourApprovalPendingList" class="col-12 stretch-card grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-title mb-3">Tour Request</p>
+            <div class="table-responsive">
+                <table class="table table-striped table-head">
+                    <thead>
+                        <tr>
+                            <th>Sr No.</th>
+                            <th>Requested Date</th>
+                            <th>Employee Name</th>
+                            <th>Purpose Of Tour </th>
+                            <th>Tour Start Date</th>
+                            <th>Source</th>
+                            <th>Destination</th>
+                            <th>Total Days</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyApprovalPendingList">
+                        <tr><td colspan="10" class="text-center">No Record Found</td></tr>
+                        @* <tr>
+                        <td>1</td>
+                        <td>11/07/2023</td>
+                        <td>Anil Singh</td>
+                        <td>Office Meeting</td>
+                        <td>11/15/2023</td>
+                        <td>New Delhi</td>
+                        <td>Hyderabad</td>
+                        <td>4</td>
+                        <td> <button onclick="btnEmpDetails_Click(this)" class="btn btn-commen btn-color" type="button">Details</button></td>
+                        </tr>*@
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@* employee details *@
+<div id="divEmployeeDetails" style="display:none" class="col-12 stretch-card grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-title mb-3">Employee Details</p>
+            <hr / style="background:#343277">
+            <div class="row" style="background:#ecf6ff; padding:10px 0">
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label for="spanEmployeeNo" class="text-inform mb-0">Employee Code:</label>
+                        <span class="mb-0 text-start span-text" id="spanEmployeeNo">DC9990</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label for="spanEmployeeName" class="text-inform mb-0">Employee Name:</label>
+                        <span class="mb-0 text-start span-text" id="spanEmployeeName"></span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label for="spanEmpDesignation" class="text-inform mb-0">Designation:</label>
+                        <span class="mb-0 text-start span-text" id="spanEmpDesignation">Backend Developer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="background:#d7f3ff; padding:10px 0">
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label for="spanEmpDepartment" class="text-inform mb-0">Employee Department:</label>
+                        <span class="mb-0 text-start span-text" id="spanEmpDepartment">IT Department</span>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label for="spanUnits" class="text-inform mb-0">Unit:</label>
+                        <span class="mb-0 text-start span-text" id="spanUnits">IT</span>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="row" style="padding:10px 0;background:#ecf6ff">
+                <div class="col-lg-8 col-md-12">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label for="spanEmpPurpose" class="text-inform mb-0">Purpose Of Tour:</label>
+                        <span class="mb-0 text-start  pupose-text" id="spanEmpPurpose">Office Meeting</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label for="spanDestination" class="text-inform mb-0">Destination:</label>
+                        <span class="mb-0 text-start span-text" id="spanDestination">Hyderabad</span>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row" style="padding:10px 0; background:#d7f3ff">
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label for="spanSource" class="text-inform mb-0">Source:</label>
+                        <span class="mb-0 text-start span-text" id="spanSource">Delhi</span>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label for="spanTentativeStartDate" class="text-inform mb-0">Tentative Start Date:</label>
+                        <span class="mb-0 text-start span-text" id="spanTentativeStartDate">21/09/2023</span>
+
+                    </div>
+
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mt-1 mb-1">
+                        <label for="spanNoOfDays" class="text-inform mb-0">No. of Days:</label>
+                        <span class="mb-0 text-start span-text" id="spanNoOfDays">4 Days</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+@*  tentitive tour plan start *@
+<div id="divTentativeTourPlanDetails" style="display:none" class="col-12 stretch-card grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-title mb-3">Tentative Tour Plan</p>
+            <div class="table-responsive">
+                <table class="table table-striped table-head">
+                    <thead>
+                        <tr>
+                            <th>Sr No.</th>
+                            <th>Date</th>
+                            <th>From</th>
+                            <th>To</th>
+                            <th>Travel Mode</th>
+                            <th>Class Of City</th>
+                            <th>Remark</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyTentativePlan">
+                        <tr>
+                            <td>1</td>
+                            <td>21/09/2023</td>
+                            <td>Noida</td>
+                            <td>Hyderabad</td>
+                            <td>By Train</td>
+                            <td>X</td>
+                            <td>Visiting</td>
+
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>25/09/2023</td>
+                            <td>Hyderabad</td>
+                            <td>Noida</td>
+                            <td>By Air</td>
+                            <td>Y</td>
+                            <td>Visiting</td>
+
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+@*  tentitive tour plan end*@
+<div id="divApprovalAndConfirmation" style="display:none" class="col-12 stretch-card grid-margin">
+    <div class="card">
+        <div class="card-body">
+
+            <div id="divDirectApprovedOrReject" style="display:none">
+                <div class="d-flex flex-wrap btn-group-center">
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <button onclick="btnApprove_Reject_Approval_Click(this,'Reject')" class="btn btn-commen btn-danger mb-1 mt-1" type="button">Reject</button>
+                        <button onclick="btnApprove_Reject_Approval_Click(this,'Approve')" class="btn btn-commen btn-color mb-1 mt-1" type="button">Approve</button>
+                    </div>
+                </div>
+            </div>
+            <div id="divSelectApprover" style="display:none">
+                <div class="d-flex flex-wrap justify-content-between align-items-center">
+                    <div class="d-flex align-items-center">
+                        <div class="form-group form-list mb-0">
+                            <label for="input-datalist" class="inputlistlable">Select Approver:</label>
+                            <input type="text" class="inputlist" placeholder="Write Name of Approver" list="approvres" id="input-datalist">
+                            <datalist id="approvres">
+                                @*<option data-id="1234" value="Ram kumar panday">Ram kumar panday</option>
+                                <option>Anil kumar singh </option>*@
+
+                            </datalist>
+                        </div>
+                    </div>
+                    <div class="stretch-card ml-auto">
+
+                        <button onclick="btnApprove_Reject_Approval_Click(this,'Approval')" class="btn btn-commen btn-color" type="button">Send for Approval</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- The View Modal Starts -->
+<div class="modal fade" id="viewModal">
+    <div class="modal-dialog">
+        <div class="modal-content viewModal-content">
+            <div class="modal-inner-border">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title viewModal-head">Admission Advice</h4>
+                    <button type="button" class="close viewModal-close" data-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body view-table-body">
+                    <div class="view-table-cnt">
+                        <div class="responsive-table">
+                            <table class="table view-table">
+                                <thead>
+                                    <tr bgcolor="">
+                                        <th>Sr No.</th>
+                                        <th>Category</th>
+                                        <th>Files</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1.</td>
+                                        <td>Admission Advice</td>
+                                        <td><a href="javascript:void(0)" class="file-link"><span class="ti-files"></span></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.</td>
+                                        <td>Admission Advice</td>
+                                        <td><a href="javascript:void(0)" class="file-link"><span class="ti-files"></span></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3.</td>
+                                        <td>Admission Advice</td>
+                                        <td><a href="javascript:void(0)" class="file-link"><span class="ti-files"></span></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- The View Modal Ends -->
+
+<script src="~/customjstour/approval/TourApproval.js" asp-append-version="true"></script>

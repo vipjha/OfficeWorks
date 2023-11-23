@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "JeEY4GOY/BW5ocu9U1jr2KNTpZ769tKEr85rpHu1TXcEo/0uuHwwBtjxuKYXfewMdUf6TTOThS+Z66qwE1dKgw==",
+  "success": true,
+  "projectFilePath": "E:\\OfficeWork\\CETPAWork\\dfccil.com\\DFCCIL_HealthClaim\\30Oct2023\\HealthClaim.WebSolution\\HealthClaim.Web\\HealthClaim.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.0.3\\microsoft.identitymodel.jsonwebtokens.7.0.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.3\\system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

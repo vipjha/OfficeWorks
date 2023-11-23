@@ -1,0 +1,83 @@
+﻿Emp Id: 18
+Doctor Id=15
+Hr1 Id=16
+HR2 Id=
+
+ <button onclick="TrigerModalViewFile('Estimate Amount','EstimateAmount')" type="button" class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File<span id="spanEstimateAmount" class="file-status">0</span></button>
+  <button type="button" onclick="TrigerModalUploadFile('Admission Advice','AdmissionAdvice')" class="btn"><i class="fa fa-upload" aria-hidden="true"></i> Upload File<span id="spanAdmissionAdvice" class="file-status">0</span></button>
+// Code for Loader Write in cshtml file at the top
+<div class="page-loader">
+    <div class="loader">
+        <div>
+            <img src="https://dfccil.com/images/logo.png">
+        </div>
+        <div class="loader-container">
+            <div class="dot-loader"></div>
+            <div class="dot-loader"></div>
+            <div class="dot-loader"></div>
+        </div>
+    </div>
+</div>
+// Code For custom work 
+
+We can use this with Upload and view option for count No
+<span class="file-status">2</span>
+
+/// Sweet Message
+ swal({
+                title: 'Invalid !',
+                text: 'Your Parents Valid ITR Detail is not available with us Please visit profile section and upload valid ITR Details',
+                type: 'error'
+            });
+
+// Model Popup to view Downloads
+ <!-- The View Modal Starts -->
+ <div class="modal fade" id="viewModal">
+     <div class="modal-dialog">
+         <div class="modal-content viewModal-content">
+             <div class="modal-inner-border">
+                 <!-- Modal Header -->
+                 <div class="modal-header">
+                     <h4 class="modal-title viewModal-head">Admission Advice</h4>
+                     <button type="button" class="close viewModal-close" data-dismiss="modal"></button>
+                 </div>
+
+                 <!-- Modal body -->
+                 <div class="modal-body view-table-body">
+                     <div class="view-table-cnt">
+                         <div class="responsive-table">
+                             <table class="table view-table">
+                                 <thead>
+                                     <tr bgcolor="">
+                                         <th>Sr No.</th>
+                                         <th>Category</th>
+                                         <th>Files</th>
+                                     </tr>
+                                 </thead>
+                                 <tbody>
+                                     <tr>
+                                         <td>1.</td>
+                                         <td>Admission Advice</td>
+                                         <td><a href="javascript:void(0)" class="file-link"><span class="ti-files"></span></a></td>
+                                     </tr>
+                                     <tr>
+                                         <td>2.</td>
+                                         <td>Admission Advice</td>
+                                         <td><a href="javascript:void(0)" class="file-link"><span class="ti-files"></span></a></td>
+                                     </tr>
+                                     <tr>
+                                         <td>3.</td>
+                                         <td>Admission Advice</td>
+                                         <td><a href="javascript:void(0)" class="file-link"><span class="ti-files"></span></a></td>
+                                     </tr>
+                                 </tbody>
+                             </table>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+ <!-- The View Modal Ends -->
+

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "pHCwlNXkfUvSKEl3fEfHDkUVnx4tpKGgAtrbsBTTcpljuhaX+qi65HzghTHSQyh+pNUKnIHyOFf/OPjB9C+1pg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Anil Singh\\OneDrive\\Desktop\\DFCCIL\\TourAndTravel\\20thNov2023\\TourProgram.WebSolution\\TourProgram.Web\\TourProgram.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Anil Singh\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
+    "C:\\Users\\Anil Singh\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.0.3\\microsoft.identitymodel.jsonwebtokens.7.0.3.nupkg.sha512",
+    "C:\\Users\\Anil Singh\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
+    "C:\\Users\\Anil Singh\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512",
+    "C:\\Users\\Anil Singh\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Anil Singh\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.3\\system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,1724 @@
+﻿<div class="col-lg-12 stretch-card new grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Claim Pending Payment</h4>
+            <div class="table-responsive">
+                <table class="table table-striped table-head">
+                    <thead class="text-center">
+                        <tr>
+                            <th>
+                                Sr. No.
+                            </th>
+                            <th>
+                                Request Date
+                            </th>
+                            <th>
+                                Employee Name
+                            </th>
+                            <th>
+                                Purpose of Tour
+                            </th>
+                            <th>
+                                Tour Start Date
+                            </th>
+                            <th>
+                                Source
+                            </th>
+                            <th>
+                                Destination
+                            </th>
+                            <th>
+                                Total Days
+                            </th>
+                            <th>
+                                Action
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                02/10/2023
+                            </td>
+                            <td>
+                                Amit Singh
+                            </td>
+                            <td>
+                                Office Meeting
+                            </td>
+                            <td>
+                                04/11/2023
+                            </td>
+                            <td>
+                                Delhi
+                            </td>
+                            <td>
+                                Jaipur
+                            </td>
+                            <td>
+                                5
+                            </td>
+                            <td><button type="submit" id="btnSubmit" class="btn btn-primary mb-2">Details</button></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@* <div class="col-lg-12 stretch-card new grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Claim Pending Clarification</h4>
+            <div class="table-responsive">
+                <table class="table table-striped table-head">
+                    <thead>
+                        <tr>
+                            <th>
+                                Request Date
+                            </th>
+                            <th>
+                                Purpose of Travel
+                            </th>
+                            <th>
+                                Travel Start Date
+                            </th>
+                            <th>
+                                Destination
+                            </th>
+
+                            <th>
+
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                01/07/2023
+                            </td>
+                            <td>
+                                Office Meeting
+                            </td>
+                            <td>
+                                18/07/2023
+                            </td>
+                            <td>
+                                Agra
+                            </td>
+
+
+                            <td><button type="submit" id="btnSubmit" class="btn btn-primary mb-2">Details</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div> *@
+
+
+@* employee details *@
+<div class="col-12 stretch-card grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-title mb-3">Requestor Details</p>
+            <hr style="background:#343277" />
+            <div class="row" style="background:#ecf6ff; padding:10px 0">
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label class="text-inform mb-0">Employee No.:</label>
+                        <span class="mb-0 text-start span-text" id="spanEmployeeRequestorDetailsNo">DC9990</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label class="text-inform mb-0">Employee Name:</label>
+                        <span class="mb-0 text-start span-text" id="spanEmployeeRequestorDetailsName">Amit Singh</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label class="text-inform mb-0">Designation:</label>
+                        <span class="mb-0 text-start span-text" id="spanEmployeeRequestorDetailsDesignation">Backend Developer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="background:#d7f3ff; padding:10px 0">
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label class="text-inform mb-0">Employee Department:</label>
+                        <span class="mb-0 text-start span-text" id="spanEmployeeRequestorDetailsDepartment">IT Department</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label class="text-inform mb-0">Unit:</label>
+                        <span class="mb-0 text-start span-text" id="spanEmployeeRequestorDetailsUnit">IT</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="padding:10px 0;background:#ecf6ff">
+                <div class="col-lg-8 col-md-12">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label class="text-inform mb-0">Purpose Of Tour:</label>
+                        <span class="mb-0 text-start  pupose-text" id="spanEmployeeRequestorDetailsPurposeOfTour">Office Meeting</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label class="text-inform mb-0">Destination:</label>
+                        <span class="mb-0 text-start span-text" id="spanEmployeeRequestorDetailsDestination">Hyderabad</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="padding:10px 0;background:#d7f3ff">
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label class="text-inform mb-0">Source:</label>
+                        <span class="mb-0 text-start span-text" id="spanEmployeeRequestorDetailsSource">New Delhi</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label class="text-inform mb-0">Tentative Start Date:</label>
+                        <span class="mb-0 text-start span-text" id="spanEmployeeRequestorDetailsStartDate">21/09/2023</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mt-1 mb-1">
+                        <label class="text-inform mb-0">No. Of Days:</label>
+                        <span class="mb-0 text-start span-text" id="spanEmployeeRequestorDetailsNoOfDays">4 Days</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@* employee details *@
+@* <div class="col-12 stretch-card grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-title mb-3">Employee Details</p>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
+                        <label class="text-inform mb-0">Employee No:.</label>
+                        <span class="mb-0 text-start span-text" id="spanEmployeeNo">DC9990</span>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
+                        <label class="text-inform mb-0">Employee Name:</label>
+                        <span class="mb-0 text-start span-text" id="spanEmployeeName">Mark Ruffalow</span>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
+                        <label class="text-inform mb-0">Designation:</label>
+                        <span class="mb-0 text-start span-text" id="spanEmpDesignation">Backend Developer</span>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
+                        <label class="text-inform mb-0 span-text">Purpose:</label>
+                        <span class="mb-0 text-start span-text" id="spanEmpPurpose">Visist</span>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
+                        <label class="text-inform mb-0">Destination:</label>
+                        <span class="mb-0 text-start span-text" id="spanEmpDestination">Hydrabad</span>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
+                        <label class="text-inform mb-0">No of Days:</label>
+                        <span class="mb-0 text-start span-text" id="spanEmpNoOfDays">4 Days</span>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div> *@
+
+<form action="">
+    <div class="col-12 grid-margin">
+        <div class="card">
+
+            <div class="card-body">
+                <h4 class="card-title mb-2">Claim Approval</h4>
+
+                <hr style="background:#343277" />
+
+
+                <div class="row">
+
+                    <div class="col-lg-6 col-md-6">
+                        <div class="d-flex justify-content-between align-items-center flex-wrap">
+                            <label class="text-inform mb-1">Type of Travel</label>
+                            <span class="mb-1 text-start span-text" id="spanEmployeeClaimApprovalTypeOfTravel">Domestic</span>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6 col-md-6">
+                        <div class="d-flex justify-content-between align-items-center flex-wrap">
+                            <label class="text-inform mb-1">Source</label>
+                            <span class="mb-1 text-start span-text" id="spanEmployeeClaimApprovalSource">New Delhi</span>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="d-flex justify-content-between align-items-center flex-wrap">
+                            <label class="text-inform mb-1">Destination</label>
+                            <span class="mb-1 text-start span-text" id="spanEmployeeClaimApprovalDestination">Agra</span>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="d-flex justify-content-between align-items-center flex-wrap">
+                            <label class="text-inform mb-1">Date of Departure</label>
+                            <span class="mb-1 text-start span-text" id="spanEmployeeClaimApprovalDateOfDeparture">12/11/2023</span>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="d-flex justify-content-between align-items-center flex-wrap">
+                            <label class="text-inform mb-1">Mode of travel</label>
+                            <span class="mb-1 text-start span-text" id="spanEmployeeClaimApprovalMode">Air</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="col-12 grid-margin">
+        <div class="card">
+            <div class="card-body">
+
+                <h4 class="card-title mb-4">Transportation</h4>
+
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered white-space-table">
+                        <thead>
+                            <tr>
+                                <th></th>
+
+                                <th class="th-border-btm" colspan="2">
+                                    Departure
+                                </th>
+                                <th>
+
+                                </th>
+                                <th class="th-border-btm" colspan="4">
+                                    Arrival
+                                </th>
+                                <th> </th>
+                                <th> </th>
+                                <th> </th>
+
+                            </tr>
+                        </thead>
+                        <thead>
+                            <tr class="second-tr">
+                                <th>
+                                    Sr. No.
+                                </th>
+
+                                <th>
+                                    Date
+                                </th>
+                                <th>
+                                    Source/Station
+                                </th>
+                                <th>
+                                    Mode of Travel
+                                </th>
+                                <th>
+                                    Date
+                                </th>
+                                <th>
+                                    Desination
+                                </th>
+                                <th>
+                                    Billed Amount&nbsp;&nbsp;&nbsp;&nbsp;
+                                </th>
+                                <th>
+                                    Claimed Amount
+                                </th>
+                                <th>
+                                    View Bill
+                                </th>
+                                <th>
+                                    Approved Amount
+                                </th>
+                                <th>
+                                    Remarks
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeTransportationDate">01/11/2023</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeTransportationSource">New Delhi</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeTransportationMode">Air</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeTransportationArrivalDate">02/11/2023</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeTransportationArrivalDestination">Agra</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeTransportationArrvalBilledAmount">000.00</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeTransportationArrvalClaimedAmount">000.00</span>
+                                </td>
+                                <td>
+                                    <button onclick="TrigerModalViewFile('Estimate Amount','EstimateAmount')" type="button" class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File<span id="spanEstimateAmount" class="file-status">0</span></button>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeTransportationApprovedAmount">000.00</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeTransportationRemarks">Ok</span>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeTransportationDates">10/11/2023</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeTransportationSources">Agra</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeTransportationModes">Air</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeTransportationArrivalDates">11/11/2023</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeTransportationArrivalDestinations">New Delhi</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeTransportationArrvalBilledAmounts">000.00</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeTransportationArrvalClaimedAmounts">000.00</span>
+                                </td>
+                                <td>
+                                    <button onclick="TrigerModalViewFile('Estimate Amount','EstimateAmount')" type="button" class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File<span id="spanEstimateAmount" class="file-status">0</span></button>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeTransportationApprovedAmounts">000.00</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeTransportationRemark">Ok</span>
+                                </td>
+
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+
+                    <div class="d-flex justify-content-between align-center flex-wrap grand">
+
+                        <div>
+
+                            <div class="table-responsive">
+                                <table class="table parent">
+                                    <thead>
+                                        <tr class="d-flex flex-wrap bor">
+                                            <th class="tab">SUB TOTAL: <span class="table_span">₹000.00</span></th>
+                                            @* <th class="tab amountinclude">Amount Included in Main Bill: <span class="table_span">₹10,000.00</span></th>
+                                            <th class="tab">Amount not Included in Main Bill: <span class="table_span">₹5,000.00</span></th> *@
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    @* <div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+    <div class="card-body clif">
+    <div class="row">
+    <div class="col-md-12">
+    <div class="form-group row comment">
+    <div class="col-md-6 comment-border">
+    <div class="row">
+    <label class="col-sm-4 col-form-label tax">
+    Clarification
+    </label>
+    <div class="col-sm-4">
+    <div class="form-check">
+    <label class="form-check-label">
+    <input type="radio" class="form-check-input" checked disabled>
+    Yes
+    <i class="input-helper"></i>
+    </label>
+    </div>
+
+    </div>
+
+    </div>
+    </div>
+    <div class="col-md-6">
+    <div class="row">
+    <label class="col-sm-4 col-form-label com">
+    Comment
+    </label>
+    <div class="col-sm-4 comt">
+    <span class="mb-1 text-start span-text" id="spanEmployeeNo">Ok</span>
+    </div>
+    <div class="col-sm-4">
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div> *@
+
+
+
+
+    @* /////////////////////////// *@
+
+    <div class="col-12 grid-margin">
+        <div class="card">
+            <div class="card-body">
+
+                <h4 class="card-title mb-4">Accommodation</h4>
+
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered white-space-table">
+                        <thead align="center">
+                            <tr class="second-tr">
+                                <th colspan="6">
+
+                                </th>
+                                <th colspan="2">
+                                    Check In
+                                </th>
+                                <th colspan="2">
+                                    Check Out
+                                </th>
+                                <th colspan="5">
+                                    Amount Details
+                                </th>
+                            </tr>
+                        </thead>
+                        <thead align="center">
+                            <tr class="second-tr">
+                                <th>
+                                    Sr. No.
+                                </th>
+                                <th>
+                                    City/<br />Location
+                                </th>
+                                <th>
+                                    Class of City
+                                </th>
+                                <th>
+                                    Own Arrangement
+                                </th>
+                                <th>
+                                    Free Accommodation Provided by Company
+                                </th>
+
+                                <th>
+                                    Hotel Name
+                                </th>
+                                <th>
+                                    Date
+                                </th>
+                                <th>
+                                    Time
+                                </th>
+                                <th>
+                                    Date
+                                </th>
+                                <th>
+                                    Time
+                                </th>
+                                <th>
+                                    Billed Amount
+                                </th>
+                                <th>
+                                    Claimed Amount
+                                </th>
+                                <th>
+                                    Approved Amount
+                                </th>
+                                <th>
+                                    Remarks
+                                </th>
+                                <th>
+                                    View File
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeAccommodationCity">New Delhi</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeAccommodationClass">X</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeAccommodationCityOwnArrangement">Yes</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeAccommodationFreeAccommodation">Yes</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeAccommodationHotalName">Taj</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeAccommodationCheckInDate">12/11/2023</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeAccommodationCheckInTime">10:15 AM</span>
+                                </td>
+                                <td><span class="mb-1 text-start span-text" id="spanEmployeeAccommodationCheckOutDate">14/11/2023</span></td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeAccommodationCheckOutTime">10:15 AM</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeAccommodationBilledAmount">00.00</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeAccommodationClaimedAmount">00.00</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeAccommodationApprovedAmount">00.00</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeAccommodationRemarks">Ok</span>
+                                </td>
+                                <td>
+                                    <button onclick="TrigerModalViewFile('Estimate Amount','EstimateAmount')" type="button" class="btn"><i class="fa fa-eye" aria-hidden="true"></i> View File<span id="spanEstimateAmount" class="file-status">0</span></button>
+                                </td>
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+
+                    <div class="d-flex justify-content-between align-center flex-wrap grand">
+
+                        <div>
+
+                            <div class="table-responsive">
+                                <table class="table parent">
+                                    <thead>
+                                        <tr class="d-flex flex-wrap bor">
+                                            <th class="tab">SUB TOTAL: <span class="table_span">₹000.00</span></th>
+                                            @* <th class="tab amountinclude">Amount Included in Main Bill: <span class="table_span">₹10,000.00</span></th>
+                                            <th class="tab">Amount not Included in Main Bill: <span class="table_span">₹5,000.00</span></th> *@
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    @* /////////////////////////// *@
+
+
+    @* <div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+    <div class="card-body clif">
+    <div class="row">
+    <div class="col-md-12">
+    <div class="form-group row comment">
+    <div class="col-md-6 comment-border">
+    <div class="row">
+    <label class="col-sm-4 col-form-label tax">
+    Clarification
+    </label>
+    <div class="col-sm-4">
+    <div class="form-check">
+    <label class="form-check-label">
+    <input type="radio" class="form-check-input" checked disabled>
+    Yes
+    <i class="input-helper"></i>
+    </label>
+    </div>
+
+    </div>
+
+    </div>
+    </div>
+    <div class="col-md-6">
+    <div class="row">
+    <label class="col-sm-4 col-form-label com">
+    Comment
+    </label>
+    <div class="col-sm-4 comt">
+    <span class="mb-1 text-start span-text" id="spanEmployeeNo">Ok</span>
+    </div>
+    <div class="col-sm-4">
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div> *@
+
+    <div class="col-12 grid-margin">
+        <div class="card">
+            <div class="card-body">
+
+                <h4 class="card-title mb-4">Daily Allowance</h4>
+
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered">
+                        <thead>
+                            <tr class="second-tr">
+                                <th>
+                                    Sr. No.
+                                </th>
+                                <th>
+                                    Date
+                                </th>
+
+                                <th>
+                                    Source Time
+                                </th>
+                                <th>
+                                    End Time
+                                </th>
+                                <th>
+                                    DA Slab
+                                </th>
+                                <th>
+                                    Percentage Admissible
+                                </th>
+                                <th>
+                                    Amount
+                                </th>
+                                <th>
+                                    Approved Amount
+                                </th>
+                                <th>
+                                    Remarks
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeDailyAllowanceDate">01/11/2023</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeDailyAllowanceSourceTime">10:00 AM</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeDailyAllowanceEndTime">10:00 PM</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeDailyAllowanceDaSlab">X</span>
+                                </td>
+                                <td><span class="mb-1 text-start span-text" id="spanEmployeeDailyAllowancePercentage">2000</span></td>
+                                <td><span class="mb-1 text-start span-text" id="spanEmployeeDailyAllowanceAmount">2000</span></td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeDailyAllowanceApprovedAmount">000.00</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeDailyAllowanceRemarks">Ok</span>
+                                </td>
+
+                            </tr>
+
+
+
+                        </tbody>
+                    </table>
+
+                    <div class="d-flex justify-content-between align-center flex-wrap grand">
+
+                        <div>
+
+                            <div class="table-responsive">
+                                <table class="table parent">
+                                    <thead>
+                                        <tr class="d-flex flex-wrap bor">
+                                            <th class="tab">SUB TOTAL: <span class="table_span">₹000.00</span></th>
+                                            @* <th class="tab amountinclude">Amount Included in Main Bill: <span class="table_span">₹10,000.00</span></th>
+                                            <th class="tab">Amount not Included in Main Bill: <span class="table_span">₹5,000.00</span></th> *@
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    @* ////////////////////// *@
+
+    @* <div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+    <div class="card-body clif">
+    <div class="row">
+    <div class="col-md-12">
+    <div class="form-group row comment">
+    <div class="col-md-6 comment-border">
+    <div class="row">
+    <label class="col-sm-4 col-form-label tax">
+    Clarification
+    </label>
+    <div class="col-sm-4">
+    <div class="form-check">
+    <label class="form-check-label">
+    <input type="radio" class="form-check-input" checked disabled>
+    Yes
+    <i class="input-helper"></i>
+    </label>
+    </div>
+
+    </div>
+
+    </div>
+    </div>
+    <div class="col-md-6">
+    <div class="row">
+    <label class="col-sm-4 col-form-label com">
+    Comment
+    </label>
+    <div class="col-sm-4 comt">
+    <span class="mb-1 text-start span-text" id="spanEmployeeNo">Ok</span>
+    </div>
+    <div class="col-sm-4">
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div> *@
+
+    <div class="col-12 grid-margin">
+        <div class="card">
+            <div class="card-body">
+
+                <h4 class="card-title mb-4">Leave</h4>
+
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered">
+
+
+                        <thead align="center">
+                            <tr class="second-tr">
+                                <th>
+                                    S.No.
+                                </th>
+
+                                <th>
+                                    Date
+                                </th>
+
+                                <th>
+                                    DA Rate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </th>
+                                <th>
+                                    DA Admissible
+                                </th>
+                                <th>
+                                    Approved Amount
+                                </th>
+                                <th>
+                                    Remarks
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeLeaveDate">12/11/2023</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeLeaveDaRate">200</span>
+                                </td>
+
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeLeaveDaAdmissible">2000</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeLeaveApprovedAmount">000.00</span>
+                                </td>
+                                <td>
+                                    <span class="mb-1 text-start span-text" id="spanEmployeeLeaveRemarks">Ok</span>
+                                </td>
+                            </tr>
+
+
+
+                        </tbody>
+                    </table>
+
+                    <div class="d-flex justify-content-between align-center flex-wrap grand">
+
+                        <div>
+
+                            <div class="table-responsive">
+                                <table class="table parent">
+                                    <thead>
+                                        <tr class="d-flex flex-wrap bor">
+                                            <th class="tab">SUB TOTAL: <span class="table_span">₹000.00</span></th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</form>
+
+@* ////////////////////// *@
+
+@* <div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body clif">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group row comment">
+                        <div class="col-md-6 comment-border">
+                            <div class="row">
+                                <label class="col-sm-4 col-form-label tax">
+                                    Seek Clarification
+                                </label>
+                                <div class="col-sm-4">
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input type="radio" class="form-check-input" checked>
+                                            Yes
+                                            <i class="input-helper"></i>
+                                        </label>
+                                    </div>
+
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input type="radio" class="form-check-input">
+                                            No
+                                            <i class="input-helper"></i>
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr style="background:#343277" class="hr">
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table table-borderless table-data">
+                        <thead>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    <div class="form-group row">
+                                        <label for="inputAdvanceApprovedAmount" class="col-lg-2 col-md-4 col-form-label text-inform">Transportation</label>
+                                        <div class="col-lg-5 col-md-5">
+                                            <textarea class="form-control" id="" rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    <div class="form-group row">
+                                        <label for="inputAdvanceApprovedAmount" class="col-lg-2 col-md-4 col-form-label text-inform">Accommodation</label>
+                                        <div class="col-lg-5 col-md-5">
+                                            <textarea class="form-control" id="" rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>
+                                    <div class="form-group row">
+                                        <label for="inputAdvanceApprovedAmount" class="col-lg-2 col-md-4 col-form-label text-inform">Daily Allowance</label>
+                                        <div class="col-lg-5 col-md-5">
+                                            <textarea class="form-control" id="" rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>
+                                    <div class="form-group row">
+                                        <label for="inputAdvanceApprovedAmount" class="col-lg-2 col-md-4 col-form-label text-inform">Leave</label>
+                                        <div class="col-lg-5 col-md-5">
+                                            <textarea class="form-control" id="" rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <div class="d-flex justify-content-end"><button type="submit" id="btnSubmit" class="btn btn-primary mb-2">Seek Clarification & Send Back To Employee</button></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div> *@
+
+
+
+
+
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title mb-4">Claim Summary</h4>
+
+            <div class="table-responsive">
+                <table class="table table-striped">
+
+                    <tbody>
+                        <tr>
+                            <td>Transportion(A)</td>
+                            <td id="" colspan="6">4000.00</td>
+                        </tr>
+                        <tr>
+                            <td>Accommodation(B)</td>
+                            <td id="" colspan="6">2000.00</td>
+                        </tr>
+                        <tr>
+                            <td>Daily Allowence(C)</td>
+                            <td id="" colspan="6">1500.00</td>
+                        </tr>
+                        <tr>
+                            <td>Leave DA Deductable(D)</td>
+                            <td id="" colspan="6">1000.00</td>
+                        </tr>
+                        <tr>
+                            <td>Total</td>
+                            <td id="" colspan="6">6500.00</td>
+                        </tr>
+                        <tr style="color: red">
+                            <td>
+                                Advance Claimed:
+                            </td>
+                            <td colspan="2">
+                                -7000.00
+                            </td>
+                            <td colspan="2">
+                                UTR No. : <span class="table-input">79879879</span>
+                            </td>
+                            <td colspan="2">
+                                UTR Date: <span class="table-input">31-11-2023</span>
+                            </td>
+                            @* <td>
+                            <strong>UTR Date:</strong> <span class="table-input">31-11-2023</span>
+                            </td> *@
+                        </tr>
+                        <tr id="">
+                            <td><b>Balance Claim</b></td>
+
+                            <td colspan="6">
+                                <b id="tdTB">-500.00</b>
+                            </td>
+                        </tr>
+
+                        <tr style="color: green">
+
+                            <td><b>Payment Received Through (Payment Gatway)</b></td>
+                            <td>500.00</td>
+
+                            <td></td>
+                            <td colspan="2">
+                                UTR No. : <span class="table-input">99879879</span>
+                            </td>
+                            <td colspan="2">
+                                UTR Date: <span class="table-input">01-12-2023</span>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>New Balance Claim:</b>
+                            </td>
+                            <td colspan="2">
+                                <b>00.00</b>
+                            </td>
+                            <td colspan="2">
+                            </td>
+                            <td colspan="2">
+                            </td>
+                            @* <td>
+                            <strong>UTR Date:</strong> <span class="table-input">31-11-2023</span>
+                            </td> *@
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title mb-2">Documents Attached</h4>
+            <hr style="background:#343277" />
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-check ml-3">
+                                <label class="form-check-label">
+                                    <input id="checkboxApprovedTourProgramme" type="checkbox" class="form-check-input">
+                                    Approved tour programme
+                                    <i class="input-helper"></i>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-check ml-3">
+                                <label class="form-check-label">
+                                    <input id="checkboxTicketsBills" type="checkbox" class="form-check-input">
+                                    Tickets, Boarding Pass, Bills
+                                    <i class="input-helper"></i>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-check ml-3">
+                                <label class="form-check-label">
+                                    <input id="checkboxHotelBills" type="checkbox" class="form-check-input">
+                                    Hotel Bills
+                                    <i class="input-helper"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-12 stretch-card grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-title mb-2">Advance Details</p>
+            <hr style="background:#343277" />
+            <div class="row">
+
+                <div class="col-lg-5 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
+                        <label class="text-inform mb-0">Advance Paid</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvancePaid">7000.00</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6"></div>
+                <div class="col-lg-5 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
+                        <label class="text-inform mb-0">UTR No.</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvanceDetailsUtrNo">UTR550749</span>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
+                        <label class="text-inform mb-0">SAP Reference No.</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvanceDetailsSapRefranceNo">GHTUYG7899</span>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
+                        <label class="text-inform mb-0">UTR Date</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvanceDetailsUtrDate">12/11/2023</span>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
+                        <label class="text-inform mb-0">SAP Reference Date</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvanceDetailsSapRefranceDate">10/11/2023</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-12 stretch-card grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-title mb-2">Advance Details (Show on No Advance)</p>
+            <hr style="background:#343277" />
+            <div class="row">
+
+                <div class="col-lg-5 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
+                        <label class="text-inform mb-0">Advance Paid</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvancePaids">00</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6"></div>
+                <div class="col-lg-5 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
+                        <label class="text-inform mb-0">UTR No.</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvanceDetailUtrNo">- Not Applicable -</span>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
+                        <label class="text-inform mb-0">SAP Reference No.</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvanceDetailSapRefranceNo">- Not Applicable -</span>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
+                        <label class="text-inform mb-0">UTR Date</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvanceDetailUtrDate">- Not Applicable -</span>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
+                        <label class="text-inform mb-0">SAP Reference Date</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvanceDetailSapRefranceDate">- Not Applicable -</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-12 stretch-card grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+
+                <div class="col-lg-5 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap">
+                        <label class="text-inform mb-0">Amount Payable (Less Advance)</label>
+                        <span class="mb-0 text-start span-text tx" id="spanAmountPayable">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-12 grid-margin AdvanceRequired">
+    <div class="card">
+
+        <div class="card-body">
+
+            <div class="col-lg-6 col-md-8 require liq">
+                <div class="form-group row advance align-items-center">
+                    <label class="col-lg-5 col-form-label">Advance Liquidation</label>
+                    <div class="col-lg-3 checks">
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" checked disabled>
+                                Yes
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <hr style="background:#343277" />
+            <div class="row mt-3">
+                <div class="col-lg-5 col-md-6 mb-3">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap">
+                        <label class="text-inform mb-0">SAP Referance No.</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvanceLiquidationSapRefranceNo">SAP3645T</span>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 mb-3">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap">
+                        <label class="text-inform mb-0">SAP Referance Date</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvanceLiquidationSapRefranceDate">12/11/2023</span>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="col-12 stretch-card grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-title mb-2">Banking Details (After Finance)</p>
+            <hr style="background:#343277" />
+            <div class="row">
+
+                <div class="col-lg-5 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
+                        <label class="text-inform mb-0">Amount Payble:</label>
+                        <span class="mb-0 text-start span-text am" id="spanBankingDetailsAmountPayble">15000.00</span>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6"></div>
+                <div class="col-lg-5 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
+                        <label class="text-inform mb-0">SAP Reference No. (Advance Liquidation):</label>
+                        <span class="mb-0 text-start span-text tt" id="spanBankingDetailsSapReferanceNo">GHTUYG7899</span>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap">
+                        <label class="text-inform mb-0">SAP Reference Date (Advance Liquidation):</label>
+                        <span class="mb-0 text-start span-text tt" id="spanBankingDetailsSapReferanceDate">25/09/2023</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-6 mt-3">
+                    <div class="form-group row ">
+                        <label for="inputSapReferenceNo" class="col-lg-4 col-form-label text-inform">UTR No.</label>
+                        <div class="col-lg-8">
+                            <input type="text" class="form-control" value="" name="" id="inputBankingDetailsUtrNo" placeholder="GHTUYG7899">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mt-3">
+                    <div class="form-group row">
+                        <label for="inputSapReferenceDate" class="col-lg-5 col-form-label text-inform">UTR Reference Date</label>
+                        <div class="col-lg-7">
+                            <input type="text" class="form-control" value="" name="" id="inputBankingDetailsUtrReferanceDate" placeholder="25/09/2023">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button onclick="btnClaimSubmit_Click(this)" id="btnTourSubmit" class="btn btn-primary tourprint">Confirm payment</button><button onclick="btnClaimSubmit_Click(this)" id="btnTourSubmit" class="btn btn-primary toursubmit">Print Document</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<style>
+    .table.white-space-table tbody {
+        text-align: center;
+    }
+
+    .table.white-space-table thead th {
+        vertical-align: middle;
+        text-align: center
+    }
+
+    .table.white-space-table thead {
+        text-align: center;
+    }
+
+    .table.white-space-table th {
+        white-space: unset;
+        padding: .85rem .45rem;
+    }
+
+    .form-group.row.sap1 {
+        margin-bottom: -18px;
+    }
+
+    .table-data tr td:nth-child(odd) {
+        font-weight: 600;
+        font-size: 16px !important;
+        color: #343277;
+    }
+
+    .form-group.row.sap1 {
+        margin-bottom: -18px;
+    }
+
+    .col-form-label {
+        font-weight: 600;
+        font-size: 16px !important;
+        color: #343277;
+    }
+
+    .text-inform {
+        font-weight: 600;
+        font-size: 16px !important;
+        color: #343277;
+    }
+
+    .custom-checkbox {
+        height: 20px !important;
+    }
+
+    .col-12.grid-margin.AdvanceRequired {
+        margin-top: 40px;
+    }
+
+    .table-head thead {
+        background: #343277;
+        color: white;
+    }
+
+    select.form-control.mode {
+        width: 80px;
+    }
+
+    select.form-control.type {
+        width: 260px;
+    }
+
+    input.form-control.estimate {
+        width: 260px;
+    }
+
+    .col-lg-6.col-md-8.require.liq {
+        margin-left: -14px !important;
+    }
+
+    .form-group.row.advance {
+        margin-bottom: -16px;
+    }
+
+    .col-lg-12.grid-margin.stretch-card.summary {
+        margin-top: 40px;
+    }
+
+    .col-lg-12.stretch-card.grade {
+        margin-top: 40px;
+    }
+
+
+
+    .form-group {
+        margin-bottom: 0rem;
+    }
+
+        .form-group.row.comment {
+            padding-bottom: 18px;
+        }
+
+    .col-form-label {
+        font-weight: 600;
+        font-size: 16px !important;
+        color: #343277;
+    }
+
+    hr.hr {
+        margin-top: -12px;
+    }
+
+    label.col-sm-4.col-form-label.com {
+        padding-left: 30px;
+    }
+
+    th.th-border-btm {
+        text-align: center;
+    }
+
+    button#btnself {
+        font-size: 0.3rem;
+        line-height: 1;
+        font-weight: 400;
+        border-radius: 4px;
+        height: 42px;
+    }
+
+    td {
+        padding: 10px !important;
+    }
+
+    .pupose-text {
+        min-width: 81.4%;
+    }
+
+    .form-control {
+        height: 42px;
+    }
+
+    .advancenew {
+        float: right;
+        margin-right: 18px;
+    }
+
+    .badge {
+        width: 160px !important;
+    }
+
+    .form-group.row.form-group-margin.ref {
+        margin-left: 0px;
+    }
+
+    button#btnTourSubmit {
+        float: right;
+        margin-left: 10px;
+    }
+
+    .grid-margin {
+        margin-bottom: 1rem;
+    }
+
+    input.form-control.remarks {
+        width: 230px;
+    }
+
+    .form-group.row.com {
+        margin-bottom: 20px;
+    }
+
+    .card-body.clif {
+        margin-bottom: -28px;
+        margin-top: -8px;
+    }
+
+    input.form-control.textarea {
+        width: 300px;
+        height: 90px;
+    }
+
+    label.col-sm-4.col-form-label.tax {
+        margin-top: -6px;
+    }
+
+    .col-md-6.comment-border {
+        border-right: 1px solid #efefef;
+    }
+
+    textarea.form-control {
+        height: 56px;
+    }
+
+    .span-text {
+        min-width: 40%;
+    }
+
+        .span-text.tx {
+            min-width: 30%;
+        }
+
+        .span-text.tt {
+            min-width: 22%;
+        }
+
+        .span-text.am {
+            min-width: 24%;
+        }
+
+    .col-sm-4.comt {
+        padding-top: 16px;
+    }
+
+    .pupose-text {
+        min-width: 71.4%;
+    }
+
+    span-text {
+        min-width: 40%;
+    }
+
+    @@media(max-width:767px) {
+        .content-wrapper {
+            padding: 1.5rem 0.2rem;
+        }
+
+        .pupose-text {
+            min-width: inherit;
+        }
+
+        .span-text {
+            min-width: inherit;
+        }
+
+        button#btnTourSubmit {
+            margin-top: 16px;
+        }
+
+        input#inputApprovedAmount {
+            margin-bottom: 20px;
+        }
+
+        button#btnTourSubmit {
+            width: 200px;
+        }
+
+        label.col-lg-5.col-form-label.rd {
+            margin-top: 24px;
+        }
+
+        .span-text.tx {
+            min-width: inherit;
+        }
+
+        .form-group label {
+            margin-bottom: 0;
+        }
+
+        .col-form-label {
+            padding-top: calc(0.2rem + 1px);
+            padding-bottom: calc(0.2rem + 1px);
+        }
+    }
+
+    .table.white-space-table tbody {
+        text-align: center;
+    }
+
+    }
+</style>
+
+
+<!-- The View Modal Starts -->
+<div class="modal fade" id="viewModal">
+    <div class="modal-dialog">
+        <div class="modal-content viewModal-content">
+            <div class="modal-inner-border">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title viewModal-head">Admission Advice</h4>
+                    <button type="button" class="close viewModal-close" data-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body view-table-body">
+                    <div class="view-table-cnt">
+                        <div class="responsive-table">
+                            <table class="table view-table">
+                                <thead>
+                                    <tr bgcolor="">
+                                        <th>Sr No.</th>
+                                        <th>Category</th>
+                                        <th>Files</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1.</td>
+                                        <td>Admission Advice</td>
+                                        <td><a href="javascript:void(0)" class="file-link"><span class="ti-files"></span></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.</td>
+                                        <td>Admission Advice</td>
+                                        <td><a href="javascript:void(0)" class="file-link"><span class="ti-files"></span></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3.</td>
+                                        <td>Admission Advice</td>
+                                        <td><a href="javascript:void(0)" class="file-link"><span class="ti-files"></span></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- The View Modal Ends -->

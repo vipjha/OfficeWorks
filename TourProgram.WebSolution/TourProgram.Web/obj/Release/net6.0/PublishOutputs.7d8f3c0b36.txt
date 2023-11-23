@@ -1,0 +1,7 @@
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\TourProgram.Web.exe
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\TourProgram.Web.dll
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\TourProgram.Web.deps.json
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\TourProgram.Web.runtimeconfig.json
+D:\Toor And Travel\DFCCIL_TourProgram\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\TourProgram.Web.pdb

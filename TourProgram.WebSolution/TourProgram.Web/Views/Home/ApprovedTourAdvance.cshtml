@@ -1,0 +1,418 @@
+﻿<link href="~/css/custom/dfccil1011_01.css" rel="stylesheet" asp-append-version="true" />
+@* list table *@
+
+<div class="col-12 stretch-card grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-title mb-3">Tour Advance Request</p>
+            <div class="table-responsive">
+                <table class="table table-striped table-head">
+                    <thead>
+                        <tr>
+                            <th>Sr No.</th>
+                            <th>Employee Name</th>
+                            <th>Destination</th>
+                            <th>Purpose Of Tour </th>
+                            <th>Tour Start Date</th>
+                            <th>Tour End Date</th>
+
+                            <th>Action</th>
+
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Mark Ruffalow</td>
+                            <td>Hyderabad</td>
+
+                            <td>Office Meeting</td>
+                            <td>21/09/2023</td>
+
+                            <td>23/09/2023</td>
+
+                            <td> <button class="btn btn-commen btn-color" type="button">Details</button></td>
+
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@* employee details *@
+<div class="col-12 stretch-card grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-title mb-3">Requestor Details</p>
+            <hr style="background:#343277" />
+            <div class="row" style="background:#ecf6ff; padding:10px 0">
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label for="spanAdvanceEmployeeNo" class="text-inform mb-0">Employee No:.</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvanceEmployeeNo">DC9990</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label for="spanAdvanceEmployeeName" class="text-inform mb-0">Employee Name:</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvanceEmployeeName">Mark Ruffalow</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label for="spanAdvanceEmpDesignation" class="text-inform mb-0">Designation:</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvanceEmpDesignation">Backend Developer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="padding:10px 0;background:#d7f3ff">
+                <div class="col-lg-12 col-md-12">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label for="spanAdvanceEmpPurposeOfTour" class="text-inform mb-0">Purpose Of Tour:</label>
+                        <span class="mb-0 text-start  pupose-text" id="spanAdvanceEmpPurposeOfTour">Office Meeting</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="background:#ecf6ff; padding:10px 0">
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label for="spanAdvanceSource" class="text-inform mb-0">Source:</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvanceSource">Delhi</span>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label for="spanAdvanceDestination" class="text-inform mb-0">Destination:</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvanceDestination">Hyderabad</span>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label for="spanAdvanceEmpDepartment" class="text-inform mb-0">Employee Department:</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvanceEmpDepartment">IT Department</span>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row" style="padding:10px 0;background:#d7f3ff">
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label for="spanAdvanceTentativeStartDate" class="text-inform mb-0">Tentative Start Date:</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvanceTentativeStartDate">21/09/2023</span>
+
+                    </div>
+
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mt-1 mb-1">
+                        <label for="spanAdvanceNoOfDays" class="text-inform mb-0">No Of Days:</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvanceNoOfDays">4 Days</span>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label for="spanAdvanceUnits" class="text-inform mb-0">Units:</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvanceUnits">IT</span>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+@*  tentitive tour plan start *@
+<div class="col-12 stretch-card grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-title mb-3">Tentative Tour Plan</p>
+            <div class="table-responsive">
+                <table class="table table-striped table-head">
+                    <thead>
+                        <tr>
+                            <th>Sr No.</th>
+                            <th>Date</th>
+                            <th>From</th>
+                            <th>To</th>
+                            <th>Mode</th>
+                            <th>Tour Details</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>21/09/2023</td>
+                            <td>Noida</td>
+                            <td>Hyderabad</td>
+                            <td>By Train</td>
+                            <td>Visiting</td>
+
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>25/09/2023</td>
+                            <td>Hyderabad</td>
+                            <td>Noida</td>
+                            <td>By Air</td>
+                            <td>Visiting</td>
+
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+@*  tentitive tour plan end*@
+
+@* approver details *@
+<div class="col-12 stretch-card grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-title mb-3">Approver Details</p>
+            <hr style="background:#343277" />
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+
+
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label for="spanAdvanceApprovedDate" class="text-inform mb-0">Approval Date:.</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvanceApprovedDate">25/09/2023 11:45 AM</span>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+
+
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mb-1 mt-1">
+                        <label for="spanAdvanceApprovedBy" class="text-inform mb-4">Approved By:.</label>
+                        <div class="mt-0 mb-0">
+                            <span class="mb-0 text-start span-text" id="spanAdvanceApprovedBy">Mark Ruffallow</span><br />
+                            <span class="mb-0 text-end span-text singnature-text" id="spanAdvanceSingnature">(Designation)</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 mb-1 mt-1">
+
+                    <button class="btn btn-commen btn-color" type="button">Download Tour Approval</button>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@*  advance table start*@
+
+<div class="col-12 stretch-card grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-title mb-3">Travel Estimate</p>
+            <div class="table-responsive">
+                <table class="table table-striped table-head">
+                    <thead>
+                        <tr>
+                            <th>Sr No.</th>
+                            <th>Type</th>
+                            <th>Estimate Amount(₹)</th>
+                            <th>Class Of City</th>
+                            <th>View File</th>
+
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Travel</td>
+                            <td>5000.00</td>
+                            <td></td>
+                            <td> <button onclick="TrigerModalViewFile('Estimate Amount','EstimateAmount')" type="button" class="btn" style="padding:0"><i class="fa fa-eye" aria-hidden="true"></i> View File<span id="spanEstimateAmount" class="file-status">0</span></button></td>
+
+
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Accommdation</td>
+                            <td>15000.00</td>
+                            <td>
+                                <div class="dropdown" data-control="checkbox-dropdown">
+
+
+                                    <div class="checkbox">
+
+
+                                        <label class="checkbox-option d-flex align-items-center">
+                                            <input type="checkbox" class="checkselect" name="dropdown-group" value="Selection 1" />
+                                            <span class="cek">X</span>
+                                        </label>
+
+                                        <label class="checkbox-option d-flex align-items-center">
+                                            <input type="checkbox" class="checkselect" name="dropdown-group" value="Selection 2" />
+                                            <span class="cek">Y</span>
+                                        </label>
+
+                                        <label class="checkbox-option d-flex align-items-center">
+                                            <input type="checkbox" class="checkselect" name="dropdown-group" value="Selection 3" />
+                                            <span class="cek">Z</span>
+                                        </label>
+
+
+
+                                    </div>
+                                </div>
+                            </td>
+                            <td> <button onclick="TrigerModalViewFile('Estimate Amount','EstimateAmount')" type="button" class="btn" style="padding:0"><i class="fa fa-eye" aria-hidden="true"></i> View File<span id="spanEstimateAmount" class="file-status">0</span></button></td>
+
+
+                        </tr>
+                        <tr>
+                            <td><b>Total:</b></td>
+                            <td></td>
+                            <td><b>20000.00</b></td>
+                            <td></td>
+                            <td></td>
+
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@*  advance table end*@
+
+@* before approval *@
+<div class="col-12 stretch-card grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-title mb-3">Approval Details</p>
+            <hr style="background:#343277" />
+            <div class="row">
+                <div class="col-lg-5 col-md-6">
+
+
+                    <div class="d-flex justify-content-between align-items-center flex-wrap mt-3">
+                        <label for="spanAdvanceRequest" class="text-inform mb-0">Advanced Requested:.</label>
+                        <span class="mb-0 text-start span-text" id="spanAdvanceRequest">10000.00</span>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-6">
+
+                    <div class="form-group row">
+                        <label for="inputAdvanceApprovedAmount" class="col-lg-5 col-form-label text-inform">Approved Amount</label>
+                        <div class="col-lg-7">
+                            <input type="text" class="form-control" value="" name="" id="inputAdvanceApprovedAmount" placeholder="00.000">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-5 col-md-6">
+                    <div class="form-group row">
+                        <label for="inputAdvanceSapReferenceNo" class="col-lg-5 col-form-label text-inform">SAP Reference No.</label>
+                        <div class="col-lg-7">
+                            <input type="text" class="form-control" value="" name="" id="inputAdvanceSapReferenceNo" placeholder="GHTUYG7899">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group row">
+                        <label for="inputAdvanceSapReferenceDate" class="col-lg-5 col-form-label text-inform">SAP Reference Date</label>
+                        <div class="col-lg-7">
+                            <input type="datetime-local" class="form-control" value="" name="" id="inputAdvanceSapReferenceDate" placeholder="25/09/2023">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-12 stretch-card grid-margin">
+    <div class="d-flex ml-auto">
+        <button class="btn btn-commen btn-color" type="button">Send For Payment</button>
+    </div>
+</div>
+@*      after approval *@
+
+
+
+<!-- The View Modal Starts -->
+<div class="modal fade" id="viewModal">
+    <div class="modal-dialog">
+        <div class="modal-content viewModal-content">
+            <div class="modal-inner-border">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title viewModal-head">Admission Advice</h4>
+                    <button type="button" class="close viewModal-close" data-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body view-table-body">
+                    <div class="view-table-cnt">
+                        <div class="responsive-table">
+                            <table class="table view-table">
+                                <thead>
+                                    <tr bgcolor="">
+                                        <th>Sr No.</th>
+                                        <th>Category</th>
+                                        <th>Files</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1.</td>
+                                        <td>Admission Advice</td>
+                                        <td><a href="javascript:void(0)" class="file-link"><span class="ti-files"></span></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.</td>
+                                        <td>Admission Advice</td>
+                                        <td><a href="javascript:void(0)" class="file-link"><span class="ti-files"></span></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3.</td>
+                                        <td>Admission Advice</td>
+                                        <td><a href="javascript:void(0)" class="file-link"><span class="ti-files"></span></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- The View Modal Ends -->

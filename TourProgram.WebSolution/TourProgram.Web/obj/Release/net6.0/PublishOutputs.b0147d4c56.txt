@@ -1,0 +1,13 @@
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\TourProgram.Web.exe
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\TourProgram.Web.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\TourProgram.Web.deps.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\TourProgram.Web.runtimeconfig.json
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\TourProgram.Web.pdb
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Logging.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll
+C:\Users\Anil Singh\OneDrive\Desktop\DFCCIL\TourAndTravel\14thNov2023\TourProgram.WebSolution\TourProgram.Web\obj\Release\net6.0\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll
